@@ -1,0 +1,75 @@
+# ---------------------------------------------------------------
+# deepseek 工作区 · Git 排除清单
+# 作用：下面这些内容只留在本机，不会提交、也不会推送到 GitHub。
+# 想让某个被排除的内容恢复上传，在规则前加 ! 即可，例如：!data/
+# ---------------------------------------------------------------
+
+# 【系统与编辑器杂项】
+Thumbs.db
+ehthumbs.db
+desktop.ini
+.DS_Store
+*~
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# 【Office 临时文件】Word / Excel / PPT 打开时生成的隐藏副本
+~$*
+
+# 【Python】
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.conda/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+
+# 【Node / 前端】
+node_modules/
+.pnpm-store/
+npm-debug.log*
+yarn-error.log*
+
+# 【密钥与本地配置】这类文件不适合进公开仓库
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets*.json
+credentials*.json
+
+# 【日志与临时文件】
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+*.crdownload
+*.part
+
+# 【模型权重与大数据】单个文件动辄几百 MB 到几十 GB，建议只留下载脚本
+# 若确实要上传某一类，删除对应那一行即可
+*.ckpt
+*.pth
+*.safetensors
+*.onnx
+*.gguf
+models/
+datasets/
+
+# 【压缩包与安装镜像】
+*.zip
+*.7z
+*.rar
+*.iso
