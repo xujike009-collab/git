@@ -1,0 +1,9 @@
+# data0.pack  FilePackVer3.0  条目 8 个
+        4146          4146  enc      pack_keyfile_kfueheish15538fa9or.key
+         369           691  enc+zip  startup.s
+         421          1324  enc+zip  sysstartup.s
+        4636          4636  enc      system\etc\debugskip.b
+        3728          5515  enc+zip  system\etc\game.dat
+        2315          3973  enc+zip  system\etc\message.dat
+         550          1319  enc+zip  system\font\fontdata.dat
+         674           894  enc+zip  system\voice\voicedata.dat

@@ -1,0 +1,19 @@
+# data8.pack  FilePackVer3.0  条目 18 个
+        4146          4146  enc      pack_keyfile_kfueheish15538fa9or.key
+        1161          2803  enc+zip  avg\imoscripter_base.s
+        4016         13661  enc+zip  avg\imoscripter_chara.s
+        4061         14633  enc+zip  avg\imoscripter_chara8e.s
+        3456         10650  enc+zip  avg\imoscripter_face.s
+        1516          5406  enc+zip  avg\imoscripter_format.s
+        3089         10210  enc+zip  avg\imoscripter_image.s
+         647          1782  enc+zip  avg\imoscripter_include.s
+        3141          8892  enc+zip  avg\imoscripter_message.s
+        1878          5418  enc+zip  avg\imoscripter_music.s
+        1709          5206  enc+zip  avg\imoscripter_sentence.s
+        1675          4841  enc+zip  avg\imoscripter_sound.s
+        2277          2277  enc      avg\window\load01.png
+        1320          1320  enc      avg\window\load02.png
+        2221          6007  enc+zip  script\musicmode\main.s
+        2277          2277  enc      script\sceneskipmenu\load01.png
+        1320          1320  enc      script\sceneskipmenu\load02.png
+     6635900       6635900  enc      音楽\bgm02.ogg

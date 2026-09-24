@@ -73,3 +73,12 @@ datasets/
 *.7z
 *.rar
 *.iso
+
+# 【Galgame 知识库】游戏剧本数据
+# 体积大（约 650 MB），且内容为受版权保护的游戏原文；
+# 本仓库有公开远端，默认不提交这些派生数据，只提交工具、报告与分析文档。
+# 需要把这些数据也纳入本地版本控制时，把下面几行注释掉再提交即可。
+Galgame_AI_Knowledge/extracted/
+Galgame_AI_Knowledge/raw/
+Galgame_AI_Knowledge/cleaned/
+Galgame_AI_Knowledge/characters/*.json
