@@ -49,13 +49,13 @@
         "familiarity": { "value": "low", "note": "同教室一天", "basis": "共同记忆 #1/#2" },
         "intimacy": { "value": "none", "basis": "无事件" },
         "dependence": { "value": "none", "basis": "无事件" },
-        "respect": { "value": "low(推测)", "note": "观察徐的表现，暂无明确表态", "basis": "认知表" },
-        "guardedness": { "value": "high", "note": "身份秘密＋第 9 轮徐追问制作分工，警觉", "basis": "角色档案、共同记忆 #9" },
+        "respect": { "value": "low", "note": "被徐当众认可手艺（「令人惊喜」「会关注你」）", "basis": "共同记忆 #10" },
+        "guardedness": { "value": "high", "note": "身份秘密＋第 9 轮徐追问制作分工，警觉；第 10 轮被关注后喜悦与不安交织", "basis": "角色档案、共同记忆 #9/#10" },
         "understanding": { "value": "low", "basis": "认知表" },
         "comfort": { "value": "none", "basis": "无事件" },
         "attachment": { "value": "none", "basis": "无事件" },
         "conflict": { "value": "none", "basis": "无事件" },
-        "rapport": { "value": "none", "basis": "无事件" },
+        "rapport": { "value": "low", "note": "被老师点名关注", "basis": "共同记忆 #10" },
         "shared_experience": { "value": "low", "note": "同班一天", "basis": "共同记忆 #1" }
       }
     },
@@ -68,7 +68,7 @@
         "dependence": { "value": "none", "basis": "无事件" },
         "respect": { "value": "medium", "note": "有条件：徐答出「青涩」的具体处才作数；已建立课后对决约定", "basis": "共同记忆 #6/#7" },
         "guardedness": { "value": "medium", "note": "试探新老师", "basis": "共同记忆 #5" },
-        "understanding": { "value": "low", "basis": "认知表" },
+        "understanding": { "value": "medium(推测)", "note": "徐的推断（几年内设计与制作双绝不可能）得到她认可：「你的判断没有错」", "basis": "共同记忆 #10" },
         "comfort": { "value": "none", "basis": "无事件" },
         "attachment": { "value": "none", "basis": "无事件" },
         "conflict": { "value": "none", "note": "言语交锋但非冲突", "basis": "共同记忆 #5-#7" },
@@ -154,6 +154,7 @@
     { "time": "第一天・课间", "participants": ["徐穗", "桜小路ルナ"], "event": "徐点评作品青涩；ルナ立赌约", "change": { "ルナ.respect": "low→medium(有条件)", "ルナ.rapport": "none→low" }, "reason": "徐敢当面具体点评并接下对决", "evidence": "共同记忆 #6", "confidence": "high" },
     { "time": "第一天・课间", "participants": ["徐穗", "桜小路ルナ"], "event": "徐改约「课后判定」；ルナ接受并加规则", "change": { "ルナ.understanding": "none→low", "对决关系": "确立(推测)" }, "reason": "两人约定以课堂与答案定胜负", "evidence": "共同记忆 #7", "confidence": "high（事件）；对决关系为推断" },
     { "time": "第一天・放学", "participants": ["徐穗", "ルナ", "湊", "瑞穂", "ユルシュール", "朝日"], "event": "徐在玄关叫住四位大小姐", "change": { "待定": "取决于后续对话" }, "reason": "徐未说明来意", "evidence": "共同记忆 #8", "confidence": "high" },
-    { "time": "第一天・放学（修正）", "participants": ["徐穗", "全员"], "event": "徐问「夺冠作品的制作者是谁」；首次演出把制作分工说反，已按原作（设计ルナ／制作朝日）修正重写", "change": { "朝日.guardedness": "维持 high，警觉↑" }, "reason": "徐追问到朝日的隐藏手艺领域", "evidence": "共同记忆 #9", "confidence": "high" }
+    { "time": "第一天・放学（修正）", "participants": ["徐穗", "全员"], "event": "徐问「夺冠作品的制作者是谁」；首次演出把制作分工说反，已按原作（设计ルナ／制作朝日）修正重写", "change": { "朝日.guardedness": "维持 high，警觉↑" }, "reason": "徐追问到朝日的隐藏手艺领域", "evidence": "共同记忆 #9", "confidence": "high" },
+    { "time": "第一天・放学", "participants": ["徐穗", "ルナ", "朝日", "湊", "ユルシュール", "瑞穂"], "event": "徐解释提问动机并当众表扬朝日缝制、称以后会关注朝日；ルナ接受解释", "change": { "朝日.rapport": "none→low", "朝日.respect": "low(推测)→low", "ルナ.understanding": "low→medium(推测)" }, "reason": "徐的逻辑推断被ルナ认可；朝日的手艺被老师看见", "evidence": "共同记忆 #10", "confidence": "high" }
   ]
 }
