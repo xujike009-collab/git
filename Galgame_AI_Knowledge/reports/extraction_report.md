@@ -6,7 +6,7 @@
 | --- | --- | --- |
 | 游戏 | 月に寄りそう乙女の作法（近月少女的礼仪 / Navel, 汉化：KID Fans Club v1.21） | 目录 `E:\gal\Navel\近月少女的礼仪` |
 | 引擎 | **QLIE**（Delphi 制作的视觉小说引擎） | 可执行文件版本信息 `Product=QLIE / FileDescription=QLIE / OriginalFilename=IMOSURUME / FileVersion=1.10.0.0`；程序内部字符串 `TImoScript` `ImoScriptLib` `filepackver3.0` `KeyFile ver1.0` |
-| 归档格式 | `FilePackVer3.0`（15 个 `data*.pack`，合计约 5.6 GB） | 每个 pack 末尾 0x1C 字节明文尾标 |
+| 归档格式 | `FilePackVer3.0`（16 个 `data*.pack`，`data0`–`data15`，合计约 5.6 GB） | 每个 pack 末尾 0x1C 字节明文尾标 |
 | 密钥机制 | 1) `DLL\key.fkey`（4146 字节）；2) 归档内条目 `pack_keyfile_*.key`（解出后替换 fkey）；3) 从 exe 窗体资源 `TFORM1 → IconKeyImage → Picture.Data` 取出 256 字节 GameKey | 解包成功后名字与正文均正常，可反向验证 |
 | 剧本形式 | **明文的 Shift-JIS 脚本**（扩展名 `.s`，AVG 指令 + 台词文本混排） | `scenario\本編\c00_01a.s` 首行 `@@@AVG\header.s` |
 
@@ -17,7 +17,7 @@
 
 1. `tools/qlie.py` —— QLIE 归档只读读取器（Parsing `FilePackVer3.0` 索引、条目解密、
    `1PC\xFF` LZ 解压、从 exe 中取 GameKey）。算法依据公开开源实现 GARbro（MIT）的 QLIE 模块转写。
-2. `tools/extract_scripts.py` —— 遍历 15 个 pack，导出全部文本类资源（`.s .txt .b .dat .key .csv`），
+2. `tools/extract_scripts.py` —— 遍历 16 个 pack（`data0`–`data15`），导出全部文本类资源（`.s .txt .b .dat .key .csv`），
    产出 `extracted/packs/<pack>/…`（逐 pack 原始副本）与 `extracted/merged/…`（后 pack 覆盖前 pack 的合并视图），
    并写出 `reports/extract_manifest.json`（含归档偏移、大小、MD5、是否加密压缩）。
 3. `tools/parse_scripts.py` —— 解析为结构化数据：`raw/script_lines.jsonl`（每一行，含指令与标签）与

@@ -25,7 +25,10 @@
 | 4 | `<KB>\knowledge\characters\sakuragi_luna.md` | 桜小路ルナ 的人物档案与语体规则 |
 | 5 | `C:\Users\salat\Desktop\git\.gitignore` | 游戏派生数据被排除的规则（改动前必看） |
 | 6 | `C:\Users\salat\.codex\AGENTS.md` | 用户长期工作偏好：Git 优先、只做本地提交、不擅自 push |
-| 7 | `C:\Users\salat\Downloads\Galgame_AI知识库构建任务说明.md` | 用户的原始方法论要求（二十一条 + 验收标准） |
+| 7 | `C:\Users\salat\Downloads\Galgame_AI世界_完整知识库与动态角色扮演_Agent提示词.md` | 用户**当前**的方法论要求：完整原作资料 → AI 知识库 → 持续世界模拟（1243 行） |
+
+> ⚠ 路径变更（接手核验时确认）：旧文件《Galgame_AI知识库构建任务说明.md》**已不在** `Downloads`，
+> 现由上面的「Agent 提示词」取代。本文档中任何指向旧文件的引用都已同步更新；若用户另有指示，以当场指示为准。
 
 ### 第二层：按需查阅
 
@@ -54,7 +57,7 @@
 | `<KB>\extracted\merged\**` | 合并后的 `.s` 剧本（Shift-JIS 明文） | 696 个文件・229 MB |
 | `<KB>\extracted\packs\<pack>\**` | 逐 pack 原始副本（多版本都保留） | 1660 个文件 |
 | `<KB>\reports\extract_manifest.json` | 每个文件的来源 pack、归档偏移、MD5 | 393 KB |
-| `<KB>\reports\pack_index\data*.txt` | 15 个 pack 的完整目录清单 | 2.7 MB |
+| `<KB>\reports\pack_index\data*.txt` | 16 个 pack 的完整目录清单（`data0`–`data15`） | 2.7 MB |
 | `<KB>\tools\*.py` | 7 个可重跑脚本（见下节） | —— |
 
 ### 第四层：游戏本体（**只读，禁止修改**）
@@ -62,7 +65,7 @@
 | 路径 | 说明 |
 | --- | --- |
 | `E:\gal\Navel\近月少女的礼仪\` | 游戏根目录（汉化版 v1.21 + 原版 exe） |
-| `E:\gal\Navel\近月少女的礼仪\GameData\data0..15.pack` | 15 个 `FilePackVer3.0` 归档，约 5.6 GB |
+| `E:\gal\Navel\近月少女的礼仪\GameData\data0..15.pack` | **16 个** `FilePackVer3.0` 归档（`data0`–`data15`），约 5.6 GB |
 | `E:\gal\Navel\近月少女的礼仪\DLL\key.fkey` | 密钥文件（4146 字节） |
 | `E:\gal\Navel\近月少女的礼仪\月に寄りそう乙女の作法.exe` | 原版 exe（GameKey 来源：`TFORM1 → IconKeyImage`） |
 | `E:\gal\Navel\近月少女的礼仪\近月少女的礼仪_v1.21.exe` | 汉化 exe（尾部 6.6 MB 加密容器，**未解析**） |
@@ -74,12 +77,12 @@
 
 | 项目 | 内容 |
 | --- | --- |
-| 总目标 | 按《Galgame_AI知识库构建任务说明》的方法，为《近月少女的礼仪》建立可检索、可追溯、供 AI 使用的结构化知识库 |
+| 总目标 | 按《Galgame_AI世界_完整知识库与动态角色扮演_Agent提示词》的方法（完整原作资料 → 结构化索引 → 世界模拟），为《近月少女的礼仪》建立可检索、可追溯、供 AI 长期使用的结构化知识库 |
 | 当前焦点 | 角色 **桜小路ルナ** 与 **大蔵遊星（小倉朝日）** |
 | 完成标准（已完成部分） | 引擎确认 / 原始文件未破坏 / 剧本提取 / 角色识别 / 台词—旁白—选项区分 / 剧情顺序 / 分支处理 / 人物台词库 / 人物关系 / 时间线 / AI 可读数据 / 质量检查与错误报告 / 可 Git 回退 |
 | 工作目录 | `C:\Users\salat\Desktop\git`（Git 仓库根）；项目目录 `<KB>` |
-| 分支 / 提交 | `main`，最新提交 **0404c7e**（`feat(galgame-kb): …`） |
-| 未提交改动 | 无（本文件 `PROJECT_STATE.md` 为本次交接写入） |
+| 分支 / 提交 | `main`，最新提交 **4551932**（`docs(handoff): 新增 PROJECT_STATE.md 交接记录（HO-20260926-01）`；父提交 `0404c7e` = `feat(galgame-kb): …`） |
+| 未提交改动 | 无（`PROJECT_STATE.md` 已随 `4551932` 提交；本次接手核验的修正见第 8 节） |
 
 ---
 
@@ -92,7 +95,7 @@
 | `<KB>\raw\script_lines.jsonl` | 原始信息保全层 | 指令与标签都在 |
 | `<KB>\knowledge\characters\*.md` | 人物解读（性格、语体、剧情） | 每条结论附脚本文件+行号 |
 | `<KB>\knowledge\glossary.md` | 语体与称呼规则 | 角色扮演时的语体权威 |
-| `C:\Users\salat\Downloads\Galgame_AI知识库构建任务说明.md` | 用户对方法与验收的要求 | 与本文冲突时以用户当场指示为准 |
+| `C:\Users\salat\Downloads\Galgame_AI世界_完整知识库与动态角色扮演_Agent提示词.md` | 用户对方法与验收的要求（当前版本） | 与本文冲突时以用户当场指示为准 |
 
 无已知资料冲突。注意：`extracted\packs\` 与 `extracted\merged\` 的差异是**多版本覆盖关系**，不是矛盾（437 个文件存在多版本）。
 
@@ -235,6 +238,30 @@ $project-handoff
 交接来源与编号：PROJECT_STATE.md，HO-20260926-01（源任务：近月少女的礼仪知识库 + 小倉朝日角色扮演）
 当前目标：继续《近月少女的礼仪》知识库工作，并接续正在进行的「小倉朝日」角色扮演会话。
 已确认限制：只读游戏原文件；Git 只做本地提交、不 push；知识库本体为日文原文；角色扮演遵守（ ）=心声、【 】=台词、无标记=动作的格式，且徐穗为男性（用「他」）。
+同时读：C:\Users\salat\Downloads\Galgame_AI世界_完整知识库与动态角色扮演_Agent提示词.md（方法论：完整原作资料 → AI 知识库 → 持续世界模拟）。
 可执行的第一步：先只读核对本文件的第 0 节必读清单（重点：PROJECT_STATE.md、README.md、knowledge\characters\ookura_yuusei.md、.gitignore、AGENTS.md），报告与记录不一致之处，不要改动文件。
 验收方法：核验结果与第 5 节「角色扮演会话状态」一致后，从该节第 4 条的问题处继续对话；知识库侧可用 reports\quality_report.md 的统计复现验证。
 ```
+
+---
+
+## 8. 修订记录
+
+### 接手核验修正（第二次核验，只读核对后写入）
+
+| # | 位置 | 原内容 | 修正为 | 依据 |
+| --- | --- | --- | --- | --- |
+| 1 | 第 0 节第 7 项、第 1 节、第 2 节末行 | `Downloads\Galgame_AI知识库构建任务说明.md` | `Downloads\Galgame_AI世界_完整知识库与动态角色扮演_Agent提示词.md`（1243 行） | 原文件已不在该路径，现行方法论文件为「Agent 提示词」 |
+| 2 | 第 0 节第三、四层 | 「15 个 pack」 | **16 个**（`data0`–`data15`） | 实机 `GameData\` 下 16 个 `.pack`；`reports\pack_index\` 亦为 16 个 `data*.txt`。同一笔误已在 `reports\extraction_report.md` 同步修正 |
+| 3 | 第 1 节 | 最新提交 `0404c7e`；「未提交改动：无（本文件为本次交接写入）」 | 最新提交 `4551932`（父提交 `0404c7e`） | `PROJECT_STATE.md` 已随 `4551932` 提交（`.git/logs/HEAD` 可验） |
+
+### 本次核验通过、未改动的部分
+
+- 第 0 节第 1–6 项必读文件、第二层按需文件、第三层数据文件全部在位，规模与记录一致。
+- `reports\quality_report.md` 统计与记录第 6 节验收值完全一致（41919 / 27840 / 14040 / 38 / 105 / 269 / 无法归类 0）。
+- 第 5 节角色扮演会话状态为对话记忆、无文件产物，按原文接受，未作改动。
+
+### 环境限制（接手时应知道）
+
+- 本会话沙箱下 `pwsh` 不可用（报 `Windows ACL temp root must be outside the workspace`），因此**无法执行 git 命令与 `tools\*.py` 脚本**；核验改为只读文件（`.git/logs/HEAD`、JSONL 文本层）。
+- `.s` 原文件为 cp932，直接读会报 `invalid UTF-8`；核对人物档案里的「文件+行号」原句需先解码（`cleaned\messages.jsonl` 已是 UTF-8，可用作替代检索层）。
