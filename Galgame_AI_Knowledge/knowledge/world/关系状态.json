@@ -49,7 +49,7 @@
         "familiarity": { "value": "low", "note": "同教室一天", "basis": "共同记忆 #1/#2" },
         "intimacy": { "value": "none", "basis": "无事件" },
         "dependence": { "value": "none", "basis": "无事件" },
-        "respect": { "value": "low", "note": "被徐当众认可手艺（「令人惊喜」「会关注你」）", "basis": "共同记忆 #10" },
+        "respect": { "value": "medium", "note": "被徐当众认可手艺＋对徐的第一堂课真心叹服（「听得忘了在课堂上」）", "basis": "共同记忆 #10/#11" },
         "guardedness": { "value": "high", "note": "身份秘密＋第 9 轮徐追问制作分工，警觉；第 10 轮被关注后喜悦与不安交织", "basis": "角色档案、共同记忆 #9/#10" },
         "understanding": { "value": "low", "basis": "认知表" },
         "comfort": { "value": "none", "basis": "无事件" },
@@ -155,6 +155,7 @@
     { "time": "第一天・课间", "participants": ["徐穗", "桜小路ルナ"], "event": "徐改约「课后判定」；ルナ接受并加规则", "change": { "ルナ.understanding": "none→low", "对决关系": "确立(推测)" }, "reason": "两人约定以课堂与答案定胜负", "evidence": "共同记忆 #7", "confidence": "high（事件）；对决关系为推断" },
     { "time": "第一天・放学", "participants": ["徐穗", "ルナ", "湊", "瑞穂", "ユルシュール", "朝日"], "event": "徐在玄关叫住四位大小姐", "change": { "待定": "取决于后续对话" }, "reason": "徐未说明来意", "evidence": "共同记忆 #8", "confidence": "high" },
     { "time": "第一天・放学（修正）", "participants": ["徐穗", "全员"], "event": "徐问「夺冠作品的制作者是谁」；首次演出把制作分工说反，已按原作（设计ルナ／制作朝日）修正重写", "change": { "朝日.guardedness": "维持 high，警觉↑" }, "reason": "徐追问到朝日的隐藏手艺领域", "evidence": "共同记忆 #9", "confidence": "high" },
-    { "time": "第一天・放学", "participants": ["徐穗", "ルナ", "朝日", "湊", "ユルシュール", "瑞穂"], "event": "徐解释提问动机并当众表扬朝日缝制、称以后会关注朝日；ルナ接受解释", "change": { "朝日.rapport": "none→low", "朝日.respect": "low(推测)→low", "ルナ.understanding": "low→medium(推测)" }, "reason": "徐的逻辑推断被ルナ认可；朝日的手艺被老师看见", "evidence": "共同记忆 #10", "confidence": "high" }
+    { "time": "第一天・放学", "participants": ["徐穗", "ルナ", "朝日", "湊", "ユルシュール", "瑞穂"], "event": "徐解释提问动机并当众表扬朝日缝制、称以后会关注朝日；ルナ接受解释", "change": { "朝日.rapport": "none→low", "朝日.respect": "low(推测)→low", "ルナ.understanding": "low→medium(推测)" }, "reason": "徐的逻辑推断被ルナ认可；朝日的手艺被老师看见", "evidence": "共同记忆 #10", "confidence": "high" },
+    { "time": "第二天・第一节", "participants": ["徐穗", "朝日", "ルナ"], "event": "徐的第一堂服装科课；ルナ未睡并提问；朝日课后诚恳称赞", "change": { "朝日.respect": "low→medium" }, "reason": "徐的课讲清「设计与制作分工」，正中朝日的领域且讲得真诚", "evidence": "共同记忆 #11", "confidence": "high（朝日本人评价）" }
   ]
 }
