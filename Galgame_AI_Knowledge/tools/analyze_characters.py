@@ -35,6 +35,39 @@ TARGET_GROUPS = {
         "labels": ["小倉朝日", "大蔵遊星"],
         "notes": ["大蔵遊星", "大蔵朝日"],
     },
+    # 2026-09-26 追加：其余主要角色的台词库（供 knowledge/characters/*.md 取证）
+    # 说明：只按剧本自带的 speaker 精确值分组；合称行（如「湊＆ユルシュール」）不并入，
+    # 以免把两个人的话混进同一份台词库。
+    "yurushuuru_furuuru_janmeeru": {
+        "name": "ユルシュール・フルール・ジャンメール",
+        "aliases": ["ユルシュール", "ユーシェ"],
+        "labels": ["ユルシュール"],
+        "notes": ["ユルシュール"],
+    },
+    "hananomiya_mizuho": {
+        "name": "花之宮瑞穂",
+        "aliases": ["花之宮瑞穂", "瑞穂"],
+        "labels": ["花之宮瑞穂"],
+        "notes": ["花之宮瑞穂"],
+    },
+    "yanagase_minato": {
+        "name": "柳ヶ瀬湊",
+        "aliases": ["柳ヶ瀬湊", "湊"],
+        "labels": ["柳ヶ瀬湊"],
+        "notes": ["柳ヶ瀬湊"],
+    },
+    "yamabuki_yachiyo": {
+        "name": "山吹八千代",
+        "aliases": ["山吹八千代", "八千代"],
+        "labels": ["山吹八千代"],
+        "notes": ["山吹八千代"],
+    },
+    "ookura_ion": {
+        "name": "大蔵衣遠",
+        "aliases": ["大蔵衣遠", "衣遠"],
+        "labels": ["大蔵衣遠"],
+        "notes": ["大蔵衣遠"],
+    },
 }
 
 FIRST_PERSON = ["僕", "ぼく", "私", "わたし", "わたくし", "俺", "あたし", "わし"]
@@ -95,19 +128,14 @@ def main() -> int:
 
     stats_out = {}
     for slug, meta in TARGET_GROUPS.items():
-        own = [
-            m
-            for m in dialogues
-            if m["speaker"] in meta["labels"]
-            and (m.get("speaker_note") or "ルナ") in (meta["notes"] + [None, "ルナ"])
-        ]
-        # 上面条件只用于分组；这里按“说话人 + 备注”实际归类
+        # 按剧本自带的 speaker 精确值分组（合称行如「湊＆ユルシュール」不并入）
         own = [m for m in dialogues if m["speaker"] in meta["labels"]]
 
         by_label = Counter(m["speaker_label"] for m in own)
         by_chapter = Counter(m["chapter"] for m in own)
         scene_counter = Counter(f"{m['chapter']}/{m['scene']}" for m in own)
         voice_count = sum(1 for m in own if m.get("voice"))
+        voice_prefix = Counter((m.get("voice") or "none")[:5] for m in own)
 
         grams: Counter = Counter()
         endings = Counter()
@@ -149,6 +177,7 @@ def main() -> int:
             "scene_count": len(scene_counter),
             "top_scenes": scene_counter.most_common(15),
             "voice_lines": voice_count,
+            "voice_prefixes": voice_prefix.most_common(3),
             "avg_length": round(sum(len(m["text"]) for m in own) / max(1, len(own)), 1),
             "max_length": max((len(m["text"]) for m in own), default=0),
             "sentence_endings": endings.most_common(20),

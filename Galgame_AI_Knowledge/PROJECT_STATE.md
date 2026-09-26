@@ -81,8 +81,8 @@
 | 当前焦点 | 角色 **桜小路ルナ** 与 **大蔵遊星（小倉朝日）** |
 | 完成标准（已完成部分） | 引擎确认 / 原始文件未破坏 / 剧本提取 / 角色识别 / 台词—旁白—选项区分 / 剧情顺序 / 分支处理 / 人物台词库 / 人物关系 / 时间线 / AI 可读数据 / 质量检查与错误报告 / 可 Git 回退 |
 | 工作目录 | `C:\Users\salat\Desktop\git`（Git 仓库根）；项目目录 `<KB>` |
-| 分支 / 提交 | `main`，最新提交 **4551932**（`docs(handoff): 新增 PROJECT_STATE.md 交接记录（HO-20260926-01）`；父提交 `0404c7e` = `feat(galgame-kb): …`） |
-| 未提交改动 | 无（`PROJECT_STATE.md` 已随 `4551932` 提交；本次接手核验的修正见第 8 节） |
+| 分支 / 提交 | `main`，最新提交 = 本会话收尾提交（`feat(kb): 7角色台词库重算 + 5份人物档案(湊/ユルシュール/瑞穂/八千代/衣遠)，628处引用核验0失效`；父提交 `386d9d7`；哈希以 `git log --oneline` 为准） |
+| 未提交改动 | 无（本表与全部产物已随本会话收尾提交提交） |
 
 ---
 
@@ -263,5 +263,61 @@ $project-handoff
 
 ### 环境限制（接手时应知道）
 
-- 本会话沙箱下 `pwsh` 不可用（报 `Windows ACL temp root must be outside the workspace`），因此**无法执行 git 命令与 `tools\*.py` 脚本**；核验改为只读文件（`.git/logs/HEAD`、JSONL 文本层）。
+- 本会话沙箱下 `pwsh` 不可用，**根因已查明（不是权限不足）**：会话工作区 = `C:\Users\salat`，其中**包含**进程临时根目录 `C:\Users\salat\AppData\Local\Temp`，触发 `@deepseek-ai/dsh-sandbox-windows-acl` 的硬前置断言
+  `assertTempRootOutsideWorkspace(workspaceRoot, os.tmpdir())`（见 `dsh-sandbox-local\lib\index.js:384`、`dsh-sandbox-windows-acl\lib\runner.js:119`、错误文本在 `types-DuU3lSVe.js:501-502`），
+  于**任何授权之前**即被拒。设计说明见该包 `README`「工作区若等于或包含临时根目录，会在任何授权前被拒绝」。
+- **解法（已采用）**：把会话工作区收窄为 `C:\Users\salat\Desktop\git`（该目录不含 TEMP）→ 受限沙箱可正常运行，无需逐条授权。
+  备选：把 DSH 进程的 `TEMP/TMP` 指到工作区之外（如 `E:\dsh-tmp`，须已存在且不相交）。
+- 在 `danger-full-access`（绕过 ACL 层）下 `git` 与 `python` 均正常：本次已用它完成提交 `386d9d7` 与统计复现（Python 3.14.7）。
 - `.s` 原文件为 cp932，直接读会报 `invalid UTF-8`；核对人物档案里的「文件+行号」原句需先解码（`cleaned\messages.jsonl` 已是 UTF-8，可用作替代检索层）。
+
+---
+
+## 9. 本次会话进度（已收尾提交，见第 1 节；重启接手时先读本节）
+
+### 已提交
+
+| 提交 | 内容 |
+| --- | --- |
+| `386d9d7` | 第 8 节那 3 处修正（失效路径 / pack 计数 15→16 / 提交号），2 文件 +36/-9 |
+| 本会话收尾提交（父提交 `386d9d7`，哈希以 `git log` 为准） | 跑通脚本 + 5 份人物档案 + 本表回填，详见下 |
+
+### 本次完成
+
+1. **`tools\analyze_characters.py` 跑通**（后台约 3 分钟；教训：前台跑会被 120s 超时杀掉，必须后台）。`TARGET_GROUPS` 7 个角色，新产出 5 个台词库
+   `characters\{yurushuuru_furuuru_janmeeru,hananomiya_mizuho,yanagase_minato,yamabuki_yachiyo,ookura_ion}.json`（共约 3.7 MB，gitignore 内，不入库），
+   并重写 `reports\character_stats.json`（+2324 行）与 `knowledge\relationships_data.json`（+534 行）。顺手删除了脚本里被覆盖的死代码（原 131–137 行）。
+2. **5 份人物档案全部就位**（`knowledge\characters\*.md`）：
+   - `yanagase_minato.md`（湊，子代理上会话产出）→ 本次复核修正：「せや 0 命中」表述不实（字面命中 2 行均为「よこせや／出せや」词尾）、
+     场景数/平均句长由「未单列」补为 136 / 38.0、3113（label）与 3124（speaker）口径说明、失效引用 `h10_01a.s:1066` → `h10_01a.s:734`。
+   - `yurushuuru_furuuru_janmeeru.md`（220 行）、`hananomiya_mizuho.md`（220 行）、`ookura_ion.md`（196 行）——子代理产出，核验通过。
+   - `yamabuki_yachiyo.md`（218 行）——子代理两次「空消息」中断，但中断前已写盘完整成品；接手核验后修正 4 处（わし 误报出处、朝日さん 0 命中不实、ルナ様 53→52、履历「一年前」无依据）。
+   - **总核验**：5 份档案合计 628 处唯一「文件名:行号」引用，脚本逐条对照 `cleaned\messages.jsonl` 验证 **0 失效**。
+3. 新台词库统计要点（可直接引用）：
+   - ユルシュール 3101 句 / 138 场景，语音前缀 **`v_ufj`**；敬体行 78.4%。
+   - 瑞穂 2145 / 133，`v_miz`；**不用 ですわ／ますわ（0 命中）**。
+   - 湊 3124 / 136，`v_min`。八千代 702 / 78，`v_yat`（メイド長＋学院講師・担任，衣遠＝学院長代理是她上司）。
+   - 衣遠 1089 / 41，`v_aeo`（エイプリル脚本另有 `ap_v_` 前缀 209 行）。
+
+### 子代理发现、尚未处理的报告间不一致（下次待办，均只读核对过，未改）
+
+- `reports\character_report.md` 的「台词数 ≥100」表列 12 人，`quality_report.md` 列 14 人（多出 スタンレー 145、メイドＡ 123）；路人「约 40 人」vs「33 人」两报告互相矛盾。
+- `knowledge\timeline.md` 正文条数（本編 31231 / アフター 10167）与 `quality_report.md`（31259 / 10177）差 28 / 10 条。
+- `knowledge\relationships.md` 第 73 行：称「遊星」本名只有大蔵家相关人物使用、学院侧一律「朝日／小倉さん」——与实测不符：
+  瑞穂在アフター用「遊星さん」122 行（haas03 占 72，首现 `h12_02b.s:1170`）、ユルシュール用「遊星さん」202 行（公私切换，`u09_02c.s:249`）。需按时间轴修订。
+- `knowledge\glossary.md`／`relationships.md` 称呼表遗漏：ユルシュール对朝日的初期「朝日さん」3 行与私下「遊星さん」、サーシャ的玩笑称呼（`u07_02a.s:1234`）。
+- 数据层旁白误标（统计该角色台词时宜剔除）：瑞穂 3 条无语音行实为旁白（`c05_02c.s:1880`、`c06_02a0.s:904`、`l09_02a.s:442`）；
+  八千代 3 条同类（`l31_04c2.s:1300`、`c05_02b.s:560`、`y11_02a.s:850`）。
+- `reports\character_stats.json` 的 `first_person` 是子串匹配，已发现多例误报（八千代「わし 2」=交わして；衣遠「わし 6／わたし 1」=煩わしい等；瑞穂「わし 6」=さわさわ等）——引用该字段前先人工核验。
+
+### 数据事实（沿用上会话结论，仍成立）
+
+- **说话人数 105 是正确的**：`cleaned\messages.jsonl` 里 `speaker` 的 107 个不同取值 = 105 个具名 + `null`（14087 行）+ 空串 `""`（2 行，`u09_02c.s:1236`、`u09_02c.s:1258`）。不要按 107 去"修正"报告。
+- **统计复现成功**（与 `reports\quality_report.md` 完全一致）：消息 41919 / 台词 27840 / 旁白 14040 / 选项 38 / 章标题 1 / 场景 269 / 解析无法归类 0。
+- **语音编号前缀对照**（可用于判断罗马字命名）：朝日 `v_asa`、露娜 `v_lun`、湊 `v_min`、瑞穂 `v_miz`、八千代 `v_yat`、衣遠 `v_aeo`、ユルシュール `v_ufj`。
+
+### 运行环境备注
+
+- 本会话沙箱正常（工作区不含 TEMP）；`python -X utf8` 可用（Python 3.14.7）。
+- 子代理故障记录：4 个档案子代理中 2 个（瑞穂、八千代）出现「空 closing message」式中断；八千代中断前已写盘完整成品，
+  瑞穂经 `send_message` 续接后交付。重跑此类任务时留意：子代理可能空消息失败，重试一次或自行接手即可。
