@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "version": 2,
+    "version": 3,
     "updated": "2026-09-26",
-    "basis": "从头开始（玩家世界时间线重置）；徐穗 = フィリア女学院新任服装科講師兼副担任",
+    "basis": "从头开始；徐穗 = フィリア女学院服装科講師兼副担任；已进行 9 轮（第 9 轮场景按原作分工修正）",
     "rules": [
       "多维关系状态仅作 AI 内部状态，角色扮演中不得向用户报数字（《Agent提示词》第 11 节）",
       "关系变化必须附事件依据，写入 change_log（第 17 节）",
@@ -10,85 +10,132 @@
     ]
   },
   "characters": {
-    "xu_sui": {
-      "name": "徐穗",
-      "role": "玩家角色（用户控制；AI 不代写其语言/行动/思考/情绪/选择）",
-      "note": "男性，25 岁，中国出身、巴黎学习服装设计；フィリア女学院服装科講師兼副担任"
-    },
-    "ookura_yuusei": { "name": "小倉朝日（大蔵遊星）", "role": "NPC", "note": "ルナの随行メイド，每日在校；真实性别为男性（秘密）" },
-    "sakuragi_luna": { "name": "桜小路ルナ", "role": "NPC", "note": "学生，服装设计天才" },
+    "xu_sui": { "name": "徐穗", "role": "玩家角色（用户控制）", "note": "男性，25 岁，中国出身、巴黎学习服装设计；服装科講師兼副担任" },
+    "ookura_yuusei": { "name": "小倉朝日（大蔵遊星）", "role": "NPC", "note": "ルナの随行メイド；真实性别为男性（秘密）；**制作担当：型纸・裁断・缝制**" },
+    "sakuragi_luna": { "name": "桜小路ルナ", "role": "NPC", "note": "学生，服装设计师；**设计担当**（制作交朝日）" },
     "yanagase_minato": { "name": "柳ヶ瀬湊", "role": "NPC", "note": "学生" },
     "hananomiya_mizuho": { "name": "花之宮瑞穂", "role": "NPC", "note": "学生" },
     "yurushuuru": { "name": "ユルシュール・フルール・ジャンメール", "role": "NPC", "note": "学生，瑞士贵族" },
-    "ookura_risona": { "name": "大蔵りそな", "role": "NPC", "note": "学生（大蔵家）" },
+    "ookura_risona": { "name": "大蔵りそな", "role": "NPC", "note": "学生（大蔵家，未出场）" },
     "yamabuki_yachiyo": { "name": "山吹八千代", "role": "NPC", "note": "同僚：服装科講師・担任、桜小路家メイド長" },
-    "ookura_ion": { "name": "大蔵衣遠", "role": "NPC", "note": "学院長代理，徐的聘任者＝上司" },
+    "ookura_ion": { "name": "大蔵衣遠", "role": "NPC", "note": "学院長代理，徐的聘任者＝上司（未出场）" },
     "nanami_nanao": { "name": "名波七愛", "role": "NPC", "note": "湊の従者" },
     "sugimura_hokuto": { "name": "杉村北斗", "role": "NPC", "note": "瑞穂の従者" },
     "sasha": { "name": "サーシャ", "role": "NPC", "note": "ユルシュールの従者" },
-    "stanley": { "name": "スタンレー（ジャン・ピエール）", "role": "NPC", "note": "学院創設者・理事長，时尚圈前辈" }
+    "stanley": { "name": "スタンレー（ジャン・ピエール）", "role": "NPC", "note": "学院創設者・理事長（未出场）" }
   },
   "relationships": [
     {
       "pair": ["徐穗", "山吹八千代"],
       "dimensions": {
-        "trust": { "value": "none", "note": "尚未共事", "basis": "无事件" },
-        "familiarity": { "value": "low", "note": "同僚（聘任安排，见面即发生）", "basis": "世界设定" },
+        "trust": { "value": "low", "note": "第一天共事顺利", "basis": "共同记忆 #2/#3" },
+        "familiarity": { "value": "low", "note": "同僚初见", "basis": "共同记忆 #1" },
         "intimacy": { "value": "none", "basis": "无事件" },
         "dependence": { "value": "none", "basis": "无事件" },
-        "respect": { "value": "low(推测)", "note": "对衣遠选人的信任（推测）", "basis": "世界设定" },
-        "guardedness": { "value": "medium(推测)", "note": "她是严格的メイド長/講師，对新人持观察态度（依据其档案）", "basis": "knowledge/characters/yamabuki_yachiyo.md" },
-        "understanding": { "value": "low", "basis": "世界设定" },
-        "comfort": { "value": "none", "basis": "无事件" },
+        "respect": { "value": "medium", "note": "她赞「眼光很准」", "basis": "共同记忆 #3" },
+        "guardedness": { "value": "medium(推测)", "note": "对新同事持观察态度（其性格）", "basis": "角色档案" },
+        "understanding": { "value": "low", "basis": "共同记忆 #2/#3" },
+        "comfort": { "value": "low", "note": "共事交谈自然", "basis": "共同记忆 #3" },
         "attachment": { "value": "none", "basis": "无事件" },
         "conflict": { "value": "none", "basis": "无事件" },
-        "rapport": { "value": "none", "basis": "无事件" },
-        "shared_experience": { "value": "none", "basis": "无事件" }
+        "rapport": { "value": "low", "note": "一起旁听课/交接", "basis": "共同记忆 #2" },
+        "shared_experience": { "value": "low", "basis": "共同记忆 #2/#3" }
       }
     },
     {
       "pair": ["徐穗", "小倉朝日（大蔵遊星）"],
       "dimensions": {
-        "trust": { "value": "none", "basis": "尚未见面" },
-        "familiarity": { "value": "none", "basis": "尚未见面" },
-        "intimacy": { "value": "none", "basis": "尚未见面" },
-        "dependence": { "value": "none", "basis": "尚未见面" },
-        "respect": { "value": "none", "basis": "尚未见面" },
-        "guardedness": { "value": "high", "note": "其身份秘密使其天然戒备（依据其档案）", "basis": "knowledge/characters/ookura_yuusei.md" },
-        "understanding": { "value": "none", "basis": "尚未见面" },
-        "comfort": { "value": "none", "basis": "尚未见面" },
-        "attachment": { "value": "none", "basis": "尚未见面" },
-        "conflict": { "value": "none", "basis": "尚未见面" },
-        "rapport": { "value": "none", "basis": "尚未见面" },
-        "shared_experience": { "value": "none", "basis": "尚未见面" }
+        "trust": { "value": "none", "basis": "尚未直接交谈" },
+        "familiarity": { "value": "low", "note": "同教室一天", "basis": "共同记忆 #1/#2" },
+        "intimacy": { "value": "none", "basis": "无事件" },
+        "dependence": { "value": "none", "basis": "无事件" },
+        "respect": { "value": "low(推测)", "note": "观察徐的表现，暂无明确表态", "basis": "认知表" },
+        "guardedness": { "value": "high", "note": "身份秘密＋第 9 轮徐追问制作分工，警觉", "basis": "角色档案、共同记忆 #9" },
+        "understanding": { "value": "low", "basis": "认知表" },
+        "comfort": { "value": "none", "basis": "无事件" },
+        "attachment": { "value": "none", "basis": "无事件" },
+        "conflict": { "value": "none", "basis": "无事件" },
+        "rapport": { "value": "none", "basis": "无事件" },
+        "shared_experience": { "value": "low", "note": "同班一天", "basis": "共同记忆 #1" }
       }
     },
     {
-      "pair": ["徐穗", "学生组（ルナ／湊／瑞穂／ユルシュール／りそな）"],
+      "pair": ["徐穗", "桜小路ルナ"],
       "dimensions": {
-        "trust": { "value": "none", "basis": "尚未见面" },
-        "familiarity": { "value": "none", "basis": "尚未见面" },
-        "intimacy": { "value": "none", "basis": "尚未见面" },
-        "dependence": { "value": "none", "basis": "尚未见面" },
-        "respect": { "value": "low", "note": "对教师身份的基线尊重（推测）", "basis": "世界设定" },
-        "guardedness": { "value": "low", "basis": "无事件" },
-        "understanding": { "value": "none", "basis": "尚未见面" },
-        "comfort": { "value": "none", "basis": "尚未见面" },
-        "attachment": { "value": "none", "basis": "尚未见面" },
-        "conflict": { "value": "none", "basis": "尚未见面" },
-        "rapport": { "value": "none", "basis": "尚未见面" },
-        "shared_experience": { "value": "none", "basis": "尚未见面" }
+        "trust": { "value": "none", "basis": "无事件" },
+        "familiarity": { "value": "low", "basis": "共同记忆 #5" },
+        "intimacy": { "value": "none", "basis": "无事件" },
+        "dependence": { "value": "none", "basis": "无事件" },
+        "respect": { "value": "medium", "note": "有条件：徐答出「青涩」的具体处才作数；已建立课后对决约定", "basis": "共同记忆 #6/#7" },
+        "guardedness": { "value": "medium", "note": "试探新老师", "basis": "共同记忆 #5" },
+        "understanding": { "value": "low", "basis": "认知表" },
+        "comfort": { "value": "none", "basis": "无事件" },
+        "attachment": { "value": "none", "basis": "无事件" },
+        "conflict": { "value": "none", "note": "言语交锋但非冲突", "basis": "共同记忆 #5-#7" },
+        "rapport": { "value": "low", "note": "对决式约定", "basis": "共同记忆 #7" },
+        "shared_experience": { "value": "low", "basis": "共同记忆 #5-#9" }
       }
     },
     {
-      "pair": ["徐穗", "大蔵衣遠"],
+      "pair": ["徐穗", "柳ヶ瀬湊"],
+      "dimensions": {
+        "trust": { "value": "low", "note": "她主动通风报信", "basis": "共同记忆 #4" },
+        "familiarity": { "value": "medium", "note": "主动搭话、聊天", "basis": "共同记忆 #4/#5" },
+        "intimacy": { "value": "none", "basis": "无事件" },
+        "dependence": { "value": "none", "basis": "无事件" },
+        "respect": { "value": "low", "note": "对教师身份", "basis": "认知表" },
+        "guardedness": { "value": "none", "note": "几乎不设防", "basis": "共同记忆 #4" },
+        "understanding": { "value": "low", "basis": "认知表" },
+        "comfort": { "value": "medium(推测)", "note": "相处轻松、会开玩笑", "basis": "共同记忆 #4/#5" },
+        "attachment": { "value": "none", "basis": "无事件" },
+        "conflict": { "value": "none", "basis": "无事件" },
+        "rapport": { "value": "low", "note": "通风报信/玩笑", "basis": "共同记忆 #4" },
+        "shared_experience": { "value": "low", "basis": "共同记忆 #4/#5" }
+      }
+    },
+    {
+      "pair": ["徐穗", "ユルシュール"],
+      "dimensions": {
+        "trust": { "value": "none", "basis": "无事件" },
+        "familiarity": { "value": "medium", "note": "插话互动", "basis": "共同记忆 #4/#5" },
+        "intimacy": { "value": "none", "basis": "无事件" },
+        "dependence": { "value": "none", "basis": "无事件" },
+        "respect": { "value": "low(推测)", "note": "「宣战书」式打趣，实际在观察", "basis": "共同记忆 #5" },
+        "guardedness": { "value": "medium", "note": "计划「验收」新老师", "basis": "共同记忆 #4" },
+        "understanding": { "value": "low", "basis": "认知表" },
+        "comfort": { "value": "low", "basis": "共同记忆 #4/#5" },
+        "attachment": { "value": "none", "basis": "无事件" },
+        "conflict": { "value": "none", "basis": "无事件" },
+        "rapport": { "value": "low", "basis": "共同记忆 #4/#5" },
+        "shared_experience": { "value": "low", "basis": "共同记忆 #4/#5" }
+      }
+    },
+    {
+      "pair": ["徐穗", "花之宮瑞穂"],
+      "dimensions": {
+        "trust": { "value": "none", "basis": "无事件" },
+        "familiarity": { "value": "low", "basis": "共同记忆 #4/#5" },
+        "intimacy": { "value": "none", "basis": "无事件" },
+        "dependence": { "value": "none", "basis": "无事件" },
+        "respect": { "value": "low", "note": "礼貌应对", "basis": "共同记忆 #5" },
+        "guardedness": { "value": "none", "basis": "无事件" },
+        "understanding": { "value": "low", "basis": "认知表" },
+        "comfort": { "value": "low", "basis": "共同记忆 #4/#5" },
+        "attachment": { "value": "none", "basis": "无事件" },
+        "conflict": { "value": "none", "basis": "无事件" },
+        "rapport": { "value": "low", "note": "温和的问答", "basis": "共同记忆 #5" },
+        "shared_experience": { "value": "low", "basis": "共同记忆 #4/#5" }
+      }
+    },
+    {
+      "pair": ["徐穗", "大蔵衣遠（未出场）"],
       "dimensions": {
         "trust": { "value": "none", "basis": "无事件" },
         "familiarity": { "value": "low", "note": "聘任关系", "basis": "世界设定" },
         "intimacy": { "value": "none", "basis": "无事件" },
         "dependence": { "value": "low", "note": "雇佣关系", "basis": "世界设定" },
-        "respect": { "value": "low(推测)", "note": "他认可徐的能力才聘任（推测）", "basis": "世界设定" },
-        "guardedness": { "value": "medium(推测)", "basis": "依据其档案" },
+        "respect": { "value": "low(推测)", "basis": "世界设定" },
+        "guardedness": { "value": "medium(推测)", "basis": "角色档案" },
         "understanding": { "value": "low", "basis": "世界设定" },
         "comfort": { "value": "none", "basis": "无事件" },
         "attachment": { "value": "none", "basis": "无事件" },
@@ -98,5 +145,15 @@
       }
     }
   ],
-  "change_log": []
+  "change_log": [
+    { "time": "第一天・班会", "participants": ["徐穗", "学生组"], "event": "徐自我介绍并邀学生讨论设计", "change": { "学生组.familiarity": "none→low" }, "reason": "初次见面", "evidence": "共同记忆 #1", "confidence": "high" },
+    { "time": "第一天・第一节课", "participants": ["徐穗", "山吹八千代"], "event": "徐旁听新学期说明", "change": { "八千代.rapport": "none→low" }, "reason": "初次共事观察", "evidence": "共同记忆 #2", "confidence": "high" },
+    { "time": "第一天・课间", "participants": ["徐穗", "山吹八千代"], "event": "课后交流，八千代赞徐「眼光很准」", "change": { "八千代.respect": "low→medium" }, "reason": "徐一眼看出ルナ天赋", "evidence": "共同记忆 #3", "confidence": "high" },
+    { "time": "第一天・课间", "participants": ["徐穗", "柳ヶ瀬湊", "ユルシュール"], "event": "湊主动搭话、通风报信；ユルシュール插话", "change": { "湊.familiarity": "low→medium", "ユルシュール.familiarity": "low→medium" }, "reason": "学生主动接触", "evidence": "共同记忆 #4", "confidence": "high" },
+    { "time": "第一天・课间", "participants": ["徐穗", "桜小路ルナ"], "event": "ルナ首次开口：「你是第几个？」", "change": { "ルナ.familiarity": "none→low", "ルナ.guardedness": "none→medium" }, "reason": "被徐的夸奖挑起试探心", "evidence": "共同记忆 #5", "confidence": "high" },
+    { "time": "第一天・课间", "participants": ["徐穗", "桜小路ルナ"], "event": "徐点评作品青涩；ルナ立赌约", "change": { "ルナ.respect": "low→medium(有条件)", "ルナ.rapport": "none→low" }, "reason": "徐敢当面具体点评并接下对决", "evidence": "共同记忆 #6", "confidence": "high" },
+    { "time": "第一天・课间", "participants": ["徐穗", "桜小路ルナ"], "event": "徐改约「课后判定」；ルナ接受并加规则", "change": { "ルナ.understanding": "none→low", "对决关系": "确立(推测)" }, "reason": "两人约定以课堂与答案定胜负", "evidence": "共同记忆 #7", "confidence": "high（事件）；对决关系为推断" },
+    { "time": "第一天・放学", "participants": ["徐穗", "ルナ", "湊", "瑞穂", "ユルシュール", "朝日"], "event": "徐在玄关叫住四位大小姐", "change": { "待定": "取决于后续对话" }, "reason": "徐未说明来意", "evidence": "共同记忆 #8", "confidence": "high" },
+    { "time": "第一天・放学（修正）", "participants": ["徐穗", "全员"], "event": "徐问「夺冠作品的制作者是谁」；首次演出把制作分工说反，已按原作（设计ルナ／制作朝日）修正重写", "change": { "朝日.guardedness": "维持 high，警觉↑" }, "reason": "徐追问到朝日的隐藏手艺领域", "evidence": "共同记忆 #9", "confidence": "high" }
+  ]
 }
