@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "version": 1,
+    "version": 2,
     "updated": "2026-09-26",
-    "basis": "PROJECT_STATE.md 第 5 节（骨架回填，尚未发生新互动）",
+    "basis": "从头开始（玩家世界时间线重置）；徐穗 = フィリア女学院新任服装科講師兼副担任",
     "rules": [
       "多维关系状态仅作 AI 内部状态，角色扮演中不得向用户报数字（《Agent提示词》第 11 节）",
       "关系变化必须附事件依据，写入 change_log（第 17 节）",
@@ -13,73 +13,90 @@
     "xu_sui": {
       "name": "徐穗",
       "role": "玩家角色（用户控制；AI 不代写其语言/行动/思考/情绪/选择）",
-      "note": "男性，长期借住樱公馆的客人，服装设计同行"
+      "note": "男性，25 岁，中国出身、巴黎学习服装设计；フィリア女学院服装科講師兼副担任"
     },
-    "ookura_yuusei": {
-      "name": "小倉朝日（大蔵遊星）",
-      "role": "被扮演 NPC",
-      "note": "桜小路家メイド（ルナ様のお付き）；真实性别为男性，徐穗不知情"
-    }
+    "ookura_yuusei": { "name": "小倉朝日（大蔵遊星）", "role": "NPC", "note": "ルナの随行メイド，每日在校；真实性别为男性（秘密）" },
+    "sakuragi_luna": { "name": "桜小路ルナ", "role": "NPC", "note": "学生，服装设计天才" },
+    "yanagase_minato": { "name": "柳ヶ瀬湊", "role": "NPC", "note": "学生" },
+    "hananomiya_mizuho": { "name": "花之宮瑞穂", "role": "NPC", "note": "学生" },
+    "yurushuuru": { "name": "ユルシュール・フルール・ジャンメール", "role": "NPC", "note": "学生，瑞士贵族" },
+    "ookura_risona": { "name": "大蔵りそな", "role": "NPC", "note": "学生（大蔵家）" },
+    "yamabuki_yachiyo": { "name": "山吹八千代", "role": "NPC", "note": "同僚：服装科講師・担任、桜小路家メイド長" },
+    "ookura_ion": { "name": "大蔵衣遠", "role": "NPC", "note": "学院長代理，徐的聘任者＝上司" },
+    "nanami_nanao": { "name": "名波七愛", "role": "NPC", "note": "湊の従者" },
+    "sugimura_hokuto": { "name": "杉村北斗", "role": "NPC", "note": "瑞穂の従者" },
+    "sasha": { "name": "サーシャ", "role": "NPC", "note": "ユルシュールの従者" },
+    "stanley": { "name": "スタンレー（ジャン・ピエール）", "role": "NPC", "note": "学院創設者・理事長，时尚圈前辈" }
   },
   "relationships": [
     {
+      "pair": ["徐穗", "山吹八千代"],
+      "dimensions": {
+        "trust": { "value": "none", "note": "尚未共事", "basis": "无事件" },
+        "familiarity": { "value": "low", "note": "同僚（聘任安排，见面即发生）", "basis": "世界设定" },
+        "intimacy": { "value": "none", "basis": "无事件" },
+        "dependence": { "value": "none", "basis": "无事件" },
+        "respect": { "value": "low(推测)", "note": "对衣遠选人的信任（推测）", "basis": "世界设定" },
+        "guardedness": { "value": "medium(推测)", "note": "她是严格的メイド長/講師，对新人持观察态度（依据其档案）", "basis": "knowledge/characters/yamabuki_yachiyo.md" },
+        "understanding": { "value": "low", "basis": "世界设定" },
+        "comfort": { "value": "none", "basis": "无事件" },
+        "attachment": { "value": "none", "basis": "无事件" },
+        "conflict": { "value": "none", "basis": "无事件" },
+        "rapport": { "value": "none", "basis": "无事件" },
+        "shared_experience": { "value": "none", "basis": "无事件" }
+      }
+    },
+    {
       "pair": ["徐穗", "小倉朝日（大蔵遊星）"],
       "dimensions": {
-        "trust": { "value": "medium-high", "note": "愿把「只穿给你一个人看」的私密试穿托付给徐（节点 2）", "basis": "共同记忆 #3" },
-        "familiarity": { "value": "medium", "note": "设计与日常交流渐生好感", "basis": "共同记忆 #1" },
-        "intimacy": { "value": "medium(推测)", "note": "共享秘密（信封内折页、试穿约定），但未表白", "basis": "共同记忆 #2/#3" },
-        "dependence": { "value": "low", "note": "未表现依赖", "basis": "无事件依据" },
-        "respect": { "value": "medium(推测)", "note": "徐是服装设计同行，且被徐选为设计对象", "basis": "共同记忆 #2" },
-        "guardedness": { "value": "high", "note": "藏真实性别：自报伪造尺寸、要求缝份留宽", "basis": "共同记忆 #3/#4" },
-        "understanding": { "value": "medium", "note": "知道徐是设计同行、男性、借住客人", "basis": "NPC对徐的认知 A#1" },
-        "comfort": { "value": "medium", "note": "宅邸外两人独处喝咖啡闲聊", "basis": "共同记忆 #1" },
-        "attachment": { "value": "medium(推测)", "note": "渐生好感但因性别秘密不敢表白", "basis": "PROJECT_STATE 第 5 节「关系状态」" },
-        "conflict": { "value": "none", "note": "无冲突记录", "basis": "共同记忆" },
-        "rapport": { "value": "medium", "note": "信封内折页「朝日の伙伴 徐穗」", "basis": "共同记忆 #2" },
-        "shared_experience": { "value": "medium", "note": "咖啡馆第一幕 4 个节点", "basis": "共同记忆 #1-#4" }
+        "trust": { "value": "none", "basis": "尚未见面" },
+        "familiarity": { "value": "none", "basis": "尚未见面" },
+        "intimacy": { "value": "none", "basis": "尚未见面" },
+        "dependence": { "value": "none", "basis": "尚未见面" },
+        "respect": { "value": "none", "basis": "尚未见面" },
+        "guardedness": { "value": "high", "note": "其身份秘密使其天然戒备（依据其档案）", "basis": "knowledge/characters/ookura_yuusei.md" },
+        "understanding": { "value": "none", "basis": "尚未见面" },
+        "comfort": { "value": "none", "basis": "尚未见面" },
+        "attachment": { "value": "none", "basis": "尚未见面" },
+        "conflict": { "value": "none", "basis": "尚未见面" },
+        "rapport": { "value": "none", "basis": "尚未见面" },
+        "shared_experience": { "value": "none", "basis": "尚未见面" }
+      }
+    },
+    {
+      "pair": ["徐穗", "学生组（ルナ／湊／瑞穂／ユルシュール／りそな）"],
+      "dimensions": {
+        "trust": { "value": "none", "basis": "尚未见面" },
+        "familiarity": { "value": "none", "basis": "尚未见面" },
+        "intimacy": { "value": "none", "basis": "尚未见面" },
+        "dependence": { "value": "none", "basis": "尚未见面" },
+        "respect": { "value": "low", "note": "对教师身份的基线尊重（推测）", "basis": "世界设定" },
+        "guardedness": { "value": "low", "basis": "无事件" },
+        "understanding": { "value": "none", "basis": "尚未见面" },
+        "comfort": { "value": "none", "basis": "尚未见面" },
+        "attachment": { "value": "none", "basis": "尚未见面" },
+        "conflict": { "value": "none", "basis": "尚未见面" },
+        "rapport": { "value": "none", "basis": "尚未见面" },
+        "shared_experience": { "value": "none", "basis": "尚未见面" }
+      }
+    },
+    {
+      "pair": ["徐穗", "大蔵衣遠"],
+      "dimensions": {
+        "trust": { "value": "none", "basis": "无事件" },
+        "familiarity": { "value": "low", "note": "聘任关系", "basis": "世界设定" },
+        "intimacy": { "value": "none", "basis": "无事件" },
+        "dependence": { "value": "low", "note": "雇佣关系", "basis": "世界设定" },
+        "respect": { "value": "low(推测)", "note": "他认可徐的能力才聘任（推测）", "basis": "世界设定" },
+        "guardedness": { "value": "medium(推测)", "basis": "依据其档案" },
+        "understanding": { "value": "low", "basis": "世界设定" },
+        "comfort": { "value": "none", "basis": "无事件" },
+        "attachment": { "value": "none", "basis": "无事件" },
+        "conflict": { "value": "none", "basis": "无事件" },
+        "rapport": { "value": "none", "basis": "无事件" },
+        "shared_experience": { "value": "none", "basis": "无事件" }
       }
     }
   ],
-  "change_log": [
-    {
-      "time": "第一幕（咖啡馆）",
-      "participants": ["徐穗", "小倉朝日"],
-      "event": "纸样信封：外写「徐穗」，内折页写「朝日の伙伴 徐穗」",
-      "before": { "rapport": "low", "intimacy": "low" },
-      "change": { "rapport": "+", "intimacy": "+", "shared_experience": "+" },
-      "reason": "两人之间出现只有彼此知道的秘密",
-      "evidence": "PROJECT_STATE.md 第 5 节节点 1",
-      "confidence": "high"
-    },
-    {
-      "time": "第一幕（咖啡馆）",
-      "participants": ["徐穗", "小倉朝日"],
-      "event": "朝日答应工房私密试穿（只穿给徐一个人看），并主动要求自报尺寸",
-      "before": { "trust": "medium", "guardedness": "high" },
-      "change": { "trust": "+", "intimacy": "+" },
-      "reason": "把隐瞒体型的风险托付给徐",
-      "evidence": "PROJECT_STATE.md 第 5 节节点 2",
-      "confidence": "high"
-    },
-    {
-      "time": "第一幕（咖啡馆）",
-      "participants": ["徐穗", "小倉朝日"],
-      "event": "朝日要求缝份留宽，理由是可日后自行收改到合身（隐藏真实体型）",
-      "before": { "guardedness": "high" },
-      "change": { "guardedness": "维持" },
-      "reason": "为身份保密留后手",
-      "evidence": "PROJECT_STATE.md 第 5 节节点 3",
-      "confidence": "high"
-    },
-    {
-      "time": "第一幕（咖啡馆）",
-      "participants": ["徐穗", "小倉朝日"],
-      "event": "朝日提问「您画这件衣服的时候，看到的那个人，是工房里的朝日，还是别的人。」——待徐回答",
-      "before": { "understanding": "medium" },
-      "change": { "待定": "取决于徐的回答" },
-      "reason": "朝日试探自己在徐眼中的位置（推断）",
-      "evidence": "PROJECT_STATE.md 第 5 节节点 4",
-      "confidence": "high（事件）；change 推断标（推测）"
-    }
-  ]
+  "change_log": []
 }
