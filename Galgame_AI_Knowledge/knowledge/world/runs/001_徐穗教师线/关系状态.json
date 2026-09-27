@@ -164,6 +164,7 @@
     { "time": "第二天・放学", "participants": ["徐穗", "朝日"], "event": "朝日收拾完教室被徐叫住（内容待续）", "change": { "待定": "取决于对话" }, "reason": "徐未说明来意", "evidence": "共同记忆 #16", "confidence": "high" },
     { "time": "第二天・放学", "participants": ["徐穗", "朝日"], "event": "徐说很中意朝日的缝纫技术，请她对自己的一张设计图提意见；朝日先谦辞后答应「只看一看」，以职人口吻问用途/面料", "change": { "朝日.rapport": "维持 medium（被托付作品）" }, "reason": "徐把作品交给朝日看", "evidence": "共同记忆 #17", "confidence": "high" },
     { "time": "第二天・放学", "participants": ["徐穗", "朝日"], "event": "徐告知设计为日常穿、宽松透气；朝日给专业建议（缩水余量/包边收口/张力/衬）；徐说「有些事我不会问，但你的天赋不该被埋没」，朝日感动又戒备，自谦并说「能被您这样说我很高兴」", "change": { "朝日.understanding": "low→medium(推测)", "朝日.comfort": "low(推测)→medium(推测)", "朝日.attachment": "none→low(推测)" }, "reason": "徐的体贴与认可触动朝日", "evidence": "共同记忆 #18", "confidence": "high" },
-    { "time": "第二天・放学", "participants": ["徐穗", "朝日"], "event": "徐请朝日帮忙缝制这件衣服（愿亲自拜托ルナ、并会指正她的不足）；朝日以「须先得大小姐允许、且要我亲耳听令」为条件，态度已愿意", "change": { "待定": "取决于ルナ是否同意" }, "reason": "徐正式发出共同制作的邀请", "evidence": "共同记忆 #19", "confidence": "high" }
+    { "time": "第二天・放学", "participants": ["徐穗", "朝日"], "event": "徐请朝日帮忙缝制这件衣服（愿亲自拜托ルナ、并会指正她的不足）；朝日以「须先得大小姐允许、且要我亲耳听令」为条件，态度已愿意", "change": { "待定": "取决于ルナ是否同意" }, "reason": "徐正式发出共同制作的邀请", "evidence": "共同记忆 #19", "confidence": "high" },
+    { "time": "第二天・放学", "participants": ["徐穗", "朝日"], "event": "两人「一言为定」，徐调侃朝日别变卦；朝日承诺不反悔，道别", "change": { "朝日.comfort": "维持 medium(推测)" }, "reason": "轻松玩笑拉近关系", "evidence": "共同记忆 #20", "confidence": "high" }
   ]
 }
