@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "version": 1,
+    "updated": "新建 run",
+    "basis": "从头开始（本文件属于单一玩家角色线，见 knowledge/world/运行目录.md）",
+    "rules": [
+      "多维关系状态仅作 AI 内部状态，角色扮演中不得向用户报数字（《Agent提示词》第 11 节）",
+      "关系变化必须附事件依据，写入 change_log（第 17 节）",
+      "值域：none / low / medium / high；带 (推测) 的值是依据记录推断，非台词直证"
+    ]
+  },
+  "characters": {},
+  "relationships": [],
+  "change_log": []
+}
