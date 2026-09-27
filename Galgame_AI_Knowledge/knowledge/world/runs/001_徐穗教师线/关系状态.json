@@ -45,18 +45,18 @@
     {
       "pair": ["徐穗", "小倉朝日（大蔵遊星）"],
       "dimensions": {
-        "trust": { "value": "none", "basis": "尚未直接交谈" },
-        "familiarity": { "value": "low", "note": "同教室一天", "basis": "共同记忆 #1/#2" },
+        "trust": { "value": "low(推测)", "note": "徐不追问其秘密、认可其手艺；但身份未破，仍存戒心", "basis": "共同记忆 #10/#18" },
+        "familiarity": { "value": "low", "note": "同教室两天、多次独处", "basis": "共同记忆 #1/#16" },
         "intimacy": { "value": "none", "basis": "无事件" },
         "dependence": { "value": "none", "basis": "无事件" },
-        "respect": { "value": "medium", "note": "被徐当众认可手艺＋对徐的第一堂课真心叹服（「听得忘了在课堂上」）", "basis": "共同记忆 #10/#11" },
-        "guardedness": { "value": "high", "note": "身份秘密＋第 9 轮徐追问制作分工，警觉；第 10 轮被关注后喜悦与不安交织", "basis": "角色档案、共同记忆 #9/#10" },
-        "understanding": { "value": "low", "basis": "认知表" },
-        "comfort": { "value": "none", "basis": "无事件" },
-        "attachment": { "value": "none", "basis": "无事件" },
+        "respect": { "value": "medium", "note": "被徐当众认可手艺＋对徐的课真心叹服", "basis": "共同记忆 #10/#11" },
+        "guardedness": { "value": "high", "note": "身份秘密；徐追问制作分工并考其缝制题，警觉；被认可后喜悦与不安交织", "basis": "角色档案、共同记忆 #9/#10/#13" },
+        "understanding": { "value": "medium(推测)", "note": "理解徐「有些事我不会问」的体贴、且真心看重手艺", "basis": "共同记忆 #18" },
+        "comfort": { "value": "medium(推测)", "note": "独处交谈自然，被认可、被需要", "basis": "共同记忆 #16/#17/#18" },
+        "attachment": { "value": "low(推测)", "note": "徐「天赋不该被埋没」触动（萌芽）", "basis": "共同记忆 #18" },
         "conflict": { "value": "none", "basis": "无事件" },
-        "rapport": { "value": "low", "note": "被老师点名关注", "basis": "共同记忆 #10" },
-        "shared_experience": { "value": "low", "note": "同班一天", "basis": "共同记忆 #1" }
+        "rapport": { "value": "medium", "note": "被点名关注＋「请别告诉大小姐」的声援默契＋设计图之托", "basis": "共同记忆 #10/#12/#17" },
+        "shared_experience": { "value": "low", "note": "同班＋放学独处看设计图", "basis": "共同记忆 #1/#16/#17" }
       }
     },
     {
@@ -161,6 +161,9 @@
     { "time": "第二天・服装科课", "participants": ["徐穗", "朝日", "ルナ"], "event": "徐当众考朝日专业缝制题；朝日答对并搪塞；ルナ作证", "change": { "朝日.guardedness": "维持 high（警觉↑）" }, "reason": "徐的提问逼近朝日的隐藏手艺", "evidence": "共同记忆 #13", "confidence": "high" },
     { "time": "第二天・服装科课", "participants": ["徐穗", "ルナ"], "event": "课上论战：徐以「共同完成、相互尊重」作答，ルナ认过此问", "change": { "ルナ.respect": "维持 medium（对决继续）" }, "reason": "徐接住质问且未落入任何一方的偏执", "evidence": "共同记忆 #14", "confidence": "high" },
     { "time": "第二天・服装科课", "participants": ["徐穗", "湊"], "event": "湊问学习顺序；徐答遵从内心", "change": { "湊.respect": "low→medium" }, "reason": "徐不替学生做决定、尊重其兴趣", "evidence": "共同记忆 #15", "confidence": "high" },
-    { "time": "第二天・放学", "participants": ["徐穗", "朝日"], "event": "朝日收拾完教室被徐叫住（内容待续）", "change": { "待定": "取决于对话" }, "reason": "徐未说明来意", "evidence": "共同记忆 #16", "confidence": "high" }
+    { "time": "第二天・放学", "participants": ["徐穗", "朝日"], "event": "朝日收拾完教室被徐叫住（内容待续）", "change": { "待定": "取决于对话" }, "reason": "徐未说明来意", "evidence": "共同记忆 #16", "confidence": "high" },
+    { "time": "第二天・放学", "participants": ["徐穗", "朝日"], "event": "徐说很中意朝日的缝纫技术，请她对自己的一张设计图提意见；朝日先谦辞后答应「只看一看」，以职人口吻问用途/面料", "change": { "朝日.rapport": "维持 medium（被托付作品）" }, "reason": "徐把作品交给朝日看", "evidence": "共同记忆 #17", "confidence": "high" },
+    { "time": "第二天・放学", "participants": ["徐穗", "朝日"], "event": "徐告知设计为日常穿、宽松透气；朝日给专业建议（缩水余量/包边收口/张力/衬）；徐说「有些事我不会问，但你的天赋不该被埋没」，朝日感动又戒备，自谦并说「能被您这样说我很高兴」", "change": { "朝日.understanding": "low→medium(推测)", "朝日.comfort": "low(推测)→medium(推测)", "朝日.attachment": "none→low(推测)" }, "reason": "徐的体贴与认可触动朝日", "evidence": "共同记忆 #18", "confidence": "high" },
+    { "time": "第二天・放学", "participants": ["徐穗", "朝日"], "event": "徐请朝日帮忙缝制这件衣服（愿亲自拜托ルナ、并会指正她的不足）；朝日以「须先得大小姐允许、且要我亲耳听令」为条件，态度已愿意", "change": { "待定": "取决于ルナ是否同意" }, "reason": "徐正式发出共同制作的邀请", "evidence": "共同记忆 #19", "confidence": "high" }
   ]
 }
