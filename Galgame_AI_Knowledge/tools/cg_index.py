@@ -190,6 +190,24 @@ def main() -> int:
         json.dump(idx_json, f, ensure_ascii=False, indent=1)
 
     inv = pack_inventory()
+
+    # 场景 -> CG（供角色扮演配图正查）
+    scene_cg = defaultdict(lambda: {"chapter": None, "cgs": set(), "refs": 0})
+    for name, items in by_cg.items():
+        for i in items:
+            sc = i.get("scene")
+            if not sc:
+                continue
+            scene_cg[sc]["chapter"] = i.get("chapter")
+            scene_cg[sc]["cgs"].add(name)
+            scene_cg[sc]["refs"] += 1
+    scene_out = {
+        sc: {"chapter": v["chapter"], "refs": v["refs"], "cgs": sorted(v["cgs"])}
+        for sc, v in sorted(scene_cg.items())
+    }
+    with open(os.path.join(OUT_DIR, "scene_cg.json"), "w", encoding="utf-8") as f:
+        json.dump(scene_out, f, ensure_ascii=False, indent=1)
+
     lines = [
         "# 图像索引（CG ↔ 场景）",
         "",
@@ -249,14 +267,24 @@ def main() -> int:
         )
     lines.append("")
     lines.append("> 「疑似未被引用」多为 UI 素材、多版本覆盖文件，或通过变量拼接路径调用的图；需要时再逐个核。")
+
+    lines += [
+        "",
+        "## 四、场景 → CG（正查，供角色扮演配图；机器可读见 `scene_cg.json`）",
+        "",
+        "| 场景 | 章节 | CG |",
+        "| --- | --- | --- |",
+    ]
+    for sc, v in scene_out.items():
+        lines.append("| `%s` | %s | %s |" % (sc, v["chapter"] or "?", "、".join("`%s`" % c for c in v["cgs"])))
     with open(os.path.join(OUT_DIR, "cg_index.md"), "w", encoding="utf-8") as f:
         f.write("\n".join(lines) + "\n")
 
     print("图像引用总数:", len(refs))
     for cat, n in counts.most_common():
         print("  %-12s %d" % (cat, n))
-    print("CG 去重:", len(by_cg))
-    print("输出:", os.path.join(OUT_DIR, "cg_index.md"), "与 cg_index.json")
+    print("CG 去重:", len(by_cg), " 含 CG 的场景:", len(scene_out))
+    print("输出:", OUT_DIR, "（cg_index.md / cg_index.json / scene_cg.json）")
     return 0
 
 
