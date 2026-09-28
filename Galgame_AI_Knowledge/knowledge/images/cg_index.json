@@ -1,0 +1,9178 @@
+{
+ "_meta": {
+  "generated_from": "extracted/merged/**/*.s (cp932) + cleaned/messages.jsonl",
+  "category_counts": {
+   "background": 3482,
+   "other:(无目录)": 4358,
+   "other:大蔵りそな": 98,
+   "other:motion": 240,
+   "other:山吹八千代": 71,
+   "effect": 262,
+   "CG_main": 529,
+   "CG_after": 175,
+   "other:朝日": 2237,
+   "other:その他": 111,
+   "other:北斗": 34,
+   "cutin": 40,
+   "other:サーシャ": 83,
+   "other:ユルシュール": 62,
+   "other:大蔵遊星": 324,
+   "other:大蔵衣遠": 4,
+   "other:花之宮瑞穂": 69,
+   "other:ルナ": 106,
+   "other:柳ヶ瀬湊": 164,
+   "other:名波七愛": 76,
+   "other:env": 3
+  },
+  "cg_total_refs": 704,
+  "cg_unique": 431
+ },
+ "categories": {
+  "background": 3482,
+  "other:(无目录)": 4358,
+  "other:大蔵りそな": 98,
+  "other:motion": 240,
+  "other:山吹八千代": 71,
+  "effect": 262,
+  "CG_main": 529,
+  "CG_after": 175,
+  "other:朝日": 2237,
+  "other:その他": 111,
+  "other:北斗": 34,
+  "cutin": 40,
+  "other:サーシャ": 83,
+  "other:ユルシュール": 62,
+  "other:大蔵遊星": 324,
+  "other:大蔵衣遠": 4,
+  "other:花之宮瑞穂": 69,
+  "other:ルナ": 106,
+  "other:柳ヶ瀬湊": 164,
+  "other:名波七愛": 76,
+  "other:env": 3
+ },
+ "cg": {
+  "EV/ASA01A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/c02_01a.s",
+    "line": 1123,
+    "chapter": "本編",
+    "scene": "c02_01a",
+    "near_speaker": "大蔵遊星",
+    "near_text": "「着替えたけど……」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c02_01a.s",
+     "line": 1123,
+     "scene": "c02_01a"
+    }
+   ]
+  },
+  "EV/ASA01B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/c02_01a.s",
+    "line": 1222,
+    "chapter": "本編",
+    "scene": "c02_01a",
+    "near_speaker": "大蔵遊星",
+    "near_text": "「これでいい……？」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c02_01a.s",
+     "line": 1222,
+     "scene": "c02_01a"
+    }
+   ]
+  },
+  "EV/ASA02A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/c03_01a.s",
+    "line": 1087,
+    "chapter": "本編",
+    "scene": "c03_01a",
+    "near_speaker": null,
+    "near_text": "うわあ！"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c03_01a.s",
+     "line": 1087,
+     "scene": "c03_01a"
+    }
+   ]
+  },
+  "EV/ASA03A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/c04_02c9.s",
+    "line": 179,
+    "chapter": "本編",
+    "scene": "c04_02c9",
+    "near_speaker": "女生徒Ａ",
+    "near_text": "「この学院のトイレは綺麗ねえ。さすが新築、しかもゴージャスよ」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c04_02c9.s",
+     "line": 179,
+     "scene": "c04_02c9"
+    }
+   ]
+  },
+  "EV/ASA03B": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/本編/c04_02c9.s",
+    "line": 290,
+    "chapter": "本編",
+    "scene": "c04_02c9",
+    "near_speaker": null,
+    "near_text": "…………。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c04_02c9.s",
+     "line": 290,
+     "scene": "c04_02c9"
+    },
+    {
+     "file": "scenario/本編/u11_01a.s",
+     "line": 1188,
+     "scene": "u11_01a"
+    }
+   ]
+  },
+  "EV/ASA03C": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/c06_01c.s",
+    "line": 130,
+    "chapter": "本編",
+    "scene": "c06_01c",
+    "near_speaker": null,
+    "near_text": "検証その１、お兄様のことが嫌いな生徒。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c06_01c.s",
+     "line": 130,
+     "scene": "c06_01c"
+    }
+   ]
+  },
+  "EV/ASA03D": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/c06_01c.s",
+    "line": 230,
+    "chapter": "本編",
+    "scene": "c06_01c",
+    "near_speaker": null,
+    "near_text": "ふう。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c06_01c.s",
+     "line": 230,
+     "scene": "c06_01c"
+    }
+   ]
+  },
+  "EV/BNP01A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/エイプリル/aeon2200.s",
+    "line": 2245,
+    "chapter": "エイプリル",
+    "scene": "aeon2200",
+    "near_speaker": "ブリュエット",
+    "near_text": "「これはたぶん何かを作ってるところだ。今作も服飾やるんだね」"
+   },
+   "places": [
+    {
+     "file": "scenario/エイプリル/aeon2200.s",
+     "line": 2245,
+     "scene": "aeon2200"
+    }
+   ]
+  },
+  "EV/LUN01A": {
+   "refs": 3,
+   "first": {
+    "file": "scenario/本編/c02_03a.s",
+    "line": 492,
+    "chapter": "本編",
+    "scene": "c02_03a",
+    "near_speaker": "桜小路ルナ",
+    "near_text": "「合格」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c02_03a.s",
+     "line": 492,
+     "scene": "c02_03a"
+    },
+    {
+     "file": "scenario/本編/l09_02e.s",
+     "line": 1206,
+     "scene": "l09_02e"
+    },
+    {
+     "file": "scenario/本編/l12_04a.s",
+     "line": 680,
+     "scene": "l12_04a"
+    }
+   ]
+  },
+  "EV/LUN01B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/c02_03a.s",
+    "line": 804,
+    "chapter": "本編",
+    "scene": "c02_03a",
+    "near_speaker": null,
+    "near_text": "それまで淡々と言葉を発していた唇が、ようやく感情らしきものを見せてくれた。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c02_03a.s",
+     "line": 804,
+     "scene": "c02_03a"
+    }
+   ]
+  },
+  "EV/LUN02A": {
+   "refs": 3,
+   "first": {
+    "file": "scenario/本編/c05_01a2.s",
+    "line": 1710,
+    "chapter": "本編",
+    "scene": "c05_01a2",
+    "near_speaker": null,
+    "near_text": "ルナ様？　えっ……本物？"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c05_01a2.s",
+     "line": 1710,
+     "scene": "c05_01a2"
+    },
+    {
+     "file": "scenario/本編/c05_01a2.s",
+     "line": 1804,
+     "scene": "c05_01a2"
+    },
+    {
+     "file": "scenario/本編/c05_01a2.s",
+     "line": 1939,
+     "scene": "c05_01a2"
+    }
+   ]
+  },
+  "EV/LUN02B": {
+   "refs": 3,
+   "first": {
+    "file": "scenario/本編/c05_01a2.s",
+    "line": 1896,
+    "chapter": "本編",
+    "scene": "c05_01a2",
+    "near_speaker": "桜小路ルナ",
+    "near_text": "「ま、主人に恥をかかせた罰だけは受けてもらうが。あとで私の作った不味い料理を残さず食べさせられるといい」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c05_01a2.s",
+     "line": 1896,
+     "scene": "c05_01a2"
+    },
+    {
+     "file": "scenario/本編/c05_01a2.s",
+     "line": 2044,
+     "scene": "c05_01a2"
+    },
+    {
+     "file": "scenario/本編/c07_01a2.s",
+     "line": 336,
+     "scene": "c07_01a2"
+    }
+   ]
+  },
+  "EV/LUN03A": {
+   "refs": 4,
+   "first": {
+    "file": "scenario/本編/c07_01a2.s",
+    "line": 1727,
+    "chapter": "本編",
+    "scene": "c07_01a2",
+    "near_speaker": null,
+    "near_text": "ひどい……浴槽の中に思い切り押したおされた。というか少し冷たい……これはお湯じゃなくて、むしろ水？"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c07_01a2.s",
+     "line": 1727,
+     "scene": "c07_01a2"
+    },
+    {
+     "file": "scenario/本編/c07_01a2.s",
+     "line": 1840,
+     "scene": "c07_01a2"
+    },
+    {
+     "file": "scenario/本編/c07_01a2.s",
+     "line": 1947,
+     "scene": "c07_01a2"
+    },
+    {
+     "file": "scenario/本編/c07_01a2.s",
+     "line": 2469,
+     "scene": "c07_01a2"
+    }
+   ]
+  },
+  "EV/LUN03B": {
+   "refs": 6,
+   "first": {
+    "file": "scenario/本編/c07_01a2.s",
+    "line": 1883,
+    "chapter": "本編",
+    "scene": "c07_01a2",
+    "near_speaker": null,
+    "near_text": "だけど目の前の表情が変わるのを見て言葉を忘れた。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c07_01a2.s",
+     "line": 1883,
+     "scene": "c07_01a2"
+    },
+    {
+     "file": "scenario/本編/c07_01a2.s",
+     "line": 1993,
+     "scene": "c07_01a2"
+    },
+    {
+     "file": "scenario/本編/c07_01a2.s",
+     "line": 2351,
+     "scene": "c07_01a2"
+    },
+    {
+     "file": "scenario/本編/l09_02d.s",
+     "line": 1705,
+     "scene": "l09_02d"
+    },
+    {
+     "file": "scenario/本編/l09_02e.s",
+     "line": 925,
+     "scene": "l09_02e"
+    },
+    {
+     "file": "scenario/本編/l09_02e.s",
+     "line": 1240,
+     "scene": "l09_02e"
+    }
+   ]
+  },
+  "EV/LUN03C": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/c07_01a2.s",
+    "line": 2235,
+    "chapter": "本編",
+    "scene": "c07_01a2",
+    "near_speaker": "桜小路ルナ",
+    "near_text": "「悪かった。認めるよ。君が側にいたいと言ってくれて嬉しかった。私も今日は、君と二人きりで遊んでいたい」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c07_01a2.s",
+     "line": 2235,
+     "scene": "c07_01a2"
+    }
+   ]
+  },
+  "EV/LUN04A": {
+   "refs": 4,
+   "first": {
+    "file": "scenario/本編/c04_04b1.s",
+    "line": 461,
+    "chapter": "本編",
+    "scene": "c04_04b1",
+    "near_speaker": null,
+    "near_text": "でもよく考えたら、こうしてじっと見つめられるのは危険かもしれない。授業だからモデルを務めるのは、どのみち仕方ないことなん"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c04_04b1.s",
+     "line": 461,
+     "scene": "c04_04b1"
+    },
+    {
+     "file": "scenario/本編/c04_04b1.s",
+     "line": 580,
+     "scene": "c04_04b1"
+    },
+    {
+     "file": "scenario/本編/c04_04b1.s",
+     "line": 685,
+     "scene": "c04_04b1"
+    },
+    {
+     "file": "scenario/本編/c04_04b1.s",
+     "line": 729,
+     "scene": "c04_04b1"
+    }
+   ]
+  },
+  "EV/LUN04B": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/本編/c04_04b1.s",
+    "line": 535,
+    "chapter": "本編",
+    "scene": "c04_04b1",
+    "near_speaker": "桜小路ルナ",
+    "near_text": "「頭に来た。鼻毛描いてやれ」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c04_04b1.s",
+     "line": 535,
+     "scene": "c04_04b1"
+    },
+    {
+     "file": "scenario/本編/c04_04b1.s",
+     "line": 636,
+     "scene": "c04_04b1"
+    }
+   ]
+  },
+  "EV/LUN04C": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/本編/c04_04b1.s",
+    "line": 779,
+    "chapter": "本編",
+    "scene": "c04_04b1",
+    "near_speaker": "桜小路ルナ",
+    "near_text": "「ちょっと朝日が生意気だから、全裸に剥いてみた。顔から下を想像だけで描いてみたんだが、中々よくできてると思う」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c04_04b1.s",
+     "line": 779,
+     "scene": "c04_04b1"
+    },
+    {
+     "file": "scenario/本編/l11_02d.s",
+     "line": 2794,
+     "scene": "l11_02d"
+    }
+   ]
+  },
+  "EV/LUN05A": {
+   "refs": 4,
+   "first": {
+    "file": "scenario/本編/l09_01a.s",
+    "line": 1497,
+    "chapter": "本編",
+    "scene": "l09_01a",
+    "near_speaker": "小倉朝日",
+    "near_text": "「ルナ様……」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/l09_01a.s",
+     "line": 1497,
+     "scene": "l09_01a"
+    },
+    {
+     "file": "scenario/本編/l09_01a.s",
+     "line": 1852,
+     "scene": "l09_01a"
+    },
+    {
+     "file": "scenario/本編/l09_01a.s",
+     "line": 2173,
+     "scene": "l09_01a"
+    },
+    {
+     "file": "scenario/本編/l09_02e.s",
+     "line": 1279,
+     "scene": "l09_02e"
+    }
+   ]
+  },
+  "EV/LUN05B": {
+   "refs": 3,
+   "first": {
+    "file": "scenario/本編/l09_01a.s",
+    "line": 1777,
+    "chapter": "本編",
+    "scene": "l09_01a",
+    "near_speaker": "桜小路ルナ",
+    "near_text": "「せっかく人が心配してやったのに、その言い方はなんだ？」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/l09_01a.s",
+     "line": 1777,
+     "scene": "l09_01a"
+    },
+    {
+     "file": "scenario/本編/l09_01a.s",
+     "line": 2050,
+     "scene": "l09_01a"
+    },
+    {
+     "file": "scenario/本編/l09_01a.s",
+     "line": 2195,
+     "scene": "l09_01a"
+    }
+   ]
+  },
+  "EV/LUN05C": {
+   "refs": 6,
+   "first": {
+    "file": "scenario/本編/l09_01a.s",
+    "line": 1717,
+    "chapter": "本編",
+    "scene": "l09_01a",
+    "near_speaker": "桜小路ルナ",
+    "near_text": "「ああ良かった。朝日が無事で何よりだ」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/l09_01a.s",
+     "line": 1717,
+     "scene": "l09_01a"
+    },
+    {
+     "file": "scenario/本編/l09_01a.s",
+     "line": 1814,
+     "scene": "l09_01a"
+    },
+    {
+     "file": "scenario/本編/l09_01a.s",
+     "line": 2010,
+     "scene": "l09_01a"
+    },
+    {
+     "file": "scenario/本編/l09_01a.s",
+     "line": 2101,
+     "scene": "l09_01a"
+    },
+    {
+     "file": "scenario/本編/l09_01a.s",
+     "line": 2295,
+     "scene": "l09_01a"
+    },
+    {
+     "file": "scenario/本編/l11_02d.s",
+     "line": 3023,
+     "scene": "l11_02d"
+    }
+   ]
+  },
+  "EV/LUN06A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/l09_02b.s",
+    "line": 642,
+    "chapter": "本編",
+    "scene": "l09_02b",
+    "near_speaker": "ユルシュール",
+    "near_text": "「あら、普通に似合いますわ」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/l09_02b.s",
+     "line": 642,
+     "scene": "l09_02b"
+    }
+   ]
+  },
+  "EV/LUN06B": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/本編/l09_02b.s",
+    "line": 812,
+    "chapter": "本編",
+    "scene": "l09_02b",
+    "near_speaker": "桜小路ルナ",
+    "near_text": "「さぁあああひいいいいいいぃ！！！」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/l09_02b.s",
+     "line": 812,
+     "scene": "l09_02b"
+    },
+    {
+     "file": "scenario/本編/l11_02d.s",
+     "line": 2801,
+     "scene": "l11_02d"
+    }
+   ]
+  },
+  "EV/LUN07A": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/本編/l09_02e.s",
+    "line": 1435,
+    "chapter": "本編",
+    "scene": "l09_02e",
+    "near_speaker": "小倉朝日",
+    "near_text": "「裏切りません！」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/l09_02e.s",
+     "line": 1435,
+     "scene": "l09_02e"
+    },
+    {
+     "file": "scenario/本編/l09_02e.s",
+     "line": 1618,
+     "scene": "l09_02e"
+    }
+   ]
+  },
+  "EV/LUN07B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/l09_02e.s",
+    "line": 1747,
+    "chapter": "本編",
+    "scene": "l09_02e",
+    "near_speaker": "桜小路ルナ",
+    "near_text": "「今さら確かめるまでもなく、君が裏切らないことなんて、私が一番よく知っているんだ」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/l09_02e.s",
+     "line": 1747,
+     "scene": "l09_02e"
+    }
+   ]
+  },
+  "EV/LUN07C": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/l09_02e.s",
+    "line": 1898,
+    "chapter": "本編",
+    "scene": "l09_02e",
+    "near_speaker": "桜小路ルナ",
+    "near_text": "「んっ」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/l09_02e.s",
+     "line": 1898,
+     "scene": "l09_02e"
+    }
+   ]
+  },
+  "EV/LUN07D": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/アフター/l31_04c1.s",
+    "line": 2018,
+    "chapter": "アフター",
+    "scene": "l31_04c1",
+    "near_speaker": null,
+    "near_text": "空き教室で行われた、あの不純な行為のことだ。胸の高鳴りで言えば、僕の人生の中でも上位に入るかもしれない。"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/l31_04c1.s",
+     "line": 2018,
+     "scene": "l31_04c1"
+    },
+    {
+     "file": "scenario/本編/l10_01a.s",
+     "line": 2380,
+     "scene": "l10_01a"
+    }
+   ]
+  },
+  "EV/LUN07E": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/l10_01a.s",
+    "line": 2492,
+    "chapter": "本編",
+    "scene": "l10_01a",
+    "near_speaker": "小倉朝日",
+    "near_text": "「れろっ……」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/l10_01a.s",
+     "line": 2492,
+     "scene": "l10_01a"
+    }
+   ]
+  },
+  "EV/LUN08A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/l11_02d.s",
+    "line": 3365,
+    "chapter": "本編",
+    "scene": "l11_02d",
+    "near_speaker": "桜小路ルナ",
+    "near_text": "「ふざけるな！」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/l11_02d.s",
+     "line": 3365,
+     "scene": "l11_02d"
+    }
+   ]
+  },
+  "EV/LUN08B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/l11_02d.s",
+    "line": 3480,
+    "chapter": "本編",
+    "scene": "l11_02d",
+    "near_speaker": "桜小路ルナ",
+    "near_text": "「朝日……違うだろう？」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/l11_02d.s",
+     "line": 3480,
+     "scene": "l11_02d"
+    }
+   ]
+  },
+  "EV/LUN08C": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/l11_02d.s",
+    "line": 3595,
+    "chapter": "本編",
+    "scene": "l11_02d",
+    "near_speaker": null,
+    "near_text": "もはや彼女の顔は見られなかった。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/l11_02d.s",
+     "line": 3595,
+     "scene": "l11_02d"
+    }
+   ]
+  },
+  "EV/LUN09A": {
+   "refs": 3,
+   "first": {
+    "file": "scenario/アフター/l31_01a.s",
+    "line": 365,
+    "chapter": "アフター",
+    "scene": "l31_01a",
+    "near_speaker": null,
+    "near_text": "改めてご報告いたします。このぼくにも、恋人と呼べる方ができました。"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/l31_01a.s",
+     "line": 365,
+     "scene": "l31_01a"
+    },
+    {
+     "file": "scenario/アフター/l31_01a.s",
+     "line": 486,
+     "scene": "l31_01a"
+    },
+    {
+     "file": "scenario/本編/l12_03a.s",
+     "line": 440,
+     "scene": "l12_03a"
+    }
+   ]
+  },
+  "EV/LUN09B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/l12_03a.s",
+    "line": 668,
+    "chapter": "本編",
+    "scene": "l12_03a",
+    "near_speaker": "桜小路ルナ",
+    "near_text": "「君は相変わらずだな」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/l12_03a.s",
+     "line": 668,
+     "scene": "l12_03a"
+    }
+   ]
+  },
+  "EV/LUN09C": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/l12_03a.s",
+    "line": 810,
+    "chapter": "本編",
+    "scene": "l12_03a",
+    "near_speaker": "桜小路ルナ",
+    "near_text": "「ありがとう……！」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/l12_03a.s",
+     "line": 810,
+     "scene": "l12_03a"
+    }
+   ]
+  },
+  "EV/LUN10A": {
+   "refs": 3,
+   "first": {
+    "file": "scenario/アフター/l31_02c.s",
+    "line": 633,
+    "chapter": "アフター",
+    "scene": "l31_02c",
+    "near_speaker": null,
+    "near_text": "ルナとのあの会話を思いだすと嬉しいと共に懐かしい。まだほんの二週間前のことなのに。"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/l31_02c.s",
+     "line": 633,
+     "scene": "l31_02c"
+    },
+    {
+     "file": "scenario/本編/l12_03c.s",
+     "line": 176,
+     "scene": "l12_03c"
+    },
+    {
+     "file": "scenario/本編/l12_03c.s",
+     "line": 663,
+     "scene": "l12_03c"
+    }
+   ]
+  },
+  "EV/LUN10B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/l12_03c.s",
+    "line": 747,
+    "chapter": "本編",
+    "scene": "l12_03c",
+    "near_speaker": null,
+    "near_text": "いつの間にか、涙がこぼれ始めていた。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/l12_03c.s",
+     "line": 747,
+     "scene": "l12_03c"
+    }
+   ]
+  },
+  "EV/LUN11A": {
+   "refs": 3,
+   "first": {
+    "file": "scenario/本編/l12_04d0.s",
+    "line": 686,
+    "chapter": "本編",
+    "scene": "l12_04d0",
+    "near_speaker": "大蔵遊星",
+    "near_text": "「今日はお疲れ様。本当に素敵だった」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/l12_04d0.s",
+     "line": 686,
+     "scene": "l12_04d0"
+    },
+    {
+     "file": "scenario/本編/l12_04d0.s",
+     "line": 876,
+     "scene": "l12_04d0"
+    },
+    {
+     "file": "scenario/本編/l12_04d3.s",
+     "line": 185,
+     "scene": "l12_04d3"
+    }
+   ]
+  },
+  "EV/LUN11B": {
+   "refs": 4,
+   "first": {
+    "file": "scenario/本編/l12_04d0.s",
+    "line": 1030,
+    "chapter": "本編",
+    "scene": "l12_04d0",
+    "near_speaker": "桜小路ルナ",
+    "near_text": "「ん……だからその話は恥ずかしいからあまりするな」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/l12_04d0.s",
+     "line": 1030,
+     "scene": "l12_04d0"
+    },
+    {
+     "file": "scenario/本編/l12_04d1.s",
+     "line": 590,
+     "scene": "l12_04d1"
+    },
+    {
+     "file": "scenario/本編/l12_04d2.s",
+     "line": 184,
+     "scene": "l12_04d2"
+    },
+    {
+     "file": "scenario/本編/l12_04d3.s",
+     "line": 69,
+     "scene": "l12_04d3"
+    }
+   ]
+  },
+  "EV/LUN11C": {
+   "refs": 9,
+   "first": {
+    "file": "scenario/本編/l12_04d0.s",
+    "line": 796,
+    "chapter": "本編",
+    "scene": "l12_04d0",
+    "near_speaker": "桜小路ルナ",
+    "near_text": "「ちっ、まんまと喜んでしまった……とても気分がいい」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/l12_04d0.s",
+     "line": 796,
+     "scene": "l12_04d0"
+    },
+    {
+     "file": "scenario/本編/l12_04d0.s",
+     "line": 1106,
+     "scene": "l12_04d0"
+    },
+    {
+     "file": "scenario/本編/l12_04d1.s",
+     "line": 78,
+     "scene": "l12_04d1"
+    },
+    {
+     "file": "scenario/本編/l12_04d1.s",
+     "line": 181,
+     "scene": "l12_04d1"
+    },
+    {
+     "file": "scenario/本編/l12_04d1.s",
+     "line": 497,
+     "scene": "l12_04d1"
+    },
+    {
+     "file": "scenario/本編/l12_04d2.s",
+     "line": 69,
+     "scene": "l12_04d2"
+    },
+    {
+     "file": "scenario/本編/l12_04d3.s",
+     "line": 223,
+     "scene": "l12_04d3"
+    },
+    {
+     "file": "scenario/本編/l12_04d4.s",
+     "line": 69,
+     "scene": "l12_04d4"
+    },
+    {
+     "file": "scenario/本編/l12_04d5.s",
+     "line": 80,
+     "scene": "l12_04d5"
+    }
+   ]
+  },
+  "EV/LUN11D": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/l12_04d1.s",
+    "line": 758,
+    "chapter": "本編",
+    "scene": "l12_04d1",
+    "near_speaker": "桜小路ルナ",
+    "near_text": "「……ん」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/l12_04d1.s",
+     "line": 758,
+     "scene": "l12_04d1"
+    }
+   ]
+  },
+  "EV/LUN12A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/l12_03b.s",
+    "line": 141,
+    "chapter": "本編",
+    "scene": "l12_03b",
+    "near_speaker": null,
+    "near_text": "ルナをベッドへ横たわらせ、僕は彼女の顔を上から眺めていた。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/l12_03b.s",
+     "line": 141,
+     "scene": "l12_03b"
+    }
+   ]
+  },
+  "EV/LUN12B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/l12_03b.s",
+    "line": 759,
+    "chapter": "本編",
+    "scene": "l12_03b",
+    "near_speaker": null,
+    "near_text": "シャツを開くと、生地より白いルナの肌が露になった。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/l12_03b.s",
+     "line": 759,
+     "scene": "l12_03b"
+    }
+   ]
+  },
+  "EV/LUN12C": {
+   "refs": 3,
+   "first": {
+    "file": "scenario/本編/l12_03b.s",
+    "line": 1189,
+    "chapter": "本編",
+    "scene": "l12_03b",
+    "near_speaker": "桜小路ルナ",
+    "near_text": "「ふふ、ふふふふ……これは相当に恥ずかしくなってきたぞ？」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/l12_03b.s",
+     "line": 1189,
+     "scene": "l12_03b"
+    },
+    {
+     "file": "scenario/本編/l12_03b.s",
+     "line": 1320,
+     "scene": "l12_03b"
+    },
+    {
+     "file": "scenario/本編/l12_03b.s",
+     "line": 1527,
+     "scene": "l12_03b"
+    }
+   ]
+  },
+  "EV/LUN12D": {
+   "refs": 3,
+   "first": {
+    "file": "scenario/本編/l12_03b.s",
+    "line": 1254,
+    "chapter": "本編",
+    "scene": "l12_03b",
+    "near_speaker": "桜小路ルナ",
+    "near_text": "「臆病と言いたいのか」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/l12_03b.s",
+     "line": 1254,
+     "scene": "l12_03b"
+    },
+    {
+     "file": "scenario/本編/l12_03b.s",
+     "line": 1598,
+     "scene": "l12_03b"
+    },
+    {
+     "file": "scenario/本編/l12_03b.s",
+     "line": 1822,
+     "scene": "l12_03b"
+    }
+   ]
+  },
+  "EV/LUN13A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/l12_03b.s",
+    "line": 2286,
+    "chapter": "本編",
+    "scene": "l12_03b",
+    "near_speaker": "桜小路ルナ",
+    "near_text": "「朝日の体におかしなものが付いている……」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/l12_03b.s",
+     "line": 2286,
+     "scene": "l12_03b"
+    }
+   ]
+  },
+  "EV/LUN13B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/l12_03b.s",
+    "line": 2643,
+    "chapter": "本編",
+    "scene": "l12_03b",
+    "near_speaker": "桜小路ルナ",
+    "near_text": "「んくッ……！」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/l12_03b.s",
+     "line": 2643,
+     "scene": "l12_03b"
+    }
+   ]
+  },
+  "EV/LUN13C": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/l12_03b.s",
+    "line": 2912,
+    "chapter": "本編",
+    "scene": "l12_03b",
+    "near_speaker": "桜小路ルナ",
+    "near_text": "「あッ、ぐあっ……！　ああああっ、くうッ……！」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/l12_03b.s",
+     "line": 2912,
+     "scene": "l12_03b"
+    }
+   ]
+  },
+  "EV/LUN13D": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/l12_03b.s",
+    "line": 3145,
+    "chapter": "本編",
+    "scene": "l12_03b",
+    "near_speaker": "桜小路ルナ",
+    "near_text": "「これ、で……どうだろう？　興奮、しないか？」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/l12_03b.s",
+     "line": 3145,
+     "scene": "l12_03b"
+    }
+   ]
+  },
+  "EV/LUN14A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/l12_03b.s",
+    "line": 3583,
+    "chapter": "本編",
+    "scene": "l12_03b",
+    "near_speaker": null,
+    "near_text": "これなら……自分で好きなような体を動かすことができる……。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/l12_03b.s",
+     "line": 3583,
+     "scene": "l12_03b"
+    }
+   ]
+  },
+  "EV/LUN14B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/l12_03b.s",
+    "line": 3735,
+    "chapter": "本編",
+    "scene": "l12_03b",
+    "near_speaker": "小倉朝日",
+    "near_text": "「ルナ様っ……ルナ様、ルナ様あっ……大好きです……もっと心を感じさせてください……」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/l12_03b.s",
+     "line": 3735,
+     "scene": "l12_03b"
+    }
+   ]
+  },
+  "EV/LUN14C": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/l12_03b.s",
+    "line": 4065,
+    "chapter": "本編",
+    "scene": "l12_03b",
+    "near_speaker": "小倉朝日",
+    "near_text": "「ルナ様……ルナ様あああああっ！」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/l12_03b.s",
+     "line": 4065,
+     "scene": "l12_03b"
+    }
+   ]
+  },
+  "EV/LUN14D": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/l12_03b.s",
+    "line": 4118,
+    "chapter": "本編",
+    "scene": "l12_03b",
+    "near_speaker": "桜小路ルナ",
+    "near_text": "「気持ちよかったか？」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/l12_03b.s",
+     "line": 4118,
+     "scene": "l12_03b"
+    }
+   ]
+  },
+  "EV/LUN15A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/l12_04d1.s",
+    "line": 880,
+    "chapter": "本編",
+    "scene": "l12_04d1",
+    "near_speaker": null,
+    "near_text": "そしていざ触れてみると、ルナの足は折れそうなくらい細いということを実感した。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/l12_04d1.s",
+     "line": 880,
+     "scene": "l12_04d1"
+    }
+   ]
+  },
+  "EV/LUN15B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/l12_04d1.s",
+    "line": 1129,
+    "chapter": "本編",
+    "scene": "l12_04d1",
+    "near_speaker": "桜小路ルナ",
+    "near_text": "「えっ……」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/l12_04d1.s",
+     "line": 1129,
+     "scene": "l12_04d1"
+    }
+   ]
+  },
+  "EV/LUN15C": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/l12_04d1.s",
+    "line": 1505,
+    "chapter": "本編",
+    "scene": "l12_04d1",
+    "near_speaker": "桜小路ルナ",
+    "near_text": "「あっ……ああああああっ！」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/l12_04d1.s",
+     "line": 1505,
+     "scene": "l12_04d1"
+    }
+   ]
+  },
+  "EV/LUN15D": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/l12_04d1.s",
+    "line": 1662,
+    "chapter": "本編",
+    "scene": "l12_04d1",
+    "near_speaker": "桜小路ルナ",
+    "near_text": "「あっ！　やっ、なんだ、こんなのっ……はっ、聞いてないっ……」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/l12_04d1.s",
+     "line": 1662,
+     "scene": "l12_04d1"
+    }
+   ]
+  },
+  "EV/LUN16A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/l12_04d1.s",
+    "line": 1787,
+    "chapter": "本編",
+    "scene": "l12_04d1",
+    "near_speaker": "桜小路ルナ",
+    "near_text": "「はああっ、あっ、ううっ……な、なんだこの体勢っ……こんなの、やだっ……」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/l12_04d1.s",
+     "line": 1787,
+     "scene": "l12_04d1"
+    }
+   ]
+  },
+  "EV/LUN16B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/l12_04d1.s",
+    "line": 1925,
+    "chapter": "本編",
+    "scene": "l12_04d1",
+    "near_speaker": "桜小路ルナ",
+    "near_text": "「あああっ、あっ、ふあああっ……ああっ、あっ……ああっ……！」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/l12_04d1.s",
+     "line": 1925,
+     "scene": "l12_04d1"
+    }
+   ]
+  },
+  "EV/LUN16C": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/l12_04d1.s",
+    "line": 2091,
+    "chapter": "本編",
+    "scene": "l12_04d1",
+    "near_speaker": null,
+    "near_text": "体の奥から迸る溜まった愛情の全てをルナの体に飛びちらせた。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/l12_04d1.s",
+     "line": 2091,
+     "scene": "l12_04d1"
+    }
+   ]
+  },
+  "EV/LUN16D": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/l12_04d1.s",
+    "line": 2132,
+    "chapter": "本編",
+    "scene": "l12_04d1",
+    "near_speaker": "桜小路ルナ",
+    "near_text": "「ああ……あー……気持ちよかった……」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/l12_04d1.s",
+     "line": 2132,
+     "scene": "l12_04d1"
+    }
+   ]
+  },
+  "EV/LUN18A": {
+   "refs": 3,
+   "first": {
+    "file": "scenario/本編/l12_04d5.s",
+    "line": 600,
+    "chapter": "本編",
+    "scene": "l12_04d5",
+    "near_speaker": null,
+    "near_text": "でもやはり目の前にいられるのは、とても恥ずかしい思いをした。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/l12_04d5.s",
+     "line": 600,
+     "scene": "l12_04d5"
+    },
+    {
+     "file": "scenario/本編/l12_04d5.s",
+     "line": 996,
+     "scene": "l12_04d5"
+    },
+    {
+     "file": "scenario/本編/l12_04d5.s",
+     "line": 1222,
+     "scene": "l12_04d5"
+    }
+   ]
+  },
+  "EV/LUN18B": {
+   "refs": 5,
+   "first": {
+    "file": "scenario/本編/l12_04d5.s",
+    "line": 887,
+    "chapter": "本編",
+    "scene": "l12_04d5",
+    "near_speaker": null,
+    "near_text": "だけどその糸をルナ様が無理やり括りつけて操り人形を復活させた。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/l12_04d5.s",
+     "line": 887,
+     "scene": "l12_04d5"
+    },
+    {
+     "file": "scenario/本編/l12_04d5.s",
+     "line": 1084,
+     "scene": "l12_04d5"
+    },
+    {
+     "file": "scenario/本編/l12_04d5.s",
+     "line": 1346,
+     "scene": "l12_04d5"
+    },
+    {
+     "file": "scenario/本編/l12_04d5.s",
+     "line": 1381,
+     "scene": "l12_04d5"
+    },
+    {
+     "file": "scenario/本編/l12_04d5.s",
+     "line": 1479,
+     "scene": "l12_04d5"
+    }
+   ]
+  },
+  "EV/LUN18C": {
+   "refs": 3,
+   "first": {
+    "file": "scenario/本編/l12_04d5.s",
+    "line": 1360,
+    "chapter": "本編",
+    "scene": "l12_04d5",
+    "near_speaker": "桜小路ルナ",
+    "near_text": "「声」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/l12_04d5.s",
+     "line": 1360,
+     "scene": "l12_04d5"
+    },
+    {
+     "file": "scenario/本編/l12_04d5.s",
+     "line": 1455,
+     "scene": "l12_04d5"
+    },
+    {
+     "file": "scenario/本編/l12_04d5.s",
+     "line": 1542,
+     "scene": "l12_04d5"
+    }
+   ]
+  },
+  "EV/LUN18D": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/l12_04d5.s",
+    "line": 1767,
+    "chapter": "本編",
+    "scene": "l12_04d5",
+    "near_speaker": "桜小路ルナ",
+    "near_text": "「んむっ！？　んむっ、ぐっ、んむむっ……！　んむっ……じゅるっ、じゅるぅ……ごくん」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/l12_04d5.s",
+     "line": 1767,
+     "scene": "l12_04d5"
+    }
+   ]
+  },
+  "EV/LUN18E": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/l12_04d5.s",
+    "line": 1818,
+    "chapter": "本編",
+    "scene": "l12_04d5",
+    "near_speaker": null,
+    "near_text": "ルナ様の中で、僕の扱いは芸をひとつ覚えた犬のようだった。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/l12_04d5.s",
+     "line": 1818,
+     "scene": "l12_04d5"
+    }
+   ]
+  },
+  "EV/LUN19A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/l12_04d5.s",
+    "line": 2185,
+    "chapter": "本編",
+    "scene": "l12_04d5",
+    "near_speaker": "桜小路ルナ",
+    "near_text": "「いいなこれ」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/l12_04d5.s",
+     "line": 2185,
+     "scene": "l12_04d5"
+    }
+   ]
+  },
+  "EV/LUN19B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/l12_04d5.s",
+    "line": 2434,
+    "chapter": "本編",
+    "scene": "l12_04d5",
+    "near_speaker": null,
+    "near_text": "ぬぷり。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/l12_04d5.s",
+     "line": 2434,
+     "scene": "l12_04d5"
+    }
+   ]
+  },
+  "EV/LUN19C": {
+   "refs": 3,
+   "first": {
+    "file": "scenario/本編/l12_04d5.s",
+    "line": 2744,
+    "chapter": "本編",
+    "scene": "l12_04d5",
+    "near_speaker": "小倉朝日",
+    "near_text": "「うううっ……うくっ、ひうっ……！」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/l12_04d5.s",
+     "line": 2744,
+     "scene": "l12_04d5"
+    },
+    {
+     "file": "scenario/本編/l12_04d6.s",
+     "line": 220,
+     "scene": "l12_04d6"
+    },
+    {
+     "file": "scenario/本編/l12_04d7.s",
+     "line": 226,
+     "scene": "l12_04d7"
+    }
+   ]
+  },
+  "EV/LUN19D": {
+   "refs": 5,
+   "first": {
+    "file": "scenario/本編/l12_04d5.s",
+    "line": 2905,
+    "chapter": "本編",
+    "scene": "l12_04d5",
+    "near_speaker": null,
+    "near_text": "どうしよう。このままだと多分果てて、そのまま終わりにできそうな気がする。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/l12_04d5.s",
+     "line": 2905,
+     "scene": "l12_04d5"
+    },
+    {
+     "file": "scenario/本編/l12_04d6.s",
+     "line": 70,
+     "scene": "l12_04d6"
+    },
+    {
+     "file": "scenario/本編/l12_04d6.s",
+     "line": 229,
+     "scene": "l12_04d6"
+    },
+    {
+     "file": "scenario/本編/l12_04d7.s",
+     "line": 70,
+     "scene": "l12_04d7"
+    },
+    {
+     "file": "scenario/本編/l12_04d7.s",
+     "line": 241,
+     "scene": "l12_04d7"
+    }
+   ]
+  },
+  "EV/LUN19E": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/l12_04d6.s",
+    "line": 417,
+    "chapter": "本編",
+    "scene": "l12_04d6",
+    "near_speaker": null,
+    "near_text": "乳牛のように搾りだされた僕の精液は、ぼたぼたとベッドの上へ垂れおちていった。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/l12_04d6.s",
+     "line": 417,
+     "scene": "l12_04d6"
+    }
+   ]
+  },
+  "EV/LUN20A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/l12_04d7.s",
+    "line": 350,
+    "chapter": "本編",
+    "scene": "l12_04d7",
+    "near_speaker": "桜小路ルナ",
+    "near_text": "「では始める」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/l12_04d7.s",
+     "line": 350,
+     "scene": "l12_04d7"
+    }
+   ]
+  },
+  "EV/LUN20B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/l12_04d7.s",
+    "line": 605,
+    "chapter": "本編",
+    "scene": "l12_04d7",
+    "near_speaker": "小倉朝日",
+    "near_text": "「――～～～ああああぁぁぁっっ！」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/l12_04d7.s",
+     "line": 605,
+     "scene": "l12_04d7"
+    }
+   ]
+  },
+  "EV/LUN20C": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/l12_04d7.s",
+    "line": 1023,
+    "chapter": "本編",
+    "scene": "l12_04d7",
+    "near_speaker": null,
+    "near_text": "今日は既に一度出しているにも関わらず、僕は自分の顔に汚れたものが到達してしまうほどに噴きだした。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/l12_04d7.s",
+     "line": 1023,
+     "scene": "l12_04d7"
+    }
+   ]
+  },
+  "EV/LUN20D": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/l12_04d7.s",
+    "line": 1043,
+    "chapter": "本編",
+    "scene": "l12_04d7",
+    "near_speaker": "小倉朝日",
+    "near_text": "「はっ……はあ、はっ……ルナ様……」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/l12_04d7.s",
+     "line": 1043,
+     "scene": "l12_04d7"
+    }
+   ]
+  },
+  "EV/LUN23A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/l12_04b.s",
+    "line": 254,
+    "chapter": "本編",
+    "scene": "l12_04b",
+    "near_speaker": null,
+    "near_text": "――そこにあったのは、歓声、熱狂、万雷の拍手。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/l12_04b.s",
+     "line": 254,
+     "scene": "l12_04b"
+    }
+   ]
+  },
+  "EV/LUN24A": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/本編/l12_05a.s",
+    "line": 190,
+    "chapter": "本編",
+    "scene": "l12_05a",
+    "near_speaker": null,
+    "near_text": "まだ僕には気付いてない様子だった。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/l12_05a.s",
+     "line": 190,
+     "scene": "l12_05a"
+    },
+    {
+     "file": "scenario/本編/l12_05a.s",
+     "line": 295,
+     "scene": "l12_05a"
+    }
+   ]
+  },
+  "EV/LUN24B": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/本編/l12_05a.s",
+    "line": 224,
+    "chapter": "本編",
+    "scene": "l12_05a",
+    "near_speaker": "桜小路ルナ",
+    "near_text": "「ん、起きたのか」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/l12_05a.s",
+     "line": 224,
+     "scene": "l12_05a"
+    },
+    {
+     "file": "scenario/本編/l12_05a.s",
+     "line": 329,
+     "scene": "l12_05a"
+    }
+   ]
+  },
+  "EV/LUN24C": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/アフター/l31_01a.s",
+    "line": 944,
+    "chapter": "アフター",
+    "scene": "l31_01a",
+    "near_speaker": null,
+    "near_text": "僕たちの願いが叶ったショーの日の夜、僕はルナと毛布に包まりながら母親の話をしたんだ。"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/l31_01a.s",
+     "line": 944,
+     "scene": "l31_01a"
+    },
+    {
+     "file": "scenario/本編/l12_05a.s",
+     "line": 523,
+     "scene": "l12_05a"
+    }
+   ]
+  },
+  "EV/LUN25A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/l99_01a.s",
+    "line": 736,
+    "chapter": "本編",
+    "scene": "l99_01a",
+    "near_speaker": null,
+    "near_text": "そこにあるのは僕の衣装。今年のルナ様はメンズのデザインを描いてきた。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/l99_01a.s",
+     "line": 736,
+     "scene": "l99_01a"
+    }
+   ]
+  },
+  "EV/LUN25B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/l99_01a.s",
+    "line": 895,
+    "chapter": "本編",
+    "scene": "l99_01a",
+    "near_speaker": null,
+    "near_text": "アトリエに残る僕たちは微笑みあう。まだ作りかけの衣装を見つめ、その完成する日の夢を見る。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/l99_01a.s",
+     "line": 895,
+     "scene": "l99_01a"
+    }
+   ]
+  },
+  "EV/MER01A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/エイプリル/aeon2200.s",
+    "line": 2143,
+    "chapter": "エイプリル",
+    "scene": "aeon2200",
+    "near_speaker": "メリル",
+    "near_text": "「ほら全然恥ずかしくない。これが私の登場シーンだよ」"
+   },
+   "places": [
+    {
+     "file": "scenario/エイプリル/aeon2200.s",
+     "line": 2143,
+     "scene": "aeon2200"
+    }
+   ]
+  },
+  "EV/MIN01A": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/本編/c03_02b.s",
+    "line": 1053,
+    "chapter": "本編",
+    "scene": "c03_02b",
+    "near_speaker": "女性客",
+    "near_text": "「いやあ平気平気。生地が無事で良かった、たはは。たっはっは」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c03_02b.s",
+     "line": 1053,
+     "scene": "c03_02b"
+    },
+    {
+     "file": "scenario/本編/l12_04a.s",
+     "line": 387,
+     "scene": "l12_04a"
+    }
+   ]
+  },
+  "EV/MIN01B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/c03_02b.s",
+    "line": 1215,
+    "chapter": "本編",
+    "scene": "c03_02b",
+    "near_speaker": "女性客",
+    "near_text": "「わっ！」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c03_02b.s",
+     "line": 1215,
+     "scene": "c03_02b"
+    }
+   ]
+  },
+  "EV/MIN02A": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/本編/c04_01b.s",
+    "line": 1560,
+    "chapter": "本編",
+    "scene": "c04_01b",
+    "near_speaker": null,
+    "near_text": "思いだすと恥ずかしいけど「僕がずっと湊の側にいてあげるから」って何度も声掛けたんだよ。あの時は湊が目を閉じたから慌てちゃ"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c04_01b.s",
+     "line": 1560,
+     "scene": "c04_01b"
+    },
+    {
+     "file": "scenario/本編/c04_03c.s",
+     "line": 1244,
+     "scene": "c04_03c"
+    }
+   ]
+  },
+  "EV/MIN02B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/c04_01b.s",
+    "line": 1543,
+    "chapter": "本編",
+    "scene": "c04_01b",
+    "near_speaker": "柳ヶ瀬湊",
+    "near_text": "「たはは、それは覚えてなくて……そだ！　次に会ったら、あの時なんて言ってたのかも聞きたいな。私の名前を何度も呼んでくれた"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c04_01b.s",
+     "line": 1543,
+     "scene": "c04_01b"
+    }
+   ]
+  },
+  "EV/MIN03A": {
+   "refs": 3,
+   "first": {
+    "file": "scenario/本編/c04_03c.s",
+    "line": 554,
+    "chapter": "本編",
+    "scene": "c04_03c",
+    "near_speaker": "小倉朝日",
+    "near_text": "「木登り……あの、こんな時間に何をしているんですか、湊様……」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c04_03c.s",
+     "line": 554,
+     "scene": "c04_03c"
+    },
+    {
+     "file": "scenario/本編/c04_03c.s",
+     "line": 639,
+     "scene": "c04_03c"
+    },
+    {
+     "file": "scenario/本編/c04_03c.s",
+     "line": 829,
+     "scene": "c04_03c"
+    }
+   ]
+  },
+  "EV/MIN03B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/c04_03c.s",
+    "line": 756,
+    "chapter": "本編",
+    "scene": "c04_03c",
+    "near_speaker": null,
+    "near_text": "しかも片手を離してぶんぶん振ってる！　お願いだから危ないことしないで！"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c04_03c.s",
+     "line": 756,
+     "scene": "c04_03c"
+    }
+   ]
+  },
+  "EV/MIN03C": {
+   "refs": 5,
+   "first": {
+    "file": "scenario/本編/c04_03c.s",
+    "line": 509,
+    "chapter": "本編",
+    "scene": "c04_03c",
+    "near_speaker": "柳ヶ瀬湊",
+    "near_text": "「どしたの？　私の部屋で何してるの？」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c04_03c.s",
+     "line": 509,
+     "scene": "c04_03c"
+    },
+    {
+     "file": "scenario/本編/c04_03c.s",
+     "line": 608,
+     "scene": "c04_03c"
+    },
+    {
+     "file": "scenario/本編/c04_03c.s",
+     "line": 798,
+     "scene": "c04_03c"
+    },
+    {
+     "file": "scenario/本編/c04_03c.s",
+     "line": 871,
+     "scene": "c04_03c"
+    },
+    {
+     "file": "scenario/本編/y11_02a.s",
+     "line": 2984,
+     "scene": "y11_02a"
+    }
+   ]
+  },
+  "EV/MIN04A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/c04_03c.s",
+    "line": 1051,
+    "chapter": "本編",
+    "scene": "c04_03c",
+    "near_speaker": null,
+    "near_text": "痛いけど、お尻をさすることもできない。湊を支える腕を離すわけにはいかなかったからだ。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c04_03c.s",
+     "line": 1051,
+     "scene": "c04_03c"
+    }
+   ]
+  },
+  "EV/MIN04B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/c04_03c.s",
+    "line": 1173,
+    "chapter": "本編",
+    "scene": "c04_03c",
+    "near_speaker": "柳ヶ瀬湊",
+    "near_text": "「何があったって……ゆうちょ？」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c04_03c.s",
+     "line": 1173,
+     "scene": "c04_03c"
+    }
+   ]
+  },
+  "EV/MIN04C": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/c04_03c.s",
+    "line": 1301,
+    "chapter": "本編",
+    "scene": "c04_03c",
+    "near_speaker": "柳ヶ瀬湊",
+    "near_text": "「朝日の声じゃなかった、ゆうちょの声だった！　普段の朝日と似てるけど全然違う……心から私を心配してくれてる素の声だった！"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c04_03c.s",
+     "line": 1301,
+     "scene": "c04_03c"
+    }
+   ]
+  },
+  "EV/MIN04D": {
+   "refs": 3,
+   "first": {
+    "file": "scenario/本編/c04_03c.s",
+    "line": 1443,
+    "chapter": "本編",
+    "scene": "c04_03c",
+    "near_speaker": null,
+    "near_text": "それなりの強さで固定してあるウィッグだけど、人間一人の重さには耐えきれず、無惨にもずるりと斜め方向へずれた。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c04_03c.s",
+     "line": 1443,
+     "scene": "c04_03c"
+    },
+    {
+     "file": "scenario/本編/c04_04a.s",
+     "line": 578,
+     "scene": "c04_04a"
+    },
+    {
+     "file": "scenario/本編/c04_04a.s",
+     "line": 969,
+     "scene": "c04_04a"
+    }
+   ]
+  },
+  "EV/MIN05A": {
+   "refs": 4,
+   "first": {
+    "file": "scenario/本編/y08_03b.s",
+    "line": 1207,
+    "chapter": "本編",
+    "scene": "y08_03b",
+    "near_speaker": "小倉朝日",
+    "near_text": "「でも、うん、この部屋はないね」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y08_03b.s",
+     "line": 1207,
+     "scene": "y08_03b"
+    },
+    {
+     "file": "scenario/本編/y08_03b.s",
+     "line": 1335,
+     "scene": "y08_03b"
+    },
+    {
+     "file": "scenario/本編/y08_03b.s",
+     "line": 1514,
+     "scene": "y08_03b"
+    },
+    {
+     "file": "scenario/本編/y08_03b.s",
+     "line": 1744,
+     "scene": "y08_03b"
+    }
+   ]
+  },
+  "EV/MIN05B": {
+   "refs": 4,
+   "first": {
+    "file": "scenario/本編/y08_03b.s",
+    "line": 1233,
+    "chapter": "本編",
+    "scene": "y08_03b",
+    "near_speaker": null,
+    "near_text": "柳ヶ瀬の家の湊の部屋には、とても子宝に恵まれそうなインテリアがいたるところに配置されていた。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y08_03b.s",
+     "line": 1233,
+     "scene": "y08_03b"
+    },
+    {
+     "file": "scenario/本編/y08_03b.s",
+     "line": 1268,
+     "scene": "y08_03b"
+    },
+    {
+     "file": "scenario/本編/y08_03b.s",
+     "line": 1418,
+     "scene": "y08_03b"
+    },
+    {
+     "file": "scenario/本編/y08_03b.s",
+     "line": 1611,
+     "scene": "y08_03b"
+    }
+   ]
+  },
+  "EV/MIN05C": {
+   "refs": 3,
+   "first": {
+    "file": "scenario/本編/y08_03b.s",
+    "line": 1428,
+    "chapter": "本編",
+    "scene": "y08_03b",
+    "near_speaker": "小倉朝日",
+    "near_text": "「……湊？」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y08_03b.s",
+     "line": 1428,
+     "scene": "y08_03b"
+    },
+    {
+     "file": "scenario/本編/y08_03b.s",
+     "line": 1602,
+     "scene": "y08_03b"
+    },
+    {
+     "file": "scenario/本編/y08_03b.s",
+     "line": 1814,
+     "scene": "y08_03b"
+    }
+   ]
+  },
+  "EV/MIN05D": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/本編/y08_03b.s",
+    "line": 1297,
+    "chapter": "本編",
+    "scene": "y08_03b",
+    "near_speaker": "小倉朝日",
+    "near_text": "「あはは……愉快なお父さんだとは思うけどね」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y08_03b.s",
+     "line": 1297,
+     "scene": "y08_03b"
+    },
+    {
+     "file": "scenario/本編/y08_03b.s",
+     "line": 1587,
+     "scene": "y08_03b"
+    }
+   ]
+  },
+  "EV/MIN06A": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/本編/y08_04a.s",
+    "line": 455,
+    "chapter": "本編",
+    "scene": "y08_04a",
+    "near_speaker": "柳ヶ瀬湊",
+    "near_text": "「どっせーい！」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y08_04a.s",
+     "line": 455,
+     "scene": "y08_04a"
+    },
+    {
+     "file": "scenario/本編/y08_04a.s",
+     "line": 902,
+     "scene": "y08_04a"
+    }
+   ]
+  },
+  "EV/MIN06B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/y08_04a.s",
+    "line": 673,
+    "chapter": "本編",
+    "scene": "y08_04a",
+    "near_speaker": "小倉朝日",
+    "near_text": "「来年も。一緒に来たいね」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y08_04a.s",
+     "line": 673,
+     "scene": "y08_04a"
+    }
+   ]
+  },
+  "EV/MIN06C": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/本編/y08_04a.s",
+    "line": 578,
+    "chapter": "本編",
+    "scene": "y08_04a",
+    "near_speaker": null,
+    "near_text": "湊はご立腹だった。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y08_04a.s",
+     "line": 578,
+     "scene": "y08_04a"
+    },
+    {
+     "file": "scenario/本編/y08_04a.s",
+     "line": 933,
+     "scene": "y08_04a"
+    }
+   ]
+  },
+  "EV/MIN06D": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/y08_04a.s",
+    "line": 726,
+    "chapter": "本編",
+    "scene": "y08_04a",
+    "near_speaker": null,
+    "near_text": "湊にしては珍しい、やや真面目なトーンの声だった。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y08_04a.s",
+     "line": 726,
+     "scene": "y08_04a"
+    }
+   ]
+  },
+  "EV/MIN07A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/y09_02a.s",
+    "line": 258,
+    "chapter": "本編",
+    "scene": "y09_02a",
+    "near_speaker": "柳ヶ瀬湊",
+    "near_text": "「ち、チラシあげるぴょん」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y09_02a.s",
+     "line": 258,
+     "scene": "y09_02a"
+    }
+   ]
+  },
+  "EV/MIN07B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/y09_02a.s",
+    "line": 303,
+    "chapter": "本編",
+    "scene": "y09_02a",
+    "near_speaker": "小倉朝日",
+    "near_text": "「だ、だから、あんまり他のひとに見せてほしくない……」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y09_02a.s",
+     "line": 303,
+     "scene": "y09_02a"
+    }
+   ]
+  },
+  "EV/MIN07C": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/y09_02a.s",
+    "line": 462,
+    "chapter": "本編",
+    "scene": "y09_02a",
+    "near_speaker": null,
+    "near_text": "湊の顔が目に見えて真っ赤になった。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y09_02a.s",
+     "line": 462,
+     "scene": "y09_02a"
+    }
+   ]
+  },
+  "EV/MIN08A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/y09_02a.s",
+    "line": 631,
+    "chapter": "本編",
+    "scene": "y09_02a",
+    "near_speaker": "柳ヶ瀬湊",
+    "near_text": "「ここまであからさまに嫌がらせされるとは思ってなかった」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y09_02a.s",
+     "line": 631,
+     "scene": "y09_02a"
+    }
+   ]
+  },
+  "EV/MIN08B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/y09_02a.s",
+    "line": 678,
+    "chapter": "本編",
+    "scene": "y09_02a",
+    "near_speaker": "柳ヶ瀬湊",
+    "near_text": "「ゆうちょがそんな風に言ってくれるなら、卒業までずっと頑張れる」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y09_02a.s",
+     "line": 678,
+     "scene": "y09_02a"
+    }
+   ]
+  },
+  "EV/MIN08C": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/y09_02a.s",
+    "line": 687,
+    "chapter": "本編",
+    "scene": "y09_02a",
+    "near_speaker": null,
+    "near_text": "湊は笑った。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y09_02a.s",
+     "line": 687,
+     "scene": "y09_02a"
+    }
+   ]
+  },
+  "EV/MIN09A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/y10_01a.s",
+    "line": 2065,
+    "chapter": "本編",
+    "scene": "y10_01a",
+    "near_speaker": null,
+    "near_text": "僕は湊に近づいて、彼女の目を真近で覗きこむ。はにかむような、恥じらうような……。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y10_01a.s",
+     "line": 2065,
+     "scene": "y10_01a"
+    }
+   ]
+  },
+  "EV/MIN09B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/y10_01a.s",
+    "line": 2114,
+    "chapter": "本編",
+    "scene": "y10_01a",
+    "near_speaker": "柳ヶ瀬湊",
+    "near_text": "「んっ……」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y10_01a.s",
+     "line": 2114,
+     "scene": "y10_01a"
+    }
+   ]
+  },
+  "EV/MIN09C": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/y10_01a.s",
+    "line": 2170,
+    "chapter": "本編",
+    "scene": "y10_01a",
+    "near_speaker": "柳ヶ瀬湊",
+    "near_text": "「……ほんとにしてくれると思わなかった。言ってみるもんだね」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y10_01a.s",
+     "line": 2170,
+     "scene": "y10_01a"
+    }
+   ]
+  },
+  "EV/MIN09D": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/y10_01a.s",
+    "line": 2337,
+    "chapter": "本編",
+    "scene": "y10_01a",
+    "near_speaker": null,
+    "near_text": "話しているうちに、僕はいつから二度目のキスをしようかということで頭がいっぱいになっていた。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y10_01a.s",
+     "line": 2337,
+     "scene": "y10_01a"
+    }
+   ]
+  },
+  "EV/MIN10A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/y11_04a.s",
+    "line": 148,
+    "chapter": "本編",
+    "scene": "y11_04a",
+    "near_speaker": "柳ヶ瀬湊",
+    "near_text": "「明日からお仕事だね。ゆうちょ、一緒に頑張ろうね。私、早起きしてお弁当作るから」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y11_04a.s",
+     "line": 148,
+     "scene": "y11_04a"
+    }
+   ]
+  },
+  "EV/MIN10B": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/アフター/yaas04.s",
+    "line": 4403,
+    "chapter": "アフター",
+    "scene": "yaas04",
+    "near_speaker": null,
+    "near_text": "どんなことがあっても、二人なら大丈夫だ。いつか僕らは、お互いにそんな安心感を覚えるようになっていた。"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/yaas04.s",
+     "line": 4403,
+     "scene": "yaas04"
+    },
+    {
+     "file": "scenario/本編/y11_04a.s",
+     "line": 235,
+     "scene": "y11_04a"
+    }
+   ]
+  },
+  "EV/MIN10C": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/y11_04a.s",
+    "line": 314,
+    "chapter": "本編",
+    "scene": "y11_04a",
+    "near_speaker": null,
+    "near_text": "何度も口にした感謝の言葉……それはひとつずつ積み重なり、不安を消していく。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y11_04a.s",
+     "line": 314,
+     "scene": "y11_04a"
+    }
+   ]
+  },
+  "EV/MIN10D": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/アフター/yaas04.s",
+    "line": 4456,
+    "chapter": "アフター",
+    "scene": "yaas04",
+    "near_speaker": null,
+    "near_text": "そういう夢の形もある。だから僕は、ユルシュール様に胸を張って言うことが出来る。"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/yaas04.s",
+     "line": 4456,
+     "scene": "yaas04"
+    },
+    {
+     "file": "scenario/本編/y11_04a.s",
+     "line": 395,
+     "scene": "y11_04a"
+    }
+   ]
+  },
+  "EV/MIN11A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/y_ep.s",
+    "line": 159,
+    "chapter": "本編",
+    "scene": "y_ep",
+    "near_speaker": "青年男性",
+    "near_text": "「すいませーん、注文いいですか？」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y_ep.s",
+     "line": 159,
+     "scene": "y_ep"
+    }
+   ]
+  },
+  "EV/MIN11B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/y_ep.s",
+    "line": 338,
+    "chapter": "本編",
+    "scene": "y_ep",
+    "near_speaker": "柳ヶ瀬湊",
+    "near_text": "「申し訳ありません、ただいま満席で……えっ、外でお待ちいただけるんですか？」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y_ep.s",
+     "line": 338,
+     "scene": "y_ep"
+    }
+   ]
+  },
+  "EV/MIN11C": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/y_ep.s",
+    "line": 375,
+    "chapter": "本編",
+    "scene": "y_ep",
+    "near_speaker": null,
+    "near_text": "そんなこんなで、僕らの店は大きな問題にぶつかることもなく……毎日、楽しく営業することが出来ていた。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y_ep.s",
+     "line": 375,
+     "scene": "y_ep"
+    }
+   ]
+  },
+  "EV/MIN12A": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/本編/y10_02a.s",
+    "line": 1984,
+    "chapter": "本編",
+    "scene": "y10_02a",
+    "near_speaker": "柳ヶ瀬湊",
+    "near_text": "「んっ……」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y10_02a.s",
+     "line": 1984,
+     "scene": "y10_02a"
+    },
+    {
+     "file": "scenario/本編/y10_03a.s",
+     "line": 2098,
+     "scene": "y10_03a"
+    }
+   ]
+  },
+  "EV/MIN12B": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/本編/y10_03a.s",
+    "line": 2147,
+    "chapter": "本編",
+    "scene": "y10_03a",
+    "near_speaker": "柳ヶ瀬湊",
+    "near_text": "「な、なんか……変な感じ……んんっ……」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y10_03a.s",
+     "line": 2147,
+     "scene": "y10_03a"
+    },
+    {
+     "file": "scenario/本編/y10_04a.s",
+     "line": 147,
+     "scene": "y10_04a"
+    }
+   ]
+  },
+  "EV/MIN12C": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/本編/y10_04a.s",
+    "line": 191,
+    "chapter": "本編",
+    "scene": "y10_04a",
+    "near_speaker": "柳ヶ瀬湊",
+    "near_text": "「……は、はい。今はここまで」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y10_04a.s",
+     "line": 191,
+     "scene": "y10_04a"
+    },
+    {
+     "file": "scenario/本編/y10_04a.s",
+     "line": 393,
+     "scene": "y10_04a"
+    }
+   ]
+  },
+  "EV/MIN12D": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/y10_04a.s",
+    "line": 435,
+    "chapter": "本編",
+    "scene": "y10_04a",
+    "near_speaker": null,
+    "near_text": "ブラを引き上げると、形のいい乳房がぷるんと露出する。思わずこくんと息を飲んでしまうほどに綺麗な形をしていた。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y10_04a.s",
+     "line": 435,
+     "scene": "y10_04a"
+    }
+   ]
+  },
+  "EV/MIN13A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/y10_04a.s",
+    "line": 865,
+    "chapter": "本編",
+    "scene": "y10_04a",
+    "near_speaker": "柳ヶ瀬湊",
+    "near_text": "「んぁ……かぷっ」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y10_04a.s",
+     "line": 865,
+     "scene": "y10_04a"
+    }
+   ]
+  },
+  "EV/MIN13B": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/本編/y10_04a.s",
+    "line": 1000,
+    "chapter": "本編",
+    "scene": "y10_04a",
+    "near_speaker": "柳ヶ瀬湊",
+    "near_text": "「……ちゅぅぅぅ」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y10_04a.s",
+     "line": 1000,
+     "scene": "y10_04a"
+    },
+    {
+     "file": "scenario/本編/y10_04a.s",
+     "line": 1099,
+     "scene": "y10_04a"
+    }
+   ]
+  },
+  "EV/MIN13C": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/y10_04a.s",
+    "line": 1230,
+    "chapter": "本編",
+    "scene": "y10_04a",
+    "near_speaker": "柳ヶ瀬湊",
+    "near_text": "「ふむっ……！？」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y10_04a.s",
+     "line": 1230,
+     "scene": "y10_04a"
+    }
+   ]
+  },
+  "EV/MIN13D": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/y10_04a.s",
+    "line": 1381,
+    "chapter": "本編",
+    "scene": "y10_04a",
+    "near_speaker": "柳ヶ瀬湊",
+    "near_text": "「きゃっ……！」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y10_04a.s",
+     "line": 1381,
+     "scene": "y10_04a"
+    }
+   ]
+  },
+  "EV/MIN13E": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/y11_01a.s",
+    "line": 258,
+    "chapter": "本編",
+    "scene": "y11_01a",
+    "near_speaker": "柳ヶ瀬湊",
+    "near_text": "「……寝てればいいのに。これ、すっきりさせといてあげるよ？」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y11_01a.s",
+     "line": 258,
+     "scene": "y11_01a"
+    }
+   ]
+  },
+  "EV/MIN14A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/y11_03a.s",
+    "line": 126,
+    "chapter": "本編",
+    "scene": "y11_03a",
+    "near_speaker": null,
+    "near_text": "畳に布団を敷き、その上に湊が横たわる。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y11_03a.s",
+     "line": 126,
+     "scene": "y11_03a"
+    }
+   ]
+  },
+  "EV/MIN14B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/y11_03a.s",
+    "line": 223,
+    "chapter": "本編",
+    "scene": "y11_03a",
+    "near_speaker": null,
+    "near_text": "彼女の服に手をかけて、脱がせていく。最後の一枚……可愛らしいパンティは、湊が自分で脱いでくれた。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y11_03a.s",
+     "line": 223,
+     "scene": "y11_03a"
+    }
+   ]
+  },
+  "EV/MIN14C": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/y11_03a.s",
+    "line": 383,
+    "chapter": "本編",
+    "scene": "y11_03a",
+    "near_speaker": "小倉朝日",
+    "near_text": "「いくよ……あむっ」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y11_03a.s",
+     "line": 383,
+     "scene": "y11_03a"
+    }
+   ]
+  },
+  "EV/MIN14D": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/y11_03a.s",
+    "line": 667,
+    "chapter": "本編",
+    "scene": "y11_03a",
+    "near_speaker": "柳ヶ瀬湊",
+    "near_text": "「く……うっ、うぅっ……ふぁ……ァっ、はぁっ……あぁっ……」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y11_03a.s",
+     "line": 667,
+     "scene": "y11_03a"
+    }
+   ]
+  },
+  "EV/MIN15A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/y11_03a.s",
+    "line": 847,
+    "chapter": "本編",
+    "scene": "y11_03a",
+    "near_speaker": null,
+    "near_text": "指を引き抜くと、とろりと絡みついた愛液が糸を引く。指を抜いたあとも、陰裂は少し開いたまま、蜜を垂らしつづけていた。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y11_03a.s",
+     "line": 847,
+     "scene": "y11_03a"
+    }
+   ]
+  },
+  "EV/MIN15B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/y11_03a.s",
+    "line": 954,
+    "chapter": "本編",
+    "scene": "y11_03a",
+    "near_speaker": "柳ヶ瀬湊",
+    "near_text": "「……ぁ……あぁっ……！」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y11_03a.s",
+     "line": 954,
+     "scene": "y11_03a"
+    }
+   ]
+  },
+  "EV/MIN15C": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/y11_03a.s",
+    "line": 1185,
+    "chapter": "本編",
+    "scene": "y11_03a",
+    "near_speaker": "柳ヶ瀬湊",
+    "near_text": "「う、うん……全然私は……平気……っ、あっ……あんっ……」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y11_03a.s",
+     "line": 1185,
+     "scene": "y11_03a"
+    }
+   ]
+  },
+  "EV/MIN15D": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/本編/y11_03a.s",
+    "line": 1129,
+    "chapter": "本編",
+    "scene": "y11_03a",
+    "near_speaker": "柳ヶ瀬湊",
+    "near_text": "「うぅっ……く、んんっ……ぁっ……んぅっ……」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y11_03a.s",
+     "line": 1129,
+     "scene": "y11_03a"
+    },
+    {
+     "file": "scenario/本編/y11_03a.s",
+     "line": 1239,
+     "scene": "y11_03a"
+    }
+   ]
+  },
+  "EV/MIN15E": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/y11_03a.s",
+    "line": 1298,
+    "chapter": "本編",
+    "scene": "y11_03a",
+    "near_speaker": "柳ヶ瀬湊",
+    "near_text": "「ふぁっ……ぁ……はぁぁっ……」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y11_03a.s",
+     "line": 1298,
+     "scene": "y11_03a"
+    }
+   ]
+  },
+  "EV/MIN16A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/y11_03a.s",
+    "line": 1593,
+    "chapter": "本編",
+    "scene": "y11_03a",
+    "near_speaker": "柳ヶ瀬湊",
+    "near_text": "「……もうちょっと上……うん、そこ……っ、ふぁぁっ……！」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y11_03a.s",
+     "line": 1593,
+     "scene": "y11_03a"
+    }
+   ]
+  },
+  "EV/MIN16B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/y11_03a.s",
+    "line": 1708,
+    "chapter": "本編",
+    "scene": "y11_03a",
+    "near_speaker": "柳ヶ瀬湊",
+    "near_text": "「あっ……あんっ……あぅぅ……ゆうちょ……気持ちいい……そのまま動いて……っ」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y11_03a.s",
+     "line": 1708,
+     "scene": "y11_03a"
+    }
+   ]
+  },
+  "EV/MIN16C": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/y11_03a.s",
+    "line": 1845,
+    "chapter": "本編",
+    "scene": "y11_03a",
+    "near_speaker": null,
+    "near_text": "最後にぐりぐりと湊のお尻に腰を押しつけたあとで、辛うじて引きぬく……すると、僕の肉棒がひくついて、遅れて夥しい量の白濁液"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y11_03a.s",
+     "line": 1845,
+     "scene": "y11_03a"
+    }
+   ]
+  },
+  "EV/MIN16D": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/y11_03a.s",
+    "line": 1913,
+    "chapter": "本編",
+    "scene": "y11_03a",
+    "near_speaker": "小倉朝日",
+    "near_text": "「さすがにもう限界だよ……湊の中、凄く気持ちいいから。我慢するのも大変なんだ」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y11_03a.s",
+     "line": 1913,
+     "scene": "y11_03a"
+    }
+   ]
+  },
+  "EV/MIN17A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/y11_06a.s",
+    "line": 213,
+    "chapter": "本編",
+    "scene": "y11_06a",
+    "near_speaker": null,
+    "near_text": "二人で背中を流し合って、浴槽に浸かろう……というところで。僕は湊に文字通りつかまってしまった。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y11_06a.s",
+     "line": 213,
+     "scene": "y11_06a"
+    }
+   ]
+  },
+  "EV/MIN17B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/y11_06a.s",
+    "line": 340,
+    "chapter": "本編",
+    "scene": "y11_06a",
+    "near_speaker": null,
+    "near_text": "湊は口をいっぱいに開けて僕のものをくわえる。やはり、辛うじて入るくらいの太さだった。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y11_06a.s",
+     "line": 340,
+     "scene": "y11_06a"
+    }
+   ]
+  },
+  "EV/MIN17C": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/y11_06a.s",
+    "line": 492,
+    "chapter": "本編",
+    "scene": "y11_06a",
+    "near_speaker": "柳ヶ瀬湊",
+    "near_text": "「あ……」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y11_06a.s",
+     "line": 492,
+     "scene": "y11_06a"
+    }
+   ]
+  },
+  "EV/MIN17D": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/y11_06a.s",
+    "line": 605,
+    "chapter": "本編",
+    "scene": "y11_06a",
+    "near_speaker": "柳ヶ瀬湊",
+    "near_text": "「ふぁ……あむっ。んむ……ふむむ。ちゅっ……ちゅぷっ……」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y11_06a.s",
+     "line": 605,
+     "scene": "y11_06a"
+    }
+   ]
+  },
+  "EV/MIN17E": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/y11_06a.s",
+    "line": 767,
+    "chapter": "本編",
+    "scene": "y11_06a",
+    "near_speaker": null,
+    "near_text": "快楽にしびれきり、ぬめる粘膜に余すところ無く愛撫された肉棒の先から、熱い精液が迸り出る。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y11_06a.s",
+     "line": 767,
+     "scene": "y11_06a"
+    }
+   ]
+  },
+  "EV/MIN18A": {
+   "refs": 4,
+   "first": {
+    "file": "scenario/本編/y11_06a.s",
+    "line": 1012,
+    "chapter": "本編",
+    "scene": "y11_06a",
+    "near_speaker": null,
+    "near_text": "湊のくびれた腰に手をかけ、一気に引き寄せるようにしながら、僕は一番奥まで湊の膣内に肉棒を押し入れた。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y11_06a.s",
+     "line": 1012,
+     "scene": "y11_06a"
+    },
+    {
+     "file": "scenario/本編/y11_06a.s",
+     "line": 1258,
+     "scene": "y11_06a"
+    },
+    {
+     "file": "scenario/本編/y11_06a.s",
+     "line": 1351,
+     "scene": "y11_06a"
+    },
+    {
+     "file": "scenario/本編/y11_06a.s",
+     "line": 1425,
+     "scene": "y11_06a"
+    }
+   ]
+  },
+  "EV/MIN18B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/y11_06a.s",
+    "line": 1393,
+    "chapter": "本編",
+    "scene": "y11_06a",
+    "near_speaker": "柳ヶ瀬湊",
+    "near_text": "「……はぁぁっ……あぁっ……い、いくぅぅっ……！」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y11_06a.s",
+     "line": 1393,
+     "scene": "y11_06a"
+    }
+   ]
+  },
+  "EV/MIN18C": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/y11_06a.s",
+    "line": 1596,
+    "chapter": "本編",
+    "scene": "y11_06a",
+    "near_speaker": "小倉朝日",
+    "near_text": "「くぁぁっ……！」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y11_06a.s",
+     "line": 1596,
+     "scene": "y11_06a"
+    }
+   ]
+  },
+  "EV/MIN18D": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/y11_06a.s",
+    "line": 1680,
+    "chapter": "本編",
+    "scene": "y11_06a",
+    "near_speaker": "柳ヶ瀬湊",
+    "near_text": "「……なんか完全に負けた気分……ゆうちょに全部持っていかれた……」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y11_06a.s",
+     "line": 1680,
+     "scene": "y11_06a"
+    }
+   ]
+  },
+  "EV/MIN19A": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/本編/y11_08a.s",
+    "line": 434,
+    "chapter": "本編",
+    "scene": "y11_08a",
+    "near_speaker": "柳ヶ瀬湊",
+    "near_text": "「はいじゃあ、デコレーションします」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y11_08a.s",
+     "line": 434,
+     "scene": "y11_08a"
+    },
+    {
+     "file": "scenario/本編/y11_08a.s",
+     "line": 558,
+     "scene": "y11_08a"
+    }
+   ]
+  },
+  "EV/MIN19B": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/本編/y11_08a.s",
+    "line": 521,
+    "chapter": "本編",
+    "scene": "y11_08a",
+    "near_speaker": "柳ヶ瀬湊",
+    "near_text": "「じゃあいただきます。れろり」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y11_08a.s",
+     "line": 521,
+     "scene": "y11_08a"
+    },
+    {
+     "file": "scenario/本編/y11_08a.s",
+     "line": 580,
+     "scene": "y11_08a"
+    }
+   ]
+  },
+  "EV/MIN19C": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/本編/y11_08a.s",
+    "line": 695,
+    "chapter": "本編",
+    "scene": "y11_08a",
+    "near_speaker": "柳ヶ瀬湊",
+    "near_text": "「じゃあ次ははちみつ祭りの開催だ！　ヒャッハー！」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y11_08a.s",
+     "line": 695,
+     "scene": "y11_08a"
+    },
+    {
+     "file": "scenario/本編/y11_08a.s",
+     "line": 850,
+     "scene": "y11_08a"
+    }
+   ]
+  },
+  "EV/MIN19D": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/本編/y11_08a.s",
+    "line": 775,
+    "chapter": "本編",
+    "scene": "y11_08a",
+    "near_speaker": "柳ヶ瀬湊",
+    "near_text": "「れろん」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y11_08a.s",
+     "line": 775,
+     "scene": "y11_08a"
+    },
+    {
+     "file": "scenario/本編/y11_08a.s",
+     "line": 886,
+     "scene": "y11_08a"
+    }
+   ]
+  },
+  "EV/MIN20A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/y11_08a.s",
+    "line": 1082,
+    "chapter": "本編",
+    "scene": "y11_08a",
+    "near_speaker": null,
+    "near_text": "今度は湊がはちみつの残りを舐めとるかのように、ぱくりと咥えこんだ。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y11_08a.s",
+     "line": 1082,
+     "scene": "y11_08a"
+    }
+   ]
+  },
+  "EV/MIN20B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/y11_08a.s",
+    "line": 1380,
+    "chapter": "本編",
+    "scene": "y11_08a",
+    "near_speaker": "小倉朝日",
+    "near_text": "「ふああっ……あああああっ……！」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y11_08a.s",
+     "line": 1380,
+     "scene": "y11_08a"
+    }
+   ]
+  },
+  "EV/MIN20C": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/本編/y11_08a.s",
+    "line": 1550,
+    "chapter": "本編",
+    "scene": "y11_08a",
+    "near_speaker": "柳ヶ瀬湊",
+    "near_text": "「じゅぷっ！　じゅぽっ！　じゅるっ、んじゅっ！　じゅるっ、じゅるるっ！」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y11_08a.s",
+     "line": 1550,
+     "scene": "y11_08a"
+    },
+    {
+     "file": "scenario/本編/y11_08a.s",
+     "line": 1776,
+     "scene": "y11_08a"
+    }
+   ]
+  },
+  "EV/MIN20D": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/本編/y11_08a.s",
+    "line": 1632,
+    "chapter": "本編",
+    "scene": "y11_08a",
+    "near_speaker": "柳ヶ瀬湊",
+    "near_text": "「ん……ぷはっ、あれ降参？　朝日、参ったするのはやーい」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y11_08a.s",
+     "line": 1632,
+     "scene": "y11_08a"
+    },
+    {
+     "file": "scenario/本編/y11_08a.s",
+     "line": 1859,
+     "scene": "y11_08a"
+    }
+   ]
+  },
+  "EV/MIN20E": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/y11_08a.s",
+    "line": 1889,
+    "chapter": "本編",
+    "scene": "y11_08a",
+    "near_speaker": "小倉朝日",
+    "near_text": "「やっ、んっ！　んんっ、やあっ……！　あ、あああああああっ！」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y11_08a.s",
+     "line": 1889,
+     "scene": "y11_08a"
+    }
+   ]
+  },
+  "EV/MIN21A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/y12_02a.s",
+    "line": 657,
+    "chapter": "本編",
+    "scene": "y12_02a",
+    "near_speaker": "柳ヶ瀬湊",
+    "near_text": "「ルナ……ありがとう……っ」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y12_02a.s",
+     "line": 657,
+     "scene": "y12_02a"
+    }
+   ]
+  },
+  "EV/MIN21B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/y12_02a.s",
+    "line": 716,
+    "chapter": "本編",
+    "scene": "y12_02a",
+    "near_speaker": null,
+    "near_text": "けれどそれは、悲しい涙じゃない……これから幸せになることを、泣きたいほど嬉しいと思ってる証。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y12_02a.s",
+     "line": 716,
+     "scene": "y12_02a"
+    }
+   ]
+  },
+  "EV/MIN22A": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/本編/y_ep.s",
+    "line": 532,
+    "chapter": "本編",
+    "scene": "y_ep",
+    "near_speaker": null,
+    "near_text": "冬の夜の空気は冷たいけれど、ふたり肩を寄せあって歩けば、寒さはそう感じない。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/y_ep.s",
+     "line": 532,
+     "scene": "y_ep"
+    },
+    {
+     "file": "scenario/本編/y_ep.s",
+     "line": 655,
+     "scene": "y_ep"
+    }
+   ]
+  },
+  "EV/MIZ01A": {
+   "refs": 5,
+   "first": {
+    "file": "scenario/本編/c03_01a.s",
+    "line": 431,
+    "chapter": "本編",
+    "scene": "c03_01a",
+    "near_speaker": null,
+    "near_text": "誰？"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c03_01a.s",
+     "line": 431,
+     "scene": "c03_01a"
+    },
+    {
+     "file": "scenario/本編/c06_02a0.s",
+     "line": 810,
+     "scene": "c06_02a0"
+    },
+    {
+     "file": "scenario/本編/h10_02a.s",
+     "line": 2211,
+     "scene": "h10_02a"
+    },
+    {
+     "file": "scenario/本編/h10_02a.s",
+     "line": 2217,
+     "scene": "h10_02a"
+    },
+    {
+     "file": "scenario/本編/l12_04a.s",
+     "line": 488,
+     "scene": "l12_04a"
+    }
+   ]
+  },
+  "EV/MIZ02A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/c04_02c2.s",
+    "line": 226,
+    "chapter": "本編",
+    "scene": "c04_02c2",
+    "near_speaker": "花之宮瑞穂",
+    "near_text": "「体のサイズを測るのは、昨年の身体測定以来だから……少しは成長してるといいけど」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c04_02c2.s",
+     "line": 226,
+     "scene": "c04_02c2"
+    }
+   ]
+  },
+  "EV/MIZ02B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/c04_02c2.s",
+    "line": 435,
+    "chapter": "本編",
+    "scene": "c04_02c2",
+    "near_speaker": "花之宮瑞穂",
+    "near_text": "「な、なんだか、そうやって間近で見つめられると照れるかも……恥ずかしい」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c04_02c2.s",
+     "line": 435,
+     "scene": "c04_02c2"
+    }
+   ]
+  },
+  "EV/MIZ03A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/c05_03b.s",
+    "line": 568,
+    "chapter": "本編",
+    "scene": "c05_03b",
+    "near_speaker": null,
+    "near_text": "――そう思った瞬間だった。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c05_03b.s",
+     "line": 568,
+     "scene": "c05_03b"
+    }
+   ]
+  },
+  "EV/MIZ03B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/c05_03b.s",
+    "line": 632,
+    "chapter": "本編",
+    "scene": "c05_03b",
+    "near_speaker": "花之宮瑞穂",
+    "near_text": "「でも人が少なくて良かった。これが授業中だったら、ちょっと恥ずかしかったかもね？」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c05_03b.s",
+     "line": 632,
+     "scene": "c05_03b"
+    }
+   ]
+  },
+  "EV/MIZ04A": {
+   "refs": 15,
+   "first": {
+    "file": "scenario/本編/c06_02a0.s",
+    "line": 632,
+    "chapter": "本編",
+    "scene": "c06_02a0",
+    "near_speaker": null,
+    "near_text": "二人並んで狭いベッドに寝転がると、瑞穂様は嬉しそうに微笑んだ。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c06_02a0.s",
+     "line": 632,
+     "scene": "c06_02a0"
+    },
+    {
+     "file": "scenario/本編/c06_02a0.s",
+     "line": 761,
+     "scene": "c06_02a0"
+    },
+    {
+     "file": "scenario/本編/c06_02a0.s",
+     "line": 1326,
+     "scene": "c06_02a0"
+    },
+    {
+     "file": "scenario/本編/c06_02a0.s",
+     "line": 1500,
+     "scene": "c06_02a0"
+    },
+    {
+     "file": "scenario/本編/c06_02a1.s",
+     "line": 67,
+     "scene": "c06_02a1"
+    },
+    {
+     "file": "scenario/本編/c06_02a2.s",
+     "line": 67,
+     "scene": "c06_02a2"
+    },
+    {
+     "file": "scenario/本編/h08_02b.s",
+     "line": 557,
+     "scene": "h08_02b"
+    },
+    {
+     "file": "scenario/本編/h08_02b.s",
+     "line": 778,
+     "scene": "h08_02b"
+    },
+    {
+     "file": "scenario/本編/h08_02b.s",
+     "line": 808,
+     "scene": "h08_02b"
+    },
+    {
+     "file": "scenario/本編/h08_04a.s",
+     "line": 153,
+     "scene": "h08_04a"
+    },
+    {
+     "file": "scenario/本編/h10_02a.s",
+     "line": 2236,
+     "scene": "h10_02a"
+    },
+    {
+     "file": "scenario/本編/h10_02a.s",
+     "line": 2242,
+     "scene": "h10_02a"
+    },
+    {
+     "file": "scenario/本編/h11_01a.s",
+     "line": 1616,
+     "scene": "h11_01a"
+    },
+    {
+     "file": "scenario/本編/h12_03a9.s",
+     "line": 160,
+     "scene": "h12_03a9"
+    },
+    {
+     "file": "scenario/本編/h12_03a9.s",
+     "line": 271,
+     "scene": "h12_03a9"
+    }
+   ]
+  },
+  "EV/MIZ04B": {
+   "refs": 5,
+   "first": {
+    "file": "scenario/本編/c06_02a0.s",
+    "line": 663,
+    "chapter": "本編",
+    "scene": "c06_02a0",
+    "near_speaker": "花之宮瑞穂",
+    "near_text": "「ずるいです。そういう朝日だって、衣装を作ってる時は毎日遅くまで起きて無茶してたよ？」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c06_02a0.s",
+     "line": 663,
+     "scene": "c06_02a0"
+    },
+    {
+     "file": "scenario/本編/c06_02a0.s",
+     "line": 1238,
+     "scene": "c06_02a0"
+    },
+    {
+     "file": "scenario/本編/c06_02a0.s",
+     "line": 1452,
+     "scene": "c06_02a0"
+    },
+    {
+     "file": "scenario/本編/h08_02b.s",
+     "line": 764,
+     "scene": "h08_02b"
+    },
+    {
+     "file": "scenario/本編/h12_03a9.s",
+     "line": 221,
+     "scene": "h12_03a9"
+    }
+   ]
+  },
+  "EV/MIZ04C": {
+   "refs": 6,
+   "first": {
+    "file": "scenario/本編/c06_02a0.s",
+    "line": 717,
+    "chapter": "本編",
+    "scene": "c06_02a0",
+    "near_speaker": null,
+    "near_text": "確かに大げさだったけど、言いだしっぺの瑞穂様にくすりと笑われた。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c06_02a0.s",
+     "line": 717,
+     "scene": "c06_02a0"
+    },
+    {
+     "file": "scenario/本編/c06_02a0.s",
+     "line": 1087,
+     "scene": "c06_02a0"
+    },
+    {
+     "file": "scenario/本編/c06_02a0.s",
+     "line": 1409,
+     "scene": "c06_02a0"
+    },
+    {
+     "file": "scenario/本編/c06_02a1.s",
+     "line": 257,
+     "scene": "c06_02a1"
+    },
+    {
+     "file": "scenario/本編/h08_02b.s",
+     "line": 725,
+     "scene": "h08_02b"
+    },
+    {
+     "file": "scenario/本編/h09_03b.s",
+     "line": 1065,
+     "scene": "h09_03b"
+    }
+   ]
+  },
+  "EV/MIZ04D": {
+   "refs": 3,
+   "first": {
+    "file": "scenario/本編/c06_02a9.s",
+    "line": 172,
+    "chapter": "本編",
+    "scene": "c06_02a9",
+    "near_speaker": null,
+    "near_text": "あ、気のせいじゃなかった……物理的に人が寄りかかってた。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c06_02a9.s",
+     "line": 172,
+     "scene": "c06_02a9"
+    },
+    {
+     "file": "scenario/本編/h08_02b.s",
+     "line": 830,
+     "scene": "h08_02b"
+    },
+    {
+     "file": "scenario/本編/h12_03a9.s",
+     "line": 284,
+     "scene": "h12_03a9"
+    }
+   ]
+  },
+  "EV/MIZ05A": {
+   "refs": 5,
+   "first": {
+    "file": "scenario/本編/h08_01b.s",
+    "line": 195,
+    "chapter": "本編",
+    "scene": "h08_01b",
+    "near_speaker": null,
+    "near_text": "瑞穂様はぺたんと女の子座りをして、僕のほうに微笑みを向けてきた。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/h08_01b.s",
+     "line": 195,
+     "scene": "h08_01b"
+    },
+    {
+     "file": "scenario/本編/h08_01b.s",
+     "line": 210,
+     "scene": "h08_01b"
+    },
+    {
+     "file": "scenario/本編/h08_01b.s",
+     "line": 218,
+     "scene": "h08_01b"
+    },
+    {
+     "file": "scenario/本編/h08_01b.s",
+     "line": 728,
+     "scene": "h08_01b"
+    },
+    {
+     "file": "scenario/本編/h11_01a.s",
+     "line": 1563,
+     "scene": "h11_01a"
+    }
+   ]
+  },
+  "EV/MIZ05B": {
+   "refs": 3,
+   "first": {
+    "file": "scenario/本編/h08_01b.s",
+    "line": 469,
+    "chapter": "本編",
+    "scene": "h08_01b",
+    "near_speaker": "花之宮瑞穂",
+    "near_text": "「きゃぁっ……！」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/h08_01b.s",
+     "line": 469,
+     "scene": "h08_01b"
+    },
+    {
+     "file": "scenario/本編/h08_01b.s",
+     "line": 478,
+     "scene": "h08_01b"
+    },
+    {
+     "file": "scenario/本編/h08_01b.s",
+     "line": 497,
+     "scene": "h08_01b"
+    }
+   ]
+  },
+  "EV/MIZ05C": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/h08_01b.s",
+    "line": 513,
+    "chapter": "本編",
+    "scene": "h08_01b",
+    "near_speaker": "花之宮瑞穂",
+    "near_text": "「ご、ごめんなさいっ……まさかこんなに急に取れるなんて。きつく結んだはずだったんだけど……っ」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/h08_01b.s",
+     "line": 513,
+     "scene": "h08_01b"
+    }
+   ]
+  },
+  "EV/MIZ06A": {
+   "refs": 5,
+   "first": {
+    "file": "scenario/本編/h07_02a.s",
+    "line": 1802,
+    "chapter": "本編",
+    "scene": "h07_02a",
+    "near_speaker": null,
+    "near_text": "彼女の顔がすぐ近くにある。木漏れ日の中で、その瞳は揚羽蝶の羽根のように美しく透き通っていた。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/h07_02a.s",
+     "line": 1802,
+     "scene": "h07_02a"
+    },
+    {
+     "file": "scenario/本編/h09_02b.s",
+     "line": 560,
+     "scene": "h09_02b"
+    },
+    {
+     "file": "scenario/本編/h10_02a.s",
+     "line": 2261,
+     "scene": "h10_02a"
+    },
+    {
+     "file": "scenario/本編/h12_02b.s",
+     "line": 1144,
+     "scene": "h12_02b"
+    },
+    {
+     "file": "scenario/本編/h12_03a1.s",
+     "line": 840,
+     "scene": "h12_03a1"
+    }
+   ]
+  },
+  "EV/MIZ06B": {
+   "refs": 7,
+   "first": {
+    "file": "scenario/アフター/haas02.s",
+    "line": 563,
+    "chapter": "アフター",
+    "scene": "haas02",
+    "near_speaker": null,
+    "near_text": "僕は男性であることを隠したまま、彼女と距離を近づけていった……男性が嫌いな瑞穂に正体を明かせないまま、彼女の心の深くにま"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/haas02.s",
+     "line": 563,
+     "scene": "haas02"
+    },
+    {
+     "file": "scenario/本編/h09_02b.s",
+     "line": 673,
+     "scene": "h09_02b"
+    },
+    {
+     "file": "scenario/本編/h12_02b.s",
+     "line": 1217,
+     "scene": "h12_02b"
+    },
+    {
+     "file": "scenario/本編/h12_02b.s",
+     "line": 1427,
+     "scene": "h12_02b"
+    },
+    {
+     "file": "scenario/本編/h12_03a.s",
+     "line": 1567,
+     "scene": "h12_03a"
+    },
+    {
+     "file": "scenario/本編/h12_03a.s",
+     "line": 1687,
+     "scene": "h12_03a"
+    },
+    {
+     "file": "scenario/本編/h12_03a1.s",
+     "line": 862,
+     "scene": "h12_03a1"
+    }
+   ]
+  },
+  "EV/MIZ06C": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/本編/h12_02b.s",
+    "line": 1313,
+    "chapter": "本編",
+    "scene": "h12_02b",
+    "near_speaker": null,
+    "near_text": "少し苦しい思いをさせたかなと思って尋ねると、瑞穂は真っ赤な顔で笑った。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/h12_02b.s",
+     "line": 1313,
+     "scene": "h12_02b"
+    },
+    {
+     "file": "scenario/本編/h12_03a.s",
+     "line": 1613,
+     "scene": "h12_03a"
+    }
+   ]
+  },
+  "EV/MIZ07A": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/本編/h09_01b.s",
+    "line": 615,
+    "chapter": "本編",
+    "scene": "h09_01b",
+    "near_speaker": null,
+    "near_text": "おでこを全開にしたまま、僕は瑞穂様のするがままに任せる。まず、彼女は下地というのを肌に塗り始めた。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/h09_01b.s",
+     "line": 615,
+     "scene": "h09_01b"
+    },
+    {
+     "file": "scenario/本編/h11_01a.s",
+     "line": 1590,
+     "scene": "h11_01a"
+    }
+   ]
+  },
+  "EV/MIZ07B": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/本編/h09_01b.s",
+    "line": 683,
+    "chapter": "本編",
+    "scene": "h09_01b",
+    "near_speaker": "花之宮瑞穂",
+    "near_text": "「……ちょっと待ってね、朝日。今私は……もしかして、とても凄いことを……」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/h09_01b.s",
+     "line": 683,
+     "scene": "h09_01b"
+    },
+    {
+     "file": "scenario/本編/h09_01b.s",
+     "line": 886,
+     "scene": "h09_01b"
+    }
+   ]
+  },
+  "EV/MIZ07C": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/h09_01b.s",
+    "line": 945,
+    "chapter": "本編",
+    "scene": "h09_01b",
+    "near_speaker": "花之宮瑞穂",
+    "near_text": "「私は今、アイドルの誕生を目の当たりにしているのね……」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/h09_01b.s",
+     "line": 945,
+     "scene": "h09_01b"
+    }
+   ]
+  },
+  "EV/MIZ08A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/h09_03a.s",
+    "line": 1855,
+    "chapter": "本編",
+    "scene": "h09_03a",
+    "near_speaker": "花之宮瑞穂",
+    "near_text": "「……私はここにいませんよ？」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/h09_03a.s",
+     "line": 1855,
+     "scene": "h09_03a"
+    }
+   ]
+  },
+  "EV/MIZ08B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/h09_03a.s",
+    "line": 2033,
+    "chapter": "本編",
+    "scene": "h09_03a",
+    "near_speaker": null,
+    "near_text": "隠れるのをやめて、瑞穂が僕の目の前に出てくる。その衣装は……仮装の案として上がっていたうちの一つの、ナース服だった。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/h09_03a.s",
+     "line": 2033,
+     "scene": "h09_03a"
+    }
+   ]
+  },
+  "EV/MIZ08C": {
+   "refs": 3,
+   "first": {
+    "file": "scenario/本編/h09_03a.s",
+    "line": 2165,
+    "chapter": "本編",
+    "scene": "h09_03a",
+    "near_speaker": "小倉朝日",
+    "near_text": "「……っ！？」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/h09_03a.s",
+     "line": 2165,
+     "scene": "h09_03a"
+    },
+    {
+     "file": "scenario/本編/h09_03a.s",
+     "line": 2376,
+     "scene": "h09_03a"
+    },
+    {
+     "file": "scenario/本編/h09_03b.s",
+     "line": 774,
+     "scene": "h09_03b"
+    }
+   ]
+  },
+  "EV/MIZ08D": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/h09_03a.s",
+    "line": 2287,
+    "chapter": "本編",
+    "scene": "h09_03a",
+    "near_speaker": "花之宮瑞穂",
+    "near_text": "「北斗、私の声が聞こえますか！」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/h09_03a.s",
+     "line": 2287,
+     "scene": "h09_03a"
+    }
+   ]
+  },
+  "EV/MIZ09A": {
+   "refs": 5,
+   "first": {
+    "file": "scenario/アフター/haas02.s",
+    "line": 4999,
+    "chapter": "アフター",
+    "scene": "haas02",
+    "near_speaker": null,
+    "near_text": "お兄様は僕の嘘を咎めて、瑞穂が僕の正体を知るきっかけを作った。"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/haas02.s",
+     "line": 4999,
+     "scene": "haas02"
+    },
+    {
+     "file": "scenario/本編/h10_02a.s",
+     "line": 1825,
+     "scene": "h10_02a"
+    },
+    {
+     "file": "scenario/本編/h10_02a.s",
+     "line": 1846,
+     "scene": "h10_02a"
+    },
+    {
+     "file": "scenario/本編/h10_02a.s",
+     "line": 1856,
+     "scene": "h10_02a"
+    },
+    {
+     "file": "scenario/本編/h10_02a.s",
+     "line": 1930,
+     "scene": "h10_02a"
+    }
+   ]
+  },
+  "EV/MIZ09B": {
+   "refs": 3,
+   "first": {
+    "file": "scenario/本編/h10_02a.s",
+    "line": 1963,
+    "chapter": "本編",
+    "scene": "h10_02a",
+    "near_speaker": "花之宮瑞穂",
+    "near_text": "「……お願い……違うって、そう言ってくれるだけでいい。言って……あなたは、小倉朝日じゃないって」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/h10_02a.s",
+     "line": 1963,
+     "scene": "h10_02a"
+    },
+    {
+     "file": "scenario/本編/h10_02a.s",
+     "line": 2132,
+     "scene": "h10_02a"
+    },
+    {
+     "file": "scenario/本編/h10_02a.s",
+     "line": 2295,
+     "scene": "h10_02a"
+    }
+   ]
+  },
+  "EV/MIZ09C": {
+   "refs": 5,
+   "first": {
+    "file": "scenario/本編/h10_02a.s",
+    "line": 2007,
+    "chapter": "本編",
+    "scene": "h10_02a",
+    "near_speaker": null,
+    "near_text": "彼女の目が見開く。知らない人を見るような色が、見る見るその顔に広がっていく。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/h10_02a.s",
+     "line": 2007,
+     "scene": "h10_02a"
+    },
+    {
+     "file": "scenario/本編/h10_02a.s",
+     "line": 2021,
+     "scene": "h10_02a"
+    },
+    {
+     "file": "scenario/本編/h10_02a.s",
+     "line": 2163,
+     "scene": "h10_02a"
+    },
+    {
+     "file": "scenario/本編/h11_01a.s",
+     "line": 894,
+     "scene": "h11_01a"
+    },
+    {
+     "file": "scenario/本編/h11_01a.s",
+     "line": 901,
+     "scene": "h11_01a"
+    }
+   ]
+  },
+  "EV/MIZ10A": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/アフター/haas02.s",
+    "line": 508,
+    "chapter": "アフター",
+    "scene": "haas02",
+    "near_speaker": null,
+    "near_text": "あの時、返事はなくたって、僕の言葉は届いていた。瑞穂は僕の親友のままで、最後まで一緒に衣装を作ってくれた。"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/haas02.s",
+     "line": 508,
+     "scene": "haas02"
+    },
+    {
+     "file": "scenario/本編/h11_01b.s",
+     "line": 334,
+     "scene": "h11_01b"
+    }
+   ]
+  },
+  "EV/MIZ10B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/h11_01b.s",
+    "line": 384,
+    "chapter": "本編",
+    "scene": "h11_01b",
+    "near_speaker": "小倉朝日",
+    "near_text": "「……私と友だちになりたいと言ってくれたとき。瑞穂は、そんなことを言われても困るかもしれないけど……私は、どこか救われて"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/h11_01b.s",
+     "line": 384,
+     "scene": "h11_01b"
+    }
+   ]
+  },
+  "EV/MIZ10C": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/h11_01b.s",
+    "line": 535,
+    "chapter": "本編",
+    "scene": "h11_01b",
+    "near_speaker": "小倉朝日",
+    "near_text": "「私はあなたのデザインを、データにして手元に残しています。あとはカッティングをして、縫うだけです」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/h11_01b.s",
+     "line": 535,
+     "scene": "h11_01b"
+    }
+   ]
+  },
+  "EV/MIZ11A": {
+   "refs": 5,
+   "first": {
+    "file": "scenario/本編/h12_02a.s",
+    "line": 1832,
+    "chapter": "本編",
+    "scene": "h12_02a",
+    "near_speaker": null,
+    "near_text": "舞台の袖から、姿を現したのは……僕が縫い上げた衣装を身に纏い、薄くきらめくような化粧をした瑞穂だった。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/h12_02a.s",
+     "line": 1832,
+     "scene": "h12_02a"
+    },
+    {
+     "file": "scenario/本編/h12_02a.s",
+     "line": 1853,
+     "scene": "h12_02a"
+    },
+    {
+     "file": "scenario/本編/h12_02a.s",
+     "line": 1886,
+     "scene": "h12_02a"
+    },
+    {
+     "file": "scenario/本編/h12_02a.s",
+     "line": 1925,
+     "scene": "h12_02a"
+    },
+    {
+     "file": "scenario/本編/h12_02a.s",
+     "line": 1952,
+     "scene": "h12_02a"
+    }
+   ]
+  },
+  "EV/MIZ11B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/h12_02a.s",
+    "line": 1996,
+    "chapter": "本編",
+    "scene": "h12_02a",
+    "near_speaker": null,
+    "near_text": "……そして、微笑んだ瞬間。会場のカメラがいくつも、目がくらむばかりに瞬く。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/h12_02a.s",
+     "line": 1996,
+     "scene": "h12_02a"
+    }
+   ]
+  },
+  "EV/MIZ11C": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/h12_02a.s",
+    "line": 2250,
+    "chapter": "本編",
+    "scene": "h12_02a",
+    "near_speaker": "先生",
+    "near_text": "「桜小路ルナさんのグループです。デザイナーは、花之宮瑞穂さん」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/h12_02a.s",
+     "line": 2250,
+     "scene": "h12_02a"
+    }
+   ]
+  },
+  "EV/MIZ12A": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/アフター/haas02.s",
+    "line": 618,
+    "chapter": "アフター",
+    "scene": "haas02",
+    "near_speaker": null,
+    "near_text": "そんな僕を、瑞穂は許してくれた。全てを受け入れて、好きだと言ってくれた。"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/haas02.s",
+     "line": 618,
+     "scene": "haas02"
+    },
+    {
+     "file": "scenario/本編/h12_02a.s",
+     "line": 3229,
+     "scene": "h12_02a"
+    }
+   ]
+  },
+  "EV/MIZ12B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/h12_02a.s",
+    "line": 3383,
+    "chapter": "本編",
+    "scene": "h12_02a",
+    "near_speaker": null,
+    "near_text": "瑞穂の目から涙がこぼれる……けれど裏腹に、彼女は笑ってるように見えた。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/h12_02a.s",
+     "line": 3383,
+     "scene": "h12_02a"
+    }
+   ]
+  },
+  "EV/MIZ12C": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/h12_02a.s",
+    "line": 3521,
+    "chapter": "本編",
+    "scene": "h12_02a",
+    "near_speaker": "花之宮瑞穂",
+    "near_text": "「……朝日……っ」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/h12_02a.s",
+     "line": 3521,
+     "scene": "h12_02a"
+    }
+   ]
+  },
+  "EV/MIZ13A": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/アフター/haas06.s",
+    "line": 261,
+    "chapter": "アフター",
+    "scene": "haas06",
+    "near_speaker": null,
+    "near_text": "そして、瑞穂は春のコレクションでも結果を残すことになる。"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/haas06.s",
+     "line": 261,
+     "scene": "haas06"
+    },
+    {
+     "file": "scenario/本編/h_ep.s",
+     "line": 266,
+     "scene": "h_ep"
+    }
+   ]
+  },
+  "EV/MIZ13B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/h_ep.s",
+    "line": 359,
+    "chapter": "本編",
+    "scene": "h_ep",
+    "near_speaker": null,
+    "near_text": "瑞穂の笑顔が、眩しくこの目に焼きつく。彼女はこれからも、その衣装と……モデルとしての完璧さで、輝かしい道を歩き続けるだろ"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/h_ep.s",
+     "line": 359,
+     "scene": "h_ep"
+    }
+   ]
+  },
+  "EV/MIZ14A": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/本編/h12_02c.s",
+    "line": 142,
+    "chapter": "本編",
+    "scene": "h12_02c",
+    "near_speaker": null,
+    "near_text": "瑞穂はそろそろと服をはだけて、僕に下着を見せてくれた。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/h12_02c.s",
+     "line": 142,
+     "scene": "h12_02c"
+    },
+    {
+     "file": "scenario/本編/h12_02c.s",
+     "line": 179,
+     "scene": "h12_02c"
+    }
+   ]
+  },
+  "EV/MIZ14B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/h12_02c.s",
+    "line": 360,
+    "chapter": "本編",
+    "scene": "h12_02c",
+    "near_speaker": null,
+    "near_text": "瑞穂は胸を抑えていた手をそろそろと広げて、隠すことなく見せてくれる。仰向けになっても形の崩れないお椀型の胸が、呼吸に合わ"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/h12_02c.s",
+     "line": 360,
+     "scene": "h12_02c"
+    }
+   ]
+  },
+  "EV/MIZ14C": {
+   "refs": 3,
+   "first": {
+    "file": "scenario/本編/h12_02c.s",
+    "line": 663,
+    "chapter": "本編",
+    "scene": "h12_02c",
+    "near_speaker": null,
+    "near_text": "僕は瑞穂の寝巻きの下をするすると引っ張って脱がせた。絹のようになめらかにきらめく太ももと、可愛らしい下着が露わになる。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/h12_02c.s",
+     "line": 663,
+     "scene": "h12_02c"
+    },
+    {
+     "file": "scenario/本編/h12_02c.s",
+     "line": 669,
+     "scene": "h12_02c"
+    },
+    {
+     "file": "scenario/本編/h12_02c.s",
+     "line": 706,
+     "scene": "h12_02c"
+    }
+   ]
+  },
+  "EV/MIZ14D": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/h12_02c.s",
+    "line": 850,
+    "chapter": "本編",
+    "scene": "h12_02c",
+    "near_speaker": "花之宮瑞穂",
+    "near_text": "「ふぁぁっ……うっ、くっ……んぐ……んくぅぅっ……！」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/h12_02c.s",
+     "line": 850,
+     "scene": "h12_02c"
+    }
+   ]
+  },
+  "EV/MIZ15A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/h12_02c.s",
+    "line": 1146,
+    "chapter": "本編",
+    "scene": "h12_02c",
+    "near_speaker": "花之宮瑞穂",
+    "near_text": "「ふぁっ……」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/h12_02c.s",
+     "line": 1146,
+     "scene": "h12_02c"
+    }
+   ]
+  },
+  "EV/MIZ15B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/h12_02c.s",
+    "line": 1440,
+    "chapter": "本編",
+    "scene": "h12_02c",
+    "near_speaker": null,
+    "near_text": "瑞穂は肉棒に口を近づけると、桃色の舌を出して……ぺろ、と味見するように表面を舐めてきた。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/h12_02c.s",
+     "line": 1440,
+     "scene": "h12_02c"
+    }
+   ]
+  },
+  "EV/MIZ15C": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/h12_02c.s",
+    "line": 1576,
+    "chapter": "本編",
+    "scene": "h12_02c",
+    "near_speaker": null,
+    "near_text": "瑞穂は言って、僕のものに手を添えて……小さな口の中に入れてくれようとする。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/h12_02c.s",
+     "line": 1576,
+     "scene": "h12_02c"
+    }
+   ]
+  },
+  "EV/MIZ15D": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/h12_02c.s",
+    "line": 1740,
+    "chapter": "本編",
+    "scene": "h12_02c",
+    "near_speaker": "花之宮瑞穂",
+    "near_text": "「ふぁ……っ」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/h12_02c.s",
+     "line": 1740,
+     "scene": "h12_02c"
+    }
+   ]
+  },
+  "EV/MIZ16A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/h12_02c.s",
+    "line": 1990,
+    "chapter": "本編",
+    "scene": "h12_02c",
+    "near_speaker": null,
+    "near_text": "正面から一つになろうとしたけれど、思っていたより難しかった……身体を合わせると、瑞穂の入り口の位置が確認できない。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/h12_02c.s",
+     "line": 1990,
+     "scene": "h12_02c"
+    }
+   ]
+  },
+  "EV/MIZ16B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/h12_02c.s",
+    "line": 2274,
+    "chapter": "本編",
+    "scene": "h12_02c",
+    "near_speaker": "花之宮瑞穂",
+    "near_text": "「んっ……んんっ……入って……きてるっ、朝日……っ、んぐぅぅっ……！」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/h12_02c.s",
+     "line": 2274,
+     "scene": "h12_02c"
+    }
+   ]
+  },
+  "EV/MIZ16C": {
+   "refs": 3,
+   "first": {
+    "file": "scenario/本編/h12_02c.s",
+    "line": 2469,
+    "chapter": "本編",
+    "scene": "h12_02c",
+    "near_speaker": "花之宮瑞穂",
+    "near_text": "「……朝日……ありがとう、待っててくれて」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/h12_02c.s",
+     "line": 2469,
+     "scene": "h12_02c"
+    },
+    {
+     "file": "scenario/本編/h12_02c1.s",
+     "line": 70,
+     "scene": "h12_02c1"
+    },
+    {
+     "file": "scenario/本編/h12_02c2.s",
+     "line": 70,
+     "scene": "h12_02c2"
+    }
+   ]
+  },
+  "EV/MIZ16D": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/h12_02c2.s",
+    "line": 244,
+    "chapter": "本編",
+    "scene": "h12_02c2",
+    "near_speaker": "小倉朝日",
+    "near_text": "「んんっ……く、ふぁっ……！」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/h12_02c2.s",
+     "line": 244,
+     "scene": "h12_02c2"
+    }
+   ]
+  },
+  "EV/MIZ16E": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/h12_02c1.s",
+    "line": 283,
+    "chapter": "本編",
+    "scene": "h12_02c1",
+    "near_speaker": "小倉朝日",
+    "near_text": "「……ぁ……あぁっ……」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/h12_02c1.s",
+     "line": 283,
+     "scene": "h12_02c1"
+    }
+   ]
+  },
+  "EV/MIZ17A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/h12_03a1.s",
+    "line": 1122,
+    "chapter": "本編",
+    "scene": "h12_03a1",
+    "near_speaker": "小倉朝日",
+    "near_text": "「……んくっ」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/h12_03a1.s",
+     "line": 1122,
+     "scene": "h12_03a1"
+    }
+   ]
+  },
+  "EV/MIZ17B": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/本編/h12_03a1.s",
+    "line": 1349,
+    "chapter": "本編",
+    "scene": "h12_03a1",
+    "near_speaker": null,
+    "near_text": "瑞穂が腰を上げてくれたところで、手をスカートの奥に差し入れて、下着の腰の部分に指を通す。そして、するすると下ろしていく。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/h12_03a1.s",
+     "line": 1349,
+     "scene": "h12_03a1"
+    },
+    {
+     "file": "scenario/本編/h12_03a1.s",
+     "line": 1673,
+     "scene": "h12_03a1"
+    }
+   ]
+  },
+  "EV/MIZ17C": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/本編/h12_03a1.s",
+    "line": 1625,
+    "chapter": "本編",
+    "scene": "h12_03a1",
+    "near_speaker": "花之宮瑞穂",
+    "near_text": "「くぅぅっ……うぅっ……だ、だめ……これ以上いったら、もう……っ」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/h12_03a1.s",
+     "line": 1625,
+     "scene": "h12_03a1"
+    },
+    {
+     "file": "scenario/本編/h12_03a1.s",
+     "line": 1764,
+     "scene": "h12_03a1"
+    }
+   ]
+  },
+  "EV/MIZ18A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/h12_03a1.s",
+    "line": 1854,
+    "chapter": "本編",
+    "scene": "h12_03a1",
+    "near_speaker": null,
+    "near_text": "瑞穂は自分が座ってしてもらったからと、今度は自分から動いてすると言ってくれた。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/h12_03a1.s",
+     "line": 1854,
+     "scene": "h12_03a1"
+    }
+   ]
+  },
+  "EV/MIZ18B": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/本編/h12_03a1.s",
+    "line": 1965,
+    "chapter": "本編",
+    "scene": "h12_03a1",
+    "near_speaker": "花之宮瑞穂",
+    "near_text": "「あぁっ……入って……朝日の……ふぁぁんっ……！」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/h12_03a1.s",
+     "line": 1965,
+     "scene": "h12_03a1"
+    },
+    {
+     "file": "scenario/本編/h12_03a1.s",
+     "line": 2199,
+     "scene": "h12_03a1"
+    }
+   ]
+  },
+  "EV/MIZ18C": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/本編/h12_03a1.s",
+    "line": 2070,
+    "chapter": "本編",
+    "scene": "h12_03a1",
+    "near_speaker": "花之宮瑞穂",
+    "near_text": "「はぁっ……あっ、あぁ……くぅぅっ……うっ、うぅんっ……」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/h12_03a1.s",
+     "line": 2070,
+     "scene": "h12_03a1"
+    },
+    {
+     "file": "scenario/本編/h12_03a1.s",
+     "line": 2254,
+     "scene": "h12_03a1"
+    }
+   ]
+  },
+  "EV/MIZ18D": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/h12_03a1.s",
+    "line": 2407,
+    "chapter": "本編",
+    "scene": "h12_03a1",
+    "near_speaker": "花之宮瑞穂",
+    "near_text": "「はぁぁっ……！」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/h12_03a1.s",
+     "line": 2407,
+     "scene": "h12_03a1"
+    }
+   ]
+  },
+  "EV/MIZ19A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/h12_03a2.s",
+    "line": 1284,
+    "chapter": "本編",
+    "scene": "h12_03a2",
+    "near_speaker": null,
+    "near_text": "二回目でこんなことさせるなんて、気の迷いだ……と言う前に。瑞穂は大きな胸で、半分くらい大きくなった肉棒を挟み込んできた。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/h12_03a2.s",
+     "line": 1284,
+     "scene": "h12_03a2"
+    }
+   ]
+  },
+  "EV/MIZ19B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/h12_03a2.s",
+    "line": 1442,
+    "chapter": "本編",
+    "scene": "h12_03a2",
+    "near_speaker": "花之宮瑞穂",
+    "near_text": "「……舐めたりもするから、いいかなと思って。朝日はいやだった？」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/h12_03a2.s",
+     "line": 1442,
+     "scene": "h12_03a2"
+    }
+   ]
+  },
+  "EV/MIZ19C": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/h12_03a2.s",
+    "line": 1595,
+    "chapter": "本編",
+    "scene": "h12_03a2",
+    "near_speaker": null,
+    "near_text": "僕の快楽に奉仕し続けてくれる彼女の名前を、敬愛を込めて呼ぶ。すると瑞穂は、蕩けそうなくらい熱い視線を僕に向ける。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/h12_03a2.s",
+     "line": 1595,
+     "scene": "h12_03a2"
+    }
+   ]
+  },
+  "EV/MIZ19D": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/h12_03a2.s",
+    "line": 1788,
+    "chapter": "本編",
+    "scene": "h12_03a2",
+    "near_speaker": null,
+    "near_text": "胸を寄せていた両手を離して、僕は仰け反るようにして絶頂に達する。一気に吹き上がった精液が、先端からぶしゅっと間欠泉のよう"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/h12_03a2.s",
+     "line": 1788,
+     "scene": "h12_03a2"
+    }
+   ]
+  },
+  "EV/MIZ20A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/h12_03a2.s",
+    "line": 1943,
+    "chapter": "本編",
+    "scene": "h12_03a2",
+    "near_speaker": "花之宮瑞穂",
+    "near_text": "「はぁぅっ……ぅ……入って……入ってくるっ……あさひ……」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/h12_03a2.s",
+     "line": 1943,
+     "scene": "h12_03a2"
+    }
+   ]
+  },
+  "EV/MIZ20B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/h12_03a2.s",
+    "line": 2040,
+    "chapter": "本編",
+    "scene": "h12_03a2",
+    "near_speaker": "花之宮瑞穂",
+    "near_text": "「あ……あぅっ……んくぅ……あさひ……」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/h12_03a2.s",
+     "line": 2040,
+     "scene": "h12_03a2"
+    }
+   ]
+  },
+  "EV/MIZ20C": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/h12_03a2.s",
+    "line": 2290,
+    "chapter": "本編",
+    "scene": "h12_03a2",
+    "near_speaker": "花之宮瑞穂",
+    "near_text": "「あ……あぁっ……くぅ……うぅんっ、んふっ……あっ……あぁ……」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/h12_03a2.s",
+     "line": 2290,
+     "scene": "h12_03a2"
+    }
+   ]
+  },
+  "EV/MIZ20D": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/h12_03a2.s",
+    "line": 2440,
+    "chapter": "本編",
+    "scene": "h12_03a2",
+    "near_speaker": "小倉朝日",
+    "near_text": "「くぁっ……あぁ……」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/h12_03a2.s",
+     "line": 2440,
+     "scene": "h12_03a2"
+    }
+   ]
+  },
+  "EV/MIZ21A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/l09_03b.s",
+    "line": 512,
+    "chapter": "本編",
+    "scene": "l09_03b",
+    "near_speaker": "小倉朝日",
+    "near_text": "「瑞穂様、お綺麗です。とてもよく似合っています」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/l09_03b.s",
+     "line": 512,
+     "scene": "l09_03b"
+    }
+   ]
+  },
+  "EV/MIZ21B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/u12_02a.s",
+    "line": 1129,
+    "chapter": "本編",
+    "scene": "u12_02a",
+    "near_speaker": "桜小路ルナ",
+    "near_text": "「私たちは先に舞台袖へ行っている」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/u12_02a.s",
+     "line": 1129,
+     "scene": "u12_02a"
+    }
+   ]
+  },
+  "EV/UFJ01A": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/本編/c03_01a.s",
+    "line": 1306,
+    "chapter": "本編",
+    "scene": "c03_01a",
+    "near_speaker": "女性",
+    "near_text": "「モトカレ、何をしていますの！？　冗談では済まされませんわよ！」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c03_01a.s",
+     "line": 1306,
+     "scene": "c03_01a"
+    },
+    {
+     "file": "scenario/本編/l12_04a.s",
+     "line": 581,
+     "scene": "l12_04a"
+    }
+   ]
+  },
+  "EV/UFJ01B": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/本編/c03_01a.s",
+    "line": 1714,
+    "chapter": "本編",
+    "scene": "c03_01a",
+    "near_speaker": "モトカレ",
+    "near_text": "「ぶしゅルルルルルルルゥ！」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c03_01a.s",
+     "line": 1714,
+     "scene": "c03_01a"
+    },
+    {
+     "file": "scenario/本編/c03_02d.s",
+     "line": 1161,
+     "scene": "c03_02d"
+    }
+   ]
+  },
+  "EV/UFJ02A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/c04_02c1.s",
+    "line": 213,
+    "chapter": "本編",
+    "scene": "c04_02c1",
+    "near_speaker": null,
+    "near_text": "でも自信を持つだけあって、スタイルは抜群にいい。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c04_02c1.s",
+     "line": 213,
+     "scene": "c04_02c1"
+    }
+   ]
+  },
+  "EV/UFJ02B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/c04_02c1.s",
+    "line": 354,
+    "chapter": "本編",
+    "scene": "c04_02c1",
+    "near_speaker": "ユルシュール",
+    "near_text": "「あた、あいたたたたたっ！　ちょ、あのっ！　痛いですわよっ！？」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c04_02c1.s",
+     "line": 354,
+     "scene": "c04_02c1"
+    }
+   ]
+  },
+  "EV/UFJ03A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/c04_02d.s",
+    "line": 1315,
+    "chapter": "本編",
+    "scene": "c04_02d",
+    "near_speaker": "小倉朝日",
+    "near_text": "「では始めます」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c04_02d.s",
+     "line": 1315,
+     "scene": "c04_02d"
+    }
+   ]
+  },
+  "EV/UFJ03B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/c04_02d.s",
+    "line": 1400,
+    "chapter": "本編",
+    "scene": "c04_02d",
+    "near_speaker": "ユルシュール",
+    "near_text": "「あ、気持ちいいですわ……中々に上手いですわね、天国へ行けそうですわ」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c04_02d.s",
+     "line": 1400,
+     "scene": "c04_02d"
+    }
+   ]
+  },
+  "EV/UFJ03C": {
+   "refs": 3,
+   "first": {
+    "file": "scenario/本編/c04_02d.s",
+    "line": 1510,
+    "chapter": "本編",
+    "scene": "c04_02d",
+    "near_speaker": "ユルシュール",
+    "near_text": "「ですわっ！？」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c04_02d.s",
+     "line": 1510,
+     "scene": "c04_02d"
+    },
+    {
+     "file": "scenario/本編/c04_02d.s",
+     "line": 1525,
+     "scene": "c04_02d"
+    },
+    {
+     "file": "scenario/本編/c04_02d.s",
+     "line": 1540,
+     "scene": "c04_02d"
+    }
+   ]
+  },
+  "EV/UFJ03D": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/c04_02d.s",
+    "line": 1604,
+    "chapter": "本編",
+    "scene": "c04_02d",
+    "near_speaker": "ユルシュール",
+    "near_text": "「油断させてからのギロチンのような攻撃……うう、私としたことが、ルナの使用人を信用したのが間違いでしたわ」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c04_02d.s",
+     "line": 1604,
+     "scene": "c04_02d"
+    }
+   ]
+  },
+  "EV/UFJ04A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/c07_01a1.s",
+    "line": 895,
+    "chapter": "本編",
+    "scene": "c07_01a1",
+    "near_speaker": "ユルシュール",
+    "near_text": "「朝日ー。喉が乾きましたわ。ジュースをいただきたいですわー」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c07_01a1.s",
+     "line": 895,
+     "scene": "c07_01a1"
+    }
+   ]
+  },
+  "EV/UFJ04B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/c07_01a1.s",
+    "line": 1419,
+    "chapter": "本編",
+    "scene": "c07_01a1",
+    "near_speaker": "小倉朝日",
+    "near_text": "「はい……とても楽しいです」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c07_01a1.s",
+     "line": 1419,
+     "scene": "c07_01a1"
+    }
+   ]
+  },
+  "EV/UFJ05A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/u07_03b.s",
+    "line": 958,
+    "chapter": "本編",
+    "scene": "u07_03b",
+    "near_speaker": null,
+    "near_text": "あ……。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/u07_03b.s",
+     "line": 958,
+     "scene": "u07_03b"
+    }
+   ]
+  },
+  "EV/UFJ05B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/u07_03b.s",
+    "line": 1036,
+    "chapter": "本編",
+    "scene": "u07_03b",
+    "near_speaker": null,
+    "near_text": "だけどドアを閉め、鍵をかける音で、ようやく人の気配を感じとった。その蒼い瞳がひときわ大きく見開かれる。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/u07_03b.s",
+     "line": 1036,
+     "scene": "u07_03b"
+    }
+   ]
+  },
+  "EV/UFJ06A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/u09_02a.s",
+    "line": 797,
+    "chapter": "本編",
+    "scene": "u09_02a",
+    "near_speaker": null,
+    "near_text": "僕以外でも捕まっているひとがいるのを発見した。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/u09_02a.s",
+     "line": 797,
+     "scene": "u09_02a"
+    }
+   ]
+  },
+  "EV/UFJ06B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/u09_02a.s",
+    "line": 872,
+    "chapter": "本編",
+    "scene": "u09_02a",
+    "near_speaker": "ユルシュール",
+    "near_text": "「ごめんなさい。今は気になっているひとがいますから、お話するのもご遠慮します。また来世でお声がけください」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/u09_02a.s",
+     "line": 872,
+     "scene": "u09_02a"
+    }
+   ]
+  },
+  "EV/UFJ07A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/u09_02c.s",
+    "line": 250,
+    "chapter": "本編",
+    "scene": "u09_02c",
+    "near_speaker": null,
+    "near_text": "こんな場所でも万が一のことがあってはいけないと思ってくれたんだろう。やっぱりユーシェの理性は働いてる。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/u09_02c.s",
+     "line": 250,
+     "scene": "u09_02c"
+    }
+   ]
+  },
+  "EV/UFJ07B": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/本編/u09_02c.s",
+    "line": 871,
+    "chapter": "本編",
+    "scene": "u09_02c",
+    "near_speaker": null,
+    "near_text": "蒼い瞳の奥が燃えあがるのを見て、乞われるがままに密着する体を抱きしめた。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/u09_02c.s",
+     "line": 871,
+     "scene": "u09_02c"
+    },
+    {
+     "file": "scenario/本編/u09_02c.s",
+     "line": 1131,
+     "scene": "u09_02c"
+    }
+   ]
+  },
+  "EV/UFJ07C": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/アフター/u32_01c.s",
+    "line": 448,
+    "chapter": "アフター",
+    "scene": "u32_01c",
+    "near_speaker": null,
+    "near_text": "その後にキスを交わしたから、綺麗な思い出になってるといいな……なんてのは、ちょっと無理があったかな。"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/u32_01c.s",
+     "line": 448,
+     "scene": "u32_01c"
+    },
+    {
+     "file": "scenario/本編/u09_02c.s",
+     "line": 1112,
+     "scene": "u09_02c"
+    }
+   ]
+  },
+  "EV/UFJ07D": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/u09_02c.s",
+    "line": 1246,
+    "chapter": "本編",
+    "scene": "u09_02c",
+    "near_speaker": null,
+    "near_text": "だけど突然の訪問者に、僕たちはキスをした時よりも鼓動を速める結果になった。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/u09_02c.s",
+     "line": 1246,
+     "scene": "u09_02c"
+    }
+   ]
+  },
+  "EV/UFJ08A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/u12_01a.s",
+    "line": 624,
+    "chapter": "本編",
+    "scene": "u12_01a",
+    "near_speaker": null,
+    "near_text": "ユーシェが……お姫様みたいだ。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/u12_01a.s",
+     "line": 624,
+     "scene": "u12_01a"
+    }
+   ]
+  },
+  "EV/UFJ08B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/u12_01a.s",
+    "line": 746,
+    "chapter": "本編",
+    "scene": "u12_01a",
+    "near_speaker": null,
+    "near_text": "僕の前ではすぐに泣いてしまうユーシェは、今日も目の端に涙を浮かべて微笑んだ。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/u12_01a.s",
+     "line": 746,
+     "scene": "u12_01a"
+    }
+   ]
+  },
+  "EV/UFJ09A": {
+   "refs": 4,
+   "first": {
+    "file": "scenario/本編/u12_02b.s",
+    "line": 367,
+    "chapter": "本編",
+    "scene": "u12_02b",
+    "near_speaker": null,
+    "near_text": "一瞬の空白があった。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/u12_02b.s",
+     "line": 367,
+     "scene": "u12_02b"
+    },
+    {
+     "file": "scenario/本編/u12_02b.s",
+     "line": 376,
+     "scene": "u12_02b"
+    },
+    {
+     "file": "scenario/本編/u12_02b.s",
+     "line": 385,
+     "scene": "u12_02b"
+    },
+    {
+     "file": "scenario/本編/u12_02b.s",
+     "line": 598,
+     "scene": "u12_02b"
+    }
+   ]
+  },
+  "EV/UFJ09B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/u12_02b.s",
+    "line": 614,
+    "chapter": "本編",
+    "scene": "u12_02b",
+    "near_speaker": null,
+    "near_text": "――カツーン。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/u12_02b.s",
+     "line": 614,
+     "scene": "u12_02b"
+    }
+   ]
+  },
+  "EV/UFJ09C": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/u12_02b.s",
+    "line": 762,
+    "chapter": "本編",
+    "scene": "u12_02b",
+    "near_speaker": null,
+    "near_text": "あの、僕にしか見せなかった素敵な微笑みをウインクと共に会場の全員に与えてしまった。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/u12_02b.s",
+     "line": 762,
+     "scene": "u12_02b"
+    }
+   ]
+  },
+  "EV/UFJ10A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/u12_02c.s",
+    "line": 1055,
+    "chapter": "本編",
+    "scene": "u12_02c",
+    "near_speaker": "ユルシュール",
+    "near_text": "「ありがとう……ございます」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/u12_02c.s",
+     "line": 1055,
+     "scene": "u12_02c"
+    }
+   ]
+  },
+  "EV/UFJ10B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/u12_02c.s",
+    "line": 1775,
+    "chapter": "本編",
+    "scene": "u12_02c",
+    "near_speaker": null,
+    "near_text": "今までずっと憧れてきた栄光の舞台。その中心で、彼女はまっすぐに前を見た。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/u12_02c.s",
+     "line": 1775,
+     "scene": "u12_02c"
+    }
+   ]
+  },
+  "EV/UFJ11A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/u10_01c.s",
+    "line": 139,
+    "chapter": "本編",
+    "scene": "u10_01c",
+    "near_speaker": "ユルシュール",
+    "near_text": "「ではまず――」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/u10_01c.s",
+     "line": 139,
+     "scene": "u10_01c"
+    }
+   ]
+  },
+  "EV/UFJ11B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/u10_01c.s",
+    "line": 422,
+    "chapter": "本編",
+    "scene": "u10_01c",
+    "near_speaker": "ユルシュール",
+    "near_text": "「こ、これで……」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/u10_01c.s",
+     "line": 422,
+     "scene": "u10_01c"
+    }
+   ]
+  },
+  "EV/UFJ11C": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/u10_01c.s",
+    "line": 670,
+    "chapter": "本編",
+    "scene": "u10_01c",
+    "near_speaker": "ユルシュール",
+    "near_text": "「はっ……」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/u10_01c.s",
+     "line": 670,
+     "scene": "u10_01c"
+    }
+   ]
+  },
+  "EV/UFJ11D": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/u10_01c.s",
+    "line": 913,
+    "chapter": "本編",
+    "scene": "u10_01c",
+    "near_speaker": "ユルシュール",
+    "near_text": "「す、すごいことでしょう？　でもこの姿を見せることで愛情の強さを感じてください」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/u10_01c.s",
+     "line": 913,
+     "scene": "u10_01c"
+    }
+   ]
+  },
+  "EV/UFJ12A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/u10_01c.s",
+    "line": 1646,
+    "chapter": "本編",
+    "scene": "u10_01c",
+    "near_speaker": "小倉朝日",
+    "near_text": "「じゃ、いくね」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/u10_01c.s",
+     "line": 1646,
+     "scene": "u10_01c"
+    }
+   ]
+  },
+  "EV/UFJ12B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/u10_01c.s",
+    "line": 1691,
+    "chapter": "本編",
+    "scene": "u10_01c",
+    "near_speaker": "ユルシュール",
+    "near_text": "「んっ……！」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/u10_01c.s",
+     "line": 1691,
+     "scene": "u10_01c"
+    }
+   ]
+  },
+  "EV/UFJ12C": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/u10_01c.s",
+    "line": 1924,
+    "chapter": "本編",
+    "scene": "u10_01c",
+    "near_speaker": "ユルシュール",
+    "near_text": "「痛いっ……あ、ああッ……いたっ、いだだっ……むり、むりかもしれまっ……いた、痛いですわっ！」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/u10_01c.s",
+     "line": 1924,
+     "scene": "u10_01c"
+    }
+   ]
+  },
+  "EV/UFJ12D": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/u10_01c.s",
+    "line": 2015,
+    "chapter": "本編",
+    "scene": "u10_01c",
+    "near_speaker": null,
+    "near_text": "ユーシェはぐってりと力尽きてしまった。よほど体力を使ったらしい。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/u10_01c.s",
+     "line": 2015,
+     "scene": "u10_01c"
+    }
+   ]
+  },
+  "EV/UFJ13A": {
+   "refs": 3,
+   "first": {
+    "file": "scenario/本編/u11_03c.s",
+    "line": 935,
+    "chapter": "本編",
+    "scene": "u11_03c",
+    "near_speaker": null,
+    "near_text": "ユーシェが何度も望んでいた口付けを交わした。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/u11_03c.s",
+     "line": 935,
+     "scene": "u11_03c"
+    },
+    {
+     "file": "scenario/本編/u11_03d.s",
+     "line": 165,
+     "scene": "u11_03d"
+    },
+    {
+     "file": "scenario/本編/u11_03d.s",
+     "line": 303,
+     "scene": "u11_03d"
+    }
+   ]
+  },
+  "EV/UFJ13B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/u11_03d.s",
+    "line": 208,
+    "chapter": "本編",
+    "scene": "u11_03d",
+    "near_speaker": "ユルシュール",
+    "near_text": "「んむ……ちゅっ……」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/u11_03d.s",
+     "line": 208,
+     "scene": "u11_03d"
+    }
+   ]
+  },
+  "EV/UFJ13C": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/u11_03d.s",
+    "line": 382,
+    "chapter": "本編",
+    "scene": "u11_03d",
+    "near_speaker": null,
+    "near_text": "ユーシェの膨らみに僕の手がのった。しかも上から力を加えられたため、中へむにりと手が沈んだ。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/u11_03d.s",
+     "line": 382,
+     "scene": "u11_03d"
+    }
+   ]
+  },
+  "EV/UFJ13D": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/u11_03d.s",
+    "line": 809,
+    "chapter": "本編",
+    "scene": "u11_03d",
+    "near_speaker": "ユルシュール",
+    "near_text": "「はっ……はっ、ふっ……ん、んくっ……」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/u11_03d.s",
+     "line": 809,
+     "scene": "u11_03d"
+    }
+   ]
+  },
+  "EV/UFJ14A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/u11_03d.s",
+    "line": 985,
+    "chapter": "本編",
+    "scene": "u11_03d",
+    "near_speaker": "小倉朝日",
+    "near_text": "「じゃあユーシェの体の準備が出来てる内に……」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/u11_03d.s",
+     "line": 985,
+     "scene": "u11_03d"
+    }
+   ]
+  },
+  "EV/UFJ14B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/u11_03d.s",
+    "line": 1073,
+    "chapter": "本編",
+    "scene": "u11_03d",
+    "near_speaker": "ユルシュール",
+    "near_text": "「んくっ……！　き、来ました……！」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/u11_03d.s",
+     "line": 1073,
+     "scene": "u11_03d"
+    }
+   ]
+  },
+  "EV/UFJ14C": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/u11_03d.s",
+    "line": 1195,
+    "chapter": "本編",
+    "scene": "u11_03d",
+    "near_speaker": null,
+    "near_text": "ユーシェの一際切なそうな声と共に、彼女の中に僕の全てが入った。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/u11_03d.s",
+     "line": 1195,
+     "scene": "u11_03d"
+    }
+   ]
+  },
+  "EV/UFJ14D": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/u11_03d.s",
+    "line": 1305,
+    "chapter": "本編",
+    "scene": "u11_03d",
+    "near_speaker": "ユルシュール",
+    "near_text": "「んぐっ……！」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/u11_03d.s",
+     "line": 1305,
+     "scene": "u11_03d"
+    }
+   ]
+  },
+  "EV/UFJ15A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/u11_03d.s",
+    "line": 1485,
+    "chapter": "本編",
+    "scene": "u11_03d",
+    "near_speaker": "ユルシュール",
+    "near_text": "「はあっ……！　はっ、あっ……んっ……ああっ……」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/u11_03d.s",
+     "line": 1485,
+     "scene": "u11_03d"
+    }
+   ]
+  },
+  "EV/UFJ15B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/u11_03d.s",
+    "line": 1614,
+    "chapter": "本編",
+    "scene": "u11_03d",
+    "near_speaker": "ユルシュール",
+    "near_text": "「んうっ！　ううっ、あっ、あああっ！　やっ、あんっ……あっ、ふあっ、ひうっ！」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/u11_03d.s",
+     "line": 1614,
+     "scene": "u11_03d"
+    }
+   ]
+  },
+  "EV/UFJ15C": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/u11_03d.s",
+    "line": 1798,
+    "chapter": "本編",
+    "scene": "u11_03d",
+    "near_speaker": "ユルシュール",
+    "near_text": "「あああああっ、あっ、ああああああ――っ！　ああっ、あああああっ……！」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/u11_03d.s",
+     "line": 1798,
+     "scene": "u11_03d"
+    }
+   ]
+  },
+  "EV/UFJ15D": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/u11_03d.s",
+    "line": 1853,
+    "chapter": "本編",
+    "scene": "u11_03d",
+    "near_speaker": "ユルシュール",
+    "near_text": "「ああ、嬉しい……！　こんなに、これほど激しく夢中になっている顔を初めて見せてもらいました……！」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/u11_03d.s",
+     "line": 1853,
+     "scene": "u11_03d"
+    }
+   ]
+  },
+  "EV/UFJ16A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/u12_02e.s",
+    "line": 140,
+    "chapter": "本編",
+    "scene": "u12_02e",
+    "near_speaker": null,
+    "near_text": "そして目立たない方がいいとわかっていたのに、何故か制服を脱がせて机の上に載せてしまった。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/u12_02e.s",
+     "line": 140,
+     "scene": "u12_02e"
+    }
+   ]
+  },
+  "EV/UFJ16B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/u12_02e.s",
+    "line": 314,
+    "chapter": "本編",
+    "scene": "u12_02e",
+    "near_speaker": "ユルシュール",
+    "near_text": "「ふふ、恥ずかしいです。でも今はこの高揚感も心地いいです」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/u12_02e.s",
+     "line": 314,
+     "scene": "u12_02e"
+    }
+   ]
+  },
+  "EV/UFJ16C": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/本編/u12_02e.s",
+    "line": 542,
+    "chapter": "本編",
+    "scene": "u12_02e",
+    "near_speaker": null,
+    "near_text": "ユーシェは自らシャツのボタンを外し、ブラまでずらして、ばんと胸を露出させた。ド迫力。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/u12_02e.s",
+     "line": 542,
+     "scene": "u12_02e"
+    },
+    {
+     "file": "scenario/本編/u12_02e.s",
+     "line": 1002,
+     "scene": "u12_02e"
+    }
+   ]
+  },
+  "EV/UFJ16D": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/u12_02e.s",
+    "line": 928,
+    "chapter": "本編",
+    "scene": "u12_02e",
+    "near_speaker": "ユルシュール",
+    "near_text": "「ああああああああぁぁ――っ！」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/u12_02e.s",
+     "line": 928,
+     "scene": "u12_02e"
+    }
+   ]
+  },
+  "EV/UFJ17A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/u12_02e.s",
+    "line": 1122,
+    "chapter": "本編",
+    "scene": "u12_02e",
+    "near_speaker": null,
+    "near_text": "そんなわけで自然とこういう形になった。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/u12_02e.s",
+     "line": 1122,
+     "scene": "u12_02e"
+    }
+   ]
+  },
+  "EV/UFJ17B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/u12_02e.s",
+    "line": 1365,
+    "chapter": "本編",
+    "scene": "u12_02e",
+    "near_speaker": "ユルシュール",
+    "near_text": "「はあああぁぁぁっ……！」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/u12_02e.s",
+     "line": 1365,
+     "scene": "u12_02e"
+    }
+   ]
+  },
+  "EV/UFJ17C": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/u12_02e.s",
+    "line": 1545,
+    "chapter": "本編",
+    "scene": "u12_02e",
+    "near_speaker": "小倉朝日",
+    "near_text": "「いいいいいいうううっ！？」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/u12_02e.s",
+     "line": 1545,
+     "scene": "u12_02e"
+    }
+   ]
+  },
+  "EV/UFJ17D": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/u12_02e.s",
+    "line": 1688,
+    "chapter": "本編",
+    "scene": "u12_02e",
+    "near_speaker": "小倉朝日",
+    "near_text": "「んんっ、むっ、れろっ……はっ、ふあっ……はっ、んっ……くっ」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/u12_02e.s",
+     "line": 1688,
+     "scene": "u12_02e"
+    }
+   ]
+  },
+  "EV/UFJ18A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/u12_02e.s",
+    "line": 1871,
+    "chapter": "本編",
+    "scene": "u12_02e",
+    "near_speaker": "小倉朝日",
+    "near_text": "「途中で辛くなったら遠慮せずに言って」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/u12_02e.s",
+     "line": 1871,
+     "scene": "u12_02e"
+    }
+   ]
+  },
+  "EV/UFJ18B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/u12_02e.s",
+    "line": 1939,
+    "chapter": "本編",
+    "scene": "u12_02e",
+    "near_speaker": "ユルシュール",
+    "near_text": "「はあっ……！　うっ、んうっ……！　や、やっぱり指とは違います……ね」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/u12_02e.s",
+     "line": 1939,
+     "scene": "u12_02e"
+    }
+   ]
+  },
+  "EV/UFJ18C": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/u12_02e.s",
+    "line": 2085,
+    "chapter": "本編",
+    "scene": "u12_02e",
+    "near_speaker": "ユルシュール",
+    "near_text": "「はあっ、あっ、あああッ……やっ！　あうっ、あっ、んんっ……ん、くうっ！」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/u12_02e.s",
+     "line": 2085,
+     "scene": "u12_02e"
+    }
+   ]
+  },
+  "EV/UFJ18D": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/u12_02e.s",
+    "line": 2278,
+    "chapter": "本編",
+    "scene": "u12_02e",
+    "near_speaker": null,
+    "near_text": "ユーシェの一際大きな声と共に噴きだした液体は、彼女の美しい体の上へ振りかかり、その肌を汚していった。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/u12_02e.s",
+     "line": 2278,
+     "scene": "u12_02e"
+    }
+   ]
+  },
+  "EV/UFJ19A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/u12_02f.s",
+    "line": 422,
+    "chapter": "本編",
+    "scene": "u12_02f",
+    "near_speaker": "小倉朝日",
+    "near_text": "「これでどう？　けっこう雰囲気出てない？」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/u12_02f.s",
+     "line": 422,
+     "scene": "u12_02f"
+    }
+   ]
+  },
+  "EV/UFJ19B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/u12_02f.s",
+    "line": 693,
+    "chapter": "本編",
+    "scene": "u12_02f",
+    "near_speaker": null,
+    "near_text": "彼女が一番輝いたその夜、僕たちは自分たちの祭壇で永遠の愛を誓いあった。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/u12_02f.s",
+     "line": 693,
+     "scene": "u12_02f"
+    }
+   ]
+  },
+  "EV/UFJ20A": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/本編/u99_01a.s",
+    "line": 199,
+    "chapter": "本編",
+    "scene": "u99_01a",
+    "near_speaker": "ユルシュール",
+    "near_text": "「でしょう？　遊星さんなら、この美しさを理解してくれると信じてました」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/u99_01a.s",
+     "line": 199,
+     "scene": "u99_01a"
+    },
+    {
+     "file": "scenario/本編/u99_01a.s",
+     "line": 787,
+     "scene": "u99_01a"
+    }
+   ]
+  },
+  "EV/UFJ20B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/u99_01a.s",
+    "line": 890,
+    "chapter": "本編",
+    "scene": "u99_01a",
+    "near_speaker": "ユルシュール",
+    "near_text": "「遊星さん、これが我が国の国花、紛うことなき本物のエーデルワイスです！」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/u99_01a.s",
+     "line": 890,
+     "scene": "u99_01a"
+    }
+   ]
+  },
+  "EV/UFJ20C": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/アフター/u31_01a.s",
+    "line": 1959,
+    "chapter": "アフター",
+    "scene": "u31_01a",
+    "near_speaker": null,
+    "near_text": "と言われても。エーデルワイスはさておき、ユーシェは果たしてスイスだから喜んでいたんだろうか。"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/u31_01a.s",
+     "line": 1959,
+     "scene": "u31_01a"
+    },
+    {
+     "file": "scenario/本編/u99_01a.s",
+     "line": 1023,
+     "scene": "u99_01a"
+    }
+   ]
+  },
+  "EV/UFJ21A": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/アフター/u32_02a.s",
+    "line": 473,
+    "chapter": "アフター",
+    "scene": "u32_02a",
+    "near_speaker": null,
+    "near_text": "あったなあ。意地っ張りのユーシェが、精一杯の勇気を出して……うん、青春してた。"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/u32_02a.s",
+     "line": 473,
+     "scene": "u32_02a"
+    },
+    {
+     "file": "scenario/本編/u11_01b.s",
+     "line": 432,
+     "scene": "u11_01b"
+    }
+   ]
+  },
+  "EV/UFJ21B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/u11_01b.s",
+    "line": 637,
+    "chapter": "本編",
+    "scene": "u11_01b",
+    "near_speaker": "花之宮瑞穂",
+    "near_text": "「私はユーシェの友人思いなところが大好き。ユーシェはきっと裏切るなんて、発想自体がないんだろうなと思えるほど信じられる」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/u11_01b.s",
+     "line": 637,
+     "scene": "u11_01b"
+    }
+   ]
+  },
+  "EV/UFJ21C": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/u11_01b.s",
+    "line": 810,
+    "chapter": "本編",
+    "scene": "u11_01b",
+    "near_speaker": null,
+    "near_text": "瞳にたっぷりの涙を浮かべているのも関わらず、笑顔を作って僕たちに感謝した。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/u11_01b.s",
+     "line": 810,
+     "scene": "u11_01b"
+    }
+   ]
+  },
+  "EV/UFJ22A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/u12_02a.s",
+    "line": 1301,
+    "chapter": "本編",
+    "scene": "u12_02a",
+    "near_speaker": null,
+    "near_text": "ルナ様たちがいたときは、まだ堂々とした表情を浮かべていた。それが今は……。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/u12_02a.s",
+     "line": 1301,
+     "scene": "u12_02a"
+    }
+   ]
+  },
+  "EV/UFJ22B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/u12_02a.s",
+    "line": 1463,
+    "chapter": "本編",
+    "scene": "u12_02a",
+    "near_speaker": null,
+    "near_text": "この格好のまま、ひとの見てる前でユーシェの唇にキスをした。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/u12_02a.s",
+     "line": 1463,
+     "scene": "u12_02a"
+    }
+   ]
+  },
+  "EV/UFJ22C": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/u12_02a.s",
+    "line": 1477,
+    "chapter": "本編",
+    "scene": "u12_02a",
+    "near_speaker": null,
+    "near_text": "もちろんそれは一瞬のこと。すぐにキスする前の位置に戻った。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/u12_02a.s",
+     "line": 1477,
+     "scene": "u12_02a"
+    }
+   ]
+  },
+  "EV/UFJ22D": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/u12_02a.s",
+    "line": 1592,
+    "chapter": "本編",
+    "scene": "u12_02a",
+    "near_speaker": "ユルシュール",
+    "near_text": "「恥ずかしいです……もうっ」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/u12_02a.s",
+     "line": 1592,
+     "scene": "u12_02a"
+    }
+   ]
+  },
+  "EV/ZZZ01A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/c05_01a1.s",
+    "line": 2674,
+    "chapter": "本編",
+    "scene": "c05_01a1",
+    "near_speaker": null,
+    "near_text": "今度は湊が僕の腕を一本持っていった。いま誰かにストレートで殴られたらガードできない。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c05_01a1.s",
+     "line": 2674,
+     "scene": "c05_01a1"
+    }
+   ]
+  },
+  "EV/ZZZ02A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/c05_01a1.s",
+    "line": 3109,
+    "chapter": "本編",
+    "scene": "c05_01a1",
+    "near_speaker": "花之宮瑞穂",
+    "near_text": "「や、やはり歩きながらかぶりつくには、少し戸惑いが出てしまいますね……」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c05_01a1.s",
+     "line": 3109,
+     "scene": "c05_01a1"
+    }
+   ]
+  },
+  "EV/ZZZ03A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/c04_01c.s",
+    "line": 157,
+    "chapter": "本編",
+    "scene": "c04_01c",
+    "near_speaker": null,
+    "near_text": "その見返りとして、一番最後なので時間を気にせずゆっくり浸かれる。この至福の一時のためなら、その後の掃除だって厭わない。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c04_01c.s",
+     "line": 157,
+     "scene": "c04_01c"
+    }
+   ]
+  },
+  "EV/ZZZ03B": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/本編/c04_01c.s",
+    "line": 258,
+    "chapter": "本編",
+    "scene": "c04_01c",
+    "near_speaker": null,
+    "near_text": "ええええ！　ままっ、待って待って待って！　なに！　コレなに！？　どうしよう！？"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c04_01c.s",
+     "line": 258,
+     "scene": "c04_01c"
+    },
+    {
+     "file": "scenario/本編/c04_03b.s",
+     "line": 265,
+     "scene": "c04_03b"
+    }
+   ]
+  },
+  "EV/ZZZ03C": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/本編/c04_01c.s",
+    "line": 368,
+    "chapter": "本編",
+    "scene": "c04_01c",
+    "near_speaker": "柳ヶ瀬湊",
+    "near_text": "「お邪魔しまーす！　朝日ー、元気に風呂ってるぅ？　一度済ませたけど、朝日と話したいからもっかい入りに来ちゃった！」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c04_01c.s",
+     "line": 368,
+     "scene": "c04_01c"
+    },
+    {
+     "file": "scenario/本編/c04_03b.s",
+     "line": 242,
+     "scene": "c04_03b"
+    }
+   ]
+  },
+  "EV/ZZZ03D": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/本編/c04_01c.s",
+    "line": 601,
+    "chapter": "本編",
+    "scene": "c04_01c",
+    "near_speaker": "柳ヶ瀬湊",
+    "near_text": "「ま、じゃあ三人でお風呂トークでもしよっか。全員が居ればもっと良かったんだけどね」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c04_01c.s",
+     "line": 601,
+     "scene": "c04_01c"
+    },
+    {
+     "file": "scenario/本編/c04_04a.s",
+     "line": 1619,
+     "scene": "c04_04a"
+    }
+   ]
+  },
+  "EV/ZZZ03E": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/本編/c04_03b.s",
+    "line": 339,
+    "chapter": "本編",
+    "scene": "c04_03b",
+    "near_speaker": "柳ヶ瀬湊",
+    "near_text": "「湊様も厳重に隠してください」とは言いにくい。できるだけ目を伏せることで、湊への配慮とした。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c04_03b.s",
+     "line": 339,
+     "scene": "c04_03b"
+    },
+    {
+     "file": "scenario/本編/c04_04a.s",
+     "line": 1604,
+     "scene": "c04_04a"
+    }
+   ]
+  },
+  "EV/ZZZ04A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/c07_01a1.s",
+    "line": 1208,
+    "chapter": "本編",
+    "scene": "c07_01a1",
+    "near_speaker": null,
+    "near_text": "湖の妖か……湊はここへ来た時から、ずっと泳いでるのにも関わらず元気だった。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c07_01a1.s",
+     "line": 1208,
+     "scene": "c07_01a1"
+    }
+   ]
+  },
+  "EV/ZZZ04B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/c07_01a1.s",
+    "line": 1264,
+    "chapter": "本編",
+    "scene": "c07_01a1",
+    "near_speaker": "花之宮瑞穂",
+    "near_text": "「朝日もまだプールへ入っていないけど、泳がない……それとも泳げない？」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c07_01a1.s",
+     "line": 1264,
+     "scene": "c07_01a1"
+    }
+   ]
+  },
+  "EV/ZZZ05A": {
+   "refs": 3,
+   "first": {
+    "file": "scenario/アフター/haas02.s",
+    "line": 5948,
+    "chapter": "アフター",
+    "scene": "haas02",
+    "near_speaker": null,
+    "near_text": "男装をする人は胸が小さめの方が楽じゃないかなと思ったけれど、あの均整のとれた体型は、今思い出すと、採寸しておきたかったと"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/haas02.s",
+     "line": 5948,
+     "scene": "haas02"
+    },
+    {
+     "file": "scenario/本編/h08_02a.s",
+     "line": 856,
+     "scene": "h08_02a"
+    },
+    {
+     "file": "scenario/本編/h08_02a.s",
+     "line": 951,
+     "scene": "h08_02a"
+    }
+   ]
+  },
+  "EV/ZZZ05B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/h08_02a.s",
+    "line": 1012,
+    "chapter": "本編",
+    "scene": "h08_02a",
+    "near_speaker": "杉村北斗",
+    "near_text": "「……前……私の裸……それがどうかしたのですか？」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/h08_02a.s",
+     "line": 1012,
+     "scene": "h08_02a"
+    }
+   ]
+  },
+  "EV/ZZZ05C": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/h08_02a.s",
+    "line": 1098,
+    "chapter": "本編",
+    "scene": "h08_02a",
+    "near_speaker": "杉村北斗",
+    "near_text": "「……トマホーク……狩猟用のスピア……武器、武器が必要です」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/h08_02a.s",
+     "line": 1098,
+     "scene": "h08_02a"
+    }
+   ]
+  },
+  "EV/ZZZ06A": {
+   "refs": 5,
+   "first": {
+    "file": "scenario/アフター/l31_02b.s",
+    "line": 906,
+    "chapter": "アフター",
+    "scene": "l31_02b",
+    "near_speaker": null,
+    "near_text": "二人は中庭へ出ていったので、こういうときは止めなくていいですと八十島さんに教えてあげた。"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/l31_02b.s",
+     "line": 906,
+     "scene": "l31_02b"
+    },
+    {
+     "file": "scenario/アフター/l33_01a.s",
+     "line": 3034,
+     "scene": "l33_01a"
+    },
+    {
+     "file": "scenario/本編/c04_03a0.s",
+     "line": 1088,
+     "scene": "c04_03a0"
+    },
+    {
+     "file": "scenario/本編/c05_02c.s",
+     "line": 940,
+     "scene": "c05_02c"
+    },
+    {
+     "file": "scenario/本編/c07_01a0.s",
+     "line": 432,
+     "scene": "c07_01a0"
+    }
+   ]
+  },
+  "EV/ZZZ07A": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/本編/c00_01b.s",
+    "line": 1144,
+    "chapter": "本編",
+    "scene": "c00_01b",
+    "near_speaker": null,
+    "near_text": "踊り場と呼ぶには広すぎる中階に、ぼくより幾らか年下の子供たちが不穏な輪を作っていた。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c00_01b.s",
+     "line": 1144,
+     "scene": "c00_01b"
+    },
+    {
+     "file": "scenario/本編/c00_01b.s",
+     "line": 1282,
+     "scene": "c00_01b"
+    }
+   ]
+  },
+  "EV/ZZZ07B": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/本編/c00_01b.s",
+    "line": 1216,
+    "chapter": "本編",
+    "scene": "c00_01b",
+    "near_speaker": null,
+    "near_text": "努めて柔らかな英語で声をかけたつもりだったけれど、彼女は大きく肩を震わせ、いっそう縮こまってしまった。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c00_01b.s",
+     "line": 1216,
+     "scene": "c00_01b"
+    },
+    {
+     "file": "scenario/本編/c00_01b.s",
+     "line": 1336,
+     "scene": "c00_01b"
+    }
+   ]
+  },
+  "EV/ZZZ07C": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/本編/c00_01b.s",
+    "line": 1584,
+    "chapter": "本編",
+    "scene": "c00_01b",
+    "near_speaker": "大蔵遊星",
+    "near_text": "「……残念です」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c00_01b.s",
+     "line": 1584,
+     "scene": "c00_01b"
+    },
+    {
+     "file": "scenario/本編/c00_01b.s",
+     "line": 1809,
+     "scene": "c00_01b"
+    }
+   ]
+  },
+  "EV/ZZZ08A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/c07_bad01.s",
+    "line": 225,
+    "chapter": "本編",
+    "scene": "c07_bad01",
+    "near_speaker": null,
+    "near_text": "自分が体にタオルを巻かずに入っていたことも忘れていた。"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c07_bad01.s",
+     "line": 225,
+     "scene": "c07_bad01"
+    }
+   ]
+  },
+  "EV/ZZZ08B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/c07_bad01.s",
+    "line": 361,
+    "chapter": "本編",
+    "scene": "c07_bad01",
+    "near_speaker": "山吹八千代",
+    "near_text": "「いいから出てけッッ！！！」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c07_bad01.s",
+     "line": 361,
+     "scene": "c07_bad01"
+    }
+   ]
+  },
+  "EV/ZZZ09A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/c07_bad02.s",
+    "line": 796,
+    "chapter": "本編",
+    "scene": "c07_bad02",
+    "near_speaker": "小倉朝日",
+    "near_text": "「本日は鎌倉野菜を中心としたメニューになります。メインは鶏もも肉のグリルです」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c07_bad02.s",
+     "line": 796,
+     "scene": "c07_bad02"
+    }
+   ]
+  },
+  "EV/ZZZ09B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/c07_bad02.s",
+    "line": 848,
+    "chapter": "本編",
+    "scene": "c07_bad02",
+    "near_speaker": "大蔵衣遠",
+    "near_text": "「先日まで付きそわせていた専属の料理人が逃げた。一度調理ミスをした故に鉄板を叩きつけたら、それが不満だったようだ」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c07_bad02.s",
+     "line": 848,
+     "scene": "c07_bad02"
+    }
+   ]
+  },
+  "EV/ZZZ09C": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/本編/c07_bad02.s",
+    "line": 922,
+    "chapter": "本編",
+    "scene": "c07_bad02",
+    "near_speaker": "大蔵衣遠",
+    "near_text": "「あまり回数をかけ過ぎるな――貴様、なぜ笑っている」"
+   },
+   "places": [
+    {
+     "file": "scenario/本編/c07_bad02.s",
+     "line": 922,
+     "scene": "c07_bad02"
+    }
+   ]
+  },
+  "EV_AFTER/LUN31A": {
+   "refs": 3,
+   "first": {
+    "file": "scenario/アフター/l31_01a.s",
+    "line": 511,
+    "chapter": "アフター",
+    "scene": "l31_01a",
+    "near_speaker": "小倉朝日",
+    "near_text": "「ルナ、大丈夫？　日差しはきつくない？」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/l31_01a.s",
+     "line": 511,
+     "scene": "l31_01a"
+    },
+    {
+     "file": "scenario/アフター/l31_01a.s",
+     "line": 1139,
+     "scene": "l31_01a"
+    },
+    {
+     "file": "scenario/アフター/l31_01a.s",
+     "line": 1544,
+     "scene": "l31_01a"
+    }
+   ]
+  },
+  "EV_AFTER/LUN31B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/l31_01a.s",
+    "line": 1357,
+    "chapter": "アフター",
+    "scene": "l31_01a",
+    "near_speaker": "桜小路ルナ",
+    "near_text": "「はじめまして。遊星さんから紹介いただいた、桜小路ルナです」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/l31_01a.s",
+     "line": 1357,
+     "scene": "l31_01a"
+    }
+   ]
+  },
+  "EV_AFTER/LUN31C": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/l31_01a.s",
+    "line": 1836,
+    "chapter": "アフター",
+    "scene": "l31_01a",
+    "near_speaker": null,
+    "near_text": "僕たちは目を閉じた。祝福と感謝を捧げるために。"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/l31_01a.s",
+     "line": 1836,
+     "scene": "l31_01a"
+    }
+   ]
+  },
+  "EV_AFTER/LUN32A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/l32_01c3.s",
+    "line": 792,
+    "chapter": "アフター",
+    "scene": "l32_01c3",
+    "near_speaker": "桜小路ルナ",
+    "near_text": "「ふ……」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/l32_01c3.s",
+     "line": 792,
+     "scene": "l32_01c3"
+    }
+   ]
+  },
+  "EV_AFTER/LUN32B": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/アフター/l32_01c3.s",
+    "line": 649,
+    "chapter": "アフター",
+    "scene": "l32_01c3",
+    "near_speaker": null,
+    "near_text": "その言葉に自分が止まらなくなり、唇を重ねてしまった。ルナも自然に受けいれてくれた。"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/l32_01c3.s",
+     "line": 649,
+     "scene": "l32_01c3"
+    },
+    {
+     "file": "scenario/アフター/l32_01c3.s",
+     "line": 903,
+     "scene": "l32_01c3"
+    }
+   ]
+  },
+  "EV_AFTER/LUN32C": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/l32_01c3.s",
+    "line": 939,
+    "chapter": "アフター",
+    "scene": "l32_01c3",
+    "near_speaker": "桜小路ルナ",
+    "near_text": "「んっ……」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/l32_01c3.s",
+     "line": 939,
+     "scene": "l32_01c3"
+    }
+   ]
+  },
+  "EV_AFTER/LUN32D": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/l32_01c3.s",
+    "line": 1321,
+    "chapter": "アフター",
+    "scene": "l32_01c3",
+    "near_speaker": "桜小路ルナ",
+    "near_text": "「はっ……ふふ、君にこうして肌を見せるのも何度目だろうな。恥じらいは忘れたくないものだが」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/l32_01c3.s",
+     "line": 1321,
+     "scene": "l32_01c3"
+    }
+   ]
+  },
+  "EV_AFTER/LUN32E": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/l32_01c3.s",
+    "line": 1490,
+    "chapter": "アフター",
+    "scene": "l32_01c3",
+    "near_speaker": null,
+    "near_text": "はっ！　いけない、ついうっかり女子として答えてしまった！"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/l32_01c3.s",
+     "line": 1490,
+     "scene": "l32_01c3"
+    }
+   ]
+  },
+  "EV_AFTER/LUN33A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/l32_01c3.s",
+    "line": 1897,
+    "chapter": "アフター",
+    "scene": "l32_01c3",
+    "near_speaker": "桜小路ルナ",
+    "near_text": "「ほ、ほう……これは、中々に大胆じゃないか。なるほど、君もなんだかんだ言いつつ、やはりこういうセクシーな格好を望むわけだ"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/l32_01c3.s",
+     "line": 1897,
+     "scene": "l32_01c3"
+    }
+   ]
+  },
+  "EV_AFTER/LUN33B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/l32_01c3.s",
+    "line": 2193,
+    "chapter": "アフター",
+    "scene": "l32_01c3",
+    "near_speaker": "小倉朝日",
+    "near_text": "「ルナの感じやすい場所を愛撫する」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/l32_01c3.s",
+     "line": 2193,
+     "scene": "l32_01c3"
+    }
+   ]
+  },
+  "EV_AFTER/LUN33C": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/l32_01c3.s",
+    "line": 2685,
+    "chapter": "アフター",
+    "scene": "l32_01c3",
+    "near_speaker": "桜小路ルナ",
+    "near_text": "「も……わかった……君が私を大切に想う気持ちは痛いほど伝わった……」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/l32_01c3.s",
+     "line": 2685,
+     "scene": "l32_01c3"
+    }
+   ]
+  },
+  "EV_AFTER/LUN33D": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/l32_01c3.s",
+    "line": 2998,
+    "chapter": "アフター",
+    "scene": "l32_01c3",
+    "near_speaker": "桜小路ルナ",
+    "near_text": "「んッ……！」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/l32_01c3.s",
+     "line": 2998,
+     "scene": "l32_01c3"
+    }
+   ]
+  },
+  "EV_AFTER/LUN33E": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/l32_01c3.s",
+    "line": 3759,
+    "chapter": "アフター",
+    "scene": "l32_01c3",
+    "near_speaker": "桜小路ルナ",
+    "near_text": "「あッ！　あああああっ！　あっ……あああああぁぁぁ――っ！」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/l32_01c3.s",
+     "line": 3759,
+     "scene": "l32_01c3"
+    }
+   ]
+  },
+  "EV_AFTER/LUN34A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/l31_04c4.s",
+    "line": 221,
+    "chapter": "アフター",
+    "scene": "l31_04c4",
+    "near_speaker": null,
+    "near_text": "だけどやりすぎたという気がしなくもない。"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/l31_04c4.s",
+     "line": 221,
+     "scene": "l31_04c4"
+    }
+   ]
+  },
+  "EV_AFTER/LUN34B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/l31_04c4.s",
+    "line": 1305,
+    "chapter": "アフター",
+    "scene": "l31_04c4",
+    "near_speaker": "小倉朝日",
+    "near_text": "「え？　え？」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/l31_04c4.s",
+     "line": 1305,
+     "scene": "l31_04c4"
+    }
+   ]
+  },
+  "EV_AFTER/LUN34C": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/l31_04c4.s",
+    "line": 2692,
+    "chapter": "アフター",
+    "scene": "l31_04c4",
+    "near_speaker": null,
+    "near_text": "先端を擦りつづけながら、ルナ様は僕の目隠しを取った。背後にいるから目を合わせることはない。"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/l31_04c4.s",
+     "line": 2692,
+     "scene": "l31_04c4"
+    }
+   ]
+  },
+  "EV_AFTER/LUN34D": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/l31_04c4.s",
+    "line": 3435,
+    "chapter": "アフター",
+    "scene": "l31_04c4",
+    "near_speaker": "小倉朝日",
+    "near_text": "「あっ！　ふあひっ……ふあっ、ひあああああああっ！　ふああああああ――っ！」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/l31_04c4.s",
+     "line": 3435,
+     "scene": "l31_04c4"
+    }
+   ]
+  },
+  "EV_AFTER/LUN35A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/l31_04c4.s",
+    "line": 4853,
+    "chapter": "アフター",
+    "scene": "l31_04c4",
+    "near_speaker": "小倉朝日",
+    "near_text": "「あの、このような形で……良い、でしょうか」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/l31_04c4.s",
+     "line": 4853,
+     "scene": "l31_04c4"
+    }
+   ]
+  },
+  "EV_AFTER/LUN35B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/l31_04c4.s",
+    "line": 5644,
+    "chapter": "アフター",
+    "scene": "l31_04c4",
+    "near_speaker": null,
+    "near_text": "彼女に指摘された通り、僕が握っているものはこんなことで肥大化してしまっていた。責められてはいないものの、これが言葉責めと"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/l31_04c4.s",
+     "line": 5644,
+     "scene": "l31_04c4"
+    }
+   ]
+  },
+  "EV_AFTER/LUN35C": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/l31_04c4.s",
+    "line": 6151,
+    "chapter": "アフター",
+    "scene": "l31_04c4",
+    "near_speaker": "小倉朝日",
+    "near_text": "「なあぅっ……！？」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/l31_04c4.s",
+     "line": 6151,
+     "scene": "l31_04c4"
+    }
+   ]
+  },
+  "EV_AFTER/LUN35D": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/l31_04c4.s",
+    "line": 7141,
+    "chapter": "アフター",
+    "scene": "l31_04c4",
+    "near_speaker": "小倉朝日",
+    "near_text": "「はあっ！　あっ、ふああああっ……あっ、あああああっ……！」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/l31_04c4.s",
+     "line": 7141,
+     "scene": "l31_04c4"
+    }
+   ]
+  },
+  "EV_AFTER/LUN35E": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/l31_04c4.s",
+    "line": 7216,
+    "chapter": "アフター",
+    "scene": "l31_04c4",
+    "near_speaker": "小倉朝日",
+    "near_text": "「ひうっ！　ル、ルナ様、出した直後に弄るのは、その……おやめください」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/l31_04c4.s",
+     "line": 7216,
+     "scene": "l31_04c4"
+    }
+   ]
+  },
+  "EV_AFTER/LUN36A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/l31_04c4.s",
+    "line": 7949,
+    "chapter": "アフター",
+    "scene": "l31_04c4",
+    "near_speaker": null,
+    "near_text": "とはいえ僕も疲れきってる。体力はもう限界だ。"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/l31_04c4.s",
+     "line": 7949,
+     "scene": "l31_04c4"
+    }
+   ]
+  },
+  "EV_AFTER/LUN36B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/l31_04c4.s",
+    "line": 8355,
+    "chapter": "アフター",
+    "scene": "l31_04c4",
+    "near_speaker": null,
+    "near_text": "んぐっ！"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/l31_04c4.s",
+     "line": 8355,
+     "scene": "l31_04c4"
+    }
+   ]
+  },
+  "EV_AFTER/LUN36C": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/l31_04c4.s",
+    "line": 9160,
+    "chapter": "アフター",
+    "scene": "l31_04c4",
+    "near_speaker": "小倉朝日",
+    "near_text": "「ふあああっ！　あっ！　ああああああっ……あ、ひあっ、あああああああ――っ！」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/l31_04c4.s",
+     "line": 9160,
+     "scene": "l31_04c4"
+    }
+   ]
+  },
+  "EV_AFTER/LUN36D": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/l31_04c4.s",
+    "line": 9250,
+    "chapter": "アフター",
+    "scene": "l31_04c4",
+    "near_speaker": "小倉朝日",
+    "near_text": "「ああ……あ……ふあ……」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/l31_04c4.s",
+     "line": 9250,
+     "scene": "l31_04c4"
+    }
+   ]
+  },
+  "EV_AFTER/LUN37A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/l33_02c1.s",
+    "line": 621,
+    "chapter": "アフター",
+    "scene": "l33_02c1",
+    "near_speaker": null,
+    "near_text": "流れるクラシックに乗り、僕たちは不器用なダンスを踊った。"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/l33_02c1.s",
+     "line": 621,
+     "scene": "l33_02c1"
+    }
+   ]
+  },
+  "EV_AFTER/LUN38A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/l33_02c2.s",
+    "line": 912,
+    "chapter": "アフター",
+    "scene": "l33_02c2",
+    "near_speaker": "桜小路ルナ",
+    "near_text": "「もう何も残っていないな。全て片付けられてしまった」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/l33_02c2.s",
+     "line": 912,
+     "scene": "l33_02c2"
+    }
+   ]
+  },
+  "EV_AFTER/LUN38B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/l33_02c2.s",
+    "line": 1194,
+    "chapter": "アフター",
+    "scene": "l33_02c2",
+    "near_speaker": null,
+    "near_text": "だけどきっとこの後で僕たちは我慢できなくなる。それほどの愛しさを覚えて、腕の中の人を抱きしめた。"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/l33_02c2.s",
+     "line": 1194,
+     "scene": "l33_02c2"
+    }
+   ]
+  },
+  "EV_AFTER/MIN31A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/yaas01.s",
+    "line": 7006,
+    "chapter": "アフター",
+    "scene": "yaas01",
+    "near_speaker": "小倉朝日",
+    "near_text": "「湊、そろそろ私も着替えたいんだけど……って」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/yaas01.s",
+     "line": 7006,
+     "scene": "yaas01"
+    }
+   ]
+  },
+  "EV_AFTER/MIN31B": {
+   "refs": 4,
+   "first": {
+    "file": "scenario/アフター/yaas01.s",
+    "line": 7230,
+    "chapter": "アフター",
+    "scene": "yaas01",
+    "near_speaker": null,
+    "near_text": "けれどお叱りを受けると思った僕の予想に反して、湊は照れ笑いするだけだった。名波さんの沸点は上がりきらず、８０度くらいのと"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/yaas01.s",
+     "line": 7230,
+     "scene": "yaas01"
+    },
+    {
+     "file": "scenario/アフター/yaas01.s",
+     "line": 7624,
+     "scene": "yaas01"
+    },
+    {
+     "file": "scenario/アフター/yaas01.s",
+     "line": 7768,
+     "scene": "yaas01"
+    },
+    {
+     "file": "scenario/アフター/yaas01.s",
+     "line": 7961,
+     "scene": "yaas01"
+    }
+   ]
+  },
+  "EV_AFTER/MIN31C": {
+   "refs": 3,
+   "first": {
+    "file": "scenario/アフター/yaas01.s",
+    "line": 7405,
+    "chapter": "アフター",
+    "scene": "yaas01",
+    "near_speaker": "小倉朝日",
+    "near_text": "「いえ、名波さんは読書家だっていうことをふと思い出して、凄いなと思っていたんです」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/yaas01.s",
+     "line": 7405,
+     "scene": "yaas01"
+    },
+    {
+     "file": "scenario/アフター/yaas01.s",
+     "line": 7703,
+     "scene": "yaas01"
+    },
+    {
+     "file": "scenario/アフター/yaas01.s",
+     "line": 7827,
+     "scene": "yaas01"
+    }
+   ]
+  },
+  "EV_AFTER/MIN32A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/yaas02.s",
+    "line": 6653,
+    "chapter": "アフター",
+    "scene": "yaas02",
+    "near_speaker": null,
+    "near_text": "長いキスのあとで、湊に机に座ってもらう。すると湊は、恥じらいつつもスカートの裾をめくって、その中にある下着を見せてくれた"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/yaas02.s",
+     "line": 6653,
+     "scene": "yaas02"
+    }
+   ]
+  },
+  "EV_AFTER/MIN32B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/yaas02.s",
+    "line": 7446,
+    "chapter": "アフター",
+    "scene": "yaas02",
+    "near_speaker": null,
+    "near_text": "湊に腰を浮かせてもらって、下着を引き下ろす。触っていた部分は十分に濡れていて、透明な糸がつうっと伸びる。"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/yaas02.s",
+     "line": 7446,
+     "scene": "yaas02"
+    }
+   ]
+  },
+  "EV_AFTER/MIN32C": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/アフター/yaas02.s",
+    "line": 8512,
+    "chapter": "アフター",
+    "scene": "yaas02",
+    "near_speaker": "柳ヶ瀬湊",
+    "near_text": "「あっ、ぁ……だめ……ま、まだ……入れてもらってないのに……また……またいっちゃう……」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/yaas02.s",
+     "line": 8512,
+     "scene": "yaas02"
+    },
+    {
+     "file": "scenario/アフター/yaas02.s",
+     "line": 8787,
+     "scene": "yaas02"
+    }
+   ]
+  },
+  "EV_AFTER/MIN32D": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/yaas02.s",
+    "line": 8932,
+    "chapter": "アフター",
+    "scene": "yaas02",
+    "near_speaker": "柳ヶ瀬湊",
+    "near_text": "「……へ？」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/yaas02.s",
+     "line": 8932,
+     "scene": "yaas02"
+    }
+   ]
+  },
+  "EV_AFTER/MIN33A": {
+   "refs": 6,
+   "first": {
+    "file": "scenario/アフター/yaas03.s",
+    "line": 1411,
+    "chapter": "アフター",
+    "scene": "yaas03",
+    "near_speaker": null,
+    "near_text": "化粧道具をどけたところに名波さんは座って、椅子に座ってる僕の股ぐらに足を伸ばす。そして、スカートの上から僕の股間を足の裏"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/yaas03.s",
+     "line": 1411,
+     "scene": "yaas03"
+    },
+    {
+     "file": "scenario/アフター/yaas03.s",
+     "line": 1847,
+     "scene": "yaas03"
+    },
+    {
+     "file": "scenario/アフター/yaas03.s",
+     "line": 2042,
+     "scene": "yaas03"
+    },
+    {
+     "file": "scenario/アフター/yaas03.s",
+     "line": 2636,
+     "scene": "yaas03"
+    },
+    {
+     "file": "scenario/アフター/yaas03.s",
+     "line": 2732,
+     "scene": "yaas03"
+    },
+    {
+     "file": "scenario/アフター/yaas03.s",
+     "line": 3171,
+     "scene": "yaas03"
+    }
+   ]
+  },
+  "EV_AFTER/MIN33B": {
+   "refs": 3,
+   "first": {
+    "file": "scenario/アフター/yaas03.s",
+    "line": 1790,
+    "chapter": "アフター",
+    "scene": "yaas03",
+    "near_speaker": "小倉朝日",
+    "near_text": "「い、いえ、今言いましたから、隠してもらえると……あぁっ……！」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/yaas03.s",
+     "line": 1790,
+     "scene": "yaas03"
+    },
+    {
+     "file": "scenario/アフター/yaas03.s",
+     "line": 2542,
+     "scene": "yaas03"
+    },
+    {
+     "file": "scenario/アフター/yaas03.s",
+     "line": 2675,
+     "scene": "yaas03"
+    }
+   ]
+  },
+  "EV_AFTER/MIN33C": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/アフター/yaas03.s",
+    "line": 1753,
+    "chapter": "アフター",
+    "scene": "yaas03",
+    "near_speaker": null,
+    "near_text": "こんな姿勢で足を動かしていたら、下着が見えてしまう。それを暗に指摘しても、名波さんは少しだけ裾を直しただけで、しっかり隠"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/yaas03.s",
+     "line": 1753,
+     "scene": "yaas03"
+    },
+    {
+     "file": "scenario/アフター/yaas03.s",
+     "line": 2358,
+     "scene": "yaas03"
+    }
+   ]
+  },
+  "EV_AFTER/MIN33D": {
+   "refs": 4,
+   "first": {
+    "file": "scenario/アフター/yaas03.s",
+    "line": 1944,
+    "chapter": "アフター",
+    "scene": "yaas03",
+    "near_speaker": "小倉朝日",
+    "near_text": "「あっ……そ、それはちょっと……うぁぁっ……！」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/yaas03.s",
+     "line": 1944,
+     "scene": "yaas03"
+    },
+    {
+     "file": "scenario/アフター/yaas03.s",
+     "line": 2906,
+     "scene": "yaas03"
+    },
+    {
+     "file": "scenario/アフター/yaas03.s",
+     "line": 2991,
+     "scene": "yaas03"
+    },
+    {
+     "file": "scenario/アフター/yaas03.s",
+     "line": 3212,
+     "scene": "yaas03"
+    }
+   ]
+  },
+  "EV_AFTER/MIN34A": {
+   "refs": 3,
+   "first": {
+    "file": "scenario/アフター/yaas04.s",
+    "line": 4633,
+    "chapter": "アフター",
+    "scene": "yaas04",
+    "near_speaker": "柳ヶ瀬湊",
+    "near_text": "「おはよう、ゆうちょ。よく寝てたね、すやすやと」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/yaas04.s",
+     "line": 4633,
+     "scene": "yaas04"
+    },
+    {
+     "file": "scenario/アフター/yaas04.s",
+     "line": 4654,
+     "scene": "yaas04"
+    },
+    {
+     "file": "scenario/アフター/yaas04.s",
+     "line": 5398,
+     "scene": "yaas04"
+    }
+   ]
+  },
+  "EV_AFTER/MIN35A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/yaas05.s",
+    "line": 2569,
+    "chapter": "アフター",
+    "scene": "yaas05",
+    "near_speaker": "柳ヶ瀬湊",
+    "near_text": "「うぅーん……」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/yaas05.s",
+     "line": 2569,
+     "scene": "yaas05"
+    }
+   ]
+  },
+  "EV_AFTER/MIN35B": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/アフター/yaas05.s",
+    "line": 3260,
+    "chapter": "アフター",
+    "scene": "yaas05",
+    "near_speaker": "柳ヶ瀬湊",
+    "near_text": "「ふぁ……！」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/yaas05.s",
+     "line": 3260,
+     "scene": "yaas05"
+    },
+    {
+     "file": "scenario/アフター/yaas05.s",
+     "line": 3575,
+     "scene": "yaas05"
+    }
+   ]
+  },
+  "EV_AFTER/MIN35C": {
+   "refs": 3,
+   "first": {
+    "file": "scenario/アフター/yaas05.s",
+    "line": 3374,
+    "chapter": "アフター",
+    "scene": "yaas05",
+    "near_speaker": "小倉朝日",
+    "near_text": "「う、動いたら……湊……あっ……あぁ……」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/yaas05.s",
+     "line": 3374,
+     "scene": "yaas05"
+    },
+    {
+     "file": "scenario/アフター/yaas05.s",
+     "line": 3769,
+     "scene": "yaas05"
+    },
+    {
+     "file": "scenario/アフター/yaas05.s",
+     "line": 4181,
+     "scene": "yaas05"
+    }
+   ]
+  },
+  "EV_AFTER/MIN35D": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/yaas05.s",
+    "line": 4054,
+    "chapter": "アフター",
+    "scene": "yaas05",
+    "near_speaker": null,
+    "near_text": "湊が達しそうになったところで、僕はその身体を支えて、自分が達するのを我慢して遅らせる。すると、湊が身体を仰け反らせて震え"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/yaas05.s",
+     "line": 4054,
+     "scene": "yaas05"
+    }
+   ]
+  },
+  "EV_AFTER/MIN36A": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/アフター/yaas04.s",
+    "line": 916,
+    "chapter": "アフター",
+    "scene": "yaas04",
+    "near_speaker": "柳ヶ瀬湊",
+    "near_text": "「横ぴぃーーーーす！」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/yaas04.s",
+     "line": 916,
+     "scene": "yaas04"
+    },
+    {
+     "file": "scenario/アフター/yaas04.s",
+     "line": 2683,
+     "scene": "yaas04"
+    }
+   ]
+  },
+  "EV_AFTER/MIN36B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/yaas04.s",
+    "line": 1143,
+    "chapter": "アフター",
+    "scene": "yaas04",
+    "near_speaker": "柳ヶ瀬湊",
+    "near_text": "「私たちって、こういうノリが致命的に合ってなくない？　薄々と気づいてはいたけど」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/yaas04.s",
+     "line": 1143,
+     "scene": "yaas04"
+    }
+   ]
+  },
+  "EV_AFTER/MIN36C": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/yaas04.s",
+    "line": 1693,
+    "chapter": "アフター",
+    "scene": "yaas04",
+    "near_speaker": "湊＆七愛",
+    "near_text": "「横ぴぃーーーーす！」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/yaas04.s",
+     "line": 1693,
+     "scene": "yaas04"
+    }
+   ]
+  },
+  "EV_AFTER/MIN37A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/yaas06.s",
+    "line": 5612,
+    "chapter": "アフター",
+    "scene": "yaas06",
+    "near_speaker": "小倉朝日",
+    "near_text": "「湊、寝ちゃったんだ……って、な、名波さん、服は……？」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/yaas06.s",
+     "line": 5612,
+     "scene": "yaas06"
+    }
+   ]
+  },
+  "EV_AFTER/MIN37B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/yaas06.s",
+    "line": 5858,
+    "chapter": "アフター",
+    "scene": "yaas06",
+    "near_speaker": null,
+    "near_text": "最後まで言う前に、名波さんは僕に真剣な眼差しを向ける。そんなことは聞いていない、という瞳で。"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/yaas06.s",
+     "line": 5858,
+     "scene": "yaas06"
+    }
+   ]
+  },
+  "EV_AFTER/MIN37C": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/yaas06.s",
+    "line": 6346,
+    "chapter": "アフター",
+    "scene": "yaas06",
+    "near_speaker": "名波七愛",
+    "near_text": "「……」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/yaas06.s",
+     "line": 6346,
+     "scene": "yaas06"
+    }
+   ]
+  },
+  "EV_AFTER/MIN38A": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/アフター/yaas07.s",
+    "line": 413,
+    "chapter": "アフター",
+    "scene": "yaas07",
+    "near_speaker": "小倉朝日",
+    "near_text": "「私は今年から、学院では湊のメイドだから。湊と一緒に、二人三脚で勉強したいな」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/yaas07.s",
+     "line": 413,
+     "scene": "yaas07"
+    },
+    {
+     "file": "scenario/アフター/yaas07.s",
+     "line": 728,
+     "scene": "yaas07"
+    }
+   ]
+  },
+  "EV_AFTER/MIN38B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/yaas07.s",
+    "line": 805,
+    "chapter": "アフター",
+    "scene": "yaas07",
+    "near_speaker": null,
+    "near_text": "何もかもが上手くいっている。お兄様の力あってのことだけど……僕と湊のことを、後押ししてくれるなんて夢にも思ってなかった。"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/yaas07.s",
+     "line": 805,
+     "scene": "yaas07"
+    }
+   ]
+  },
+  "EV_AFTER/MIN38C": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/yaas07.s",
+    "line": 1016,
+    "chapter": "アフター",
+    "scene": "yaas07",
+    "near_speaker": null,
+    "near_text": "僕たちは、他の人たちから見たら、少し遠回りをしたように見えるのかもしれない。"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/yaas07.s",
+     "line": 1016,
+     "scene": "yaas07"
+    }
+   ]
+  },
+  "EV_AFTER/MIZ31A": {
+   "refs": 5,
+   "first": {
+    "file": "scenario/アフター/haas03.s",
+    "line": 3958,
+    "chapter": "アフター",
+    "scene": "haas03",
+    "near_speaker": "杉村北斗",
+    "near_text": "「これで１０本中８本……瑞穂お嬢様、腕に鈍りはないようですね」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/haas03.s",
+     "line": 3958,
+     "scene": "haas03"
+    },
+    {
+     "file": "scenario/アフター/haas03.s",
+     "line": 4421,
+     "scene": "haas03"
+    },
+    {
+     "file": "scenario/アフター/haas03.s",
+     "line": 4833,
+     "scene": "haas03"
+    },
+    {
+     "file": "scenario/アフター/haas03.s",
+     "line": 5234,
+     "scene": "haas03"
+    },
+    {
+     "file": "scenario/アフター/haas03.s",
+     "line": 5649,
+     "scene": "haas03"
+    }
+   ]
+  },
+  "EV_AFTER/MIZ31B": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/アフター/haas03.s",
+    "line": 3997,
+    "chapter": "アフター",
+    "scene": "haas03",
+    "near_speaker": "花之宮瑞穂",
+    "near_text": "「ええ……でも、もう腕が疲れてきちゃった。皆中させるつもりだったけど、離れが乱れてしまって」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/haas03.s",
+     "line": 3997,
+     "scene": "haas03"
+    },
+    {
+     "file": "scenario/アフター/haas03.s",
+     "line": 5314,
+     "scene": "haas03"
+    }
+   ]
+  },
+  "EV_AFTER/MIZ31C": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/haas03.s",
+    "line": 6229,
+    "chapter": "アフター",
+    "scene": "haas03",
+    "near_speaker": "花之宮瑞穂",
+    "near_text": "「その一本で、私はもう合格にしちゃいたいくらい……」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/haas03.s",
+     "line": 6229,
+     "scene": "haas03"
+    }
+   ]
+  },
+  "EV_AFTER/MIZ31D": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/haas03.s",
+    "line": 7410,
+    "chapter": "アフター",
+    "scene": "haas03",
+    "near_speaker": "花之宮瑞穂",
+    "near_text": "「ううん、わかってる。ありがとう、あっちゃん……」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/haas03.s",
+     "line": 7410,
+     "scene": "haas03"
+    }
+   ]
+  },
+  "EV_AFTER/MIZ32A": {
+   "refs": 3,
+   "first": {
+    "file": "scenario/アフター/haas03.s",
+    "line": 3658,
+    "chapter": "アフター",
+    "scene": "haas03",
+    "near_speaker": null,
+    "near_text": "弓道は弓を引くだけだと思っていたけれど、それは違っていた。射つまで、射ったあと、全ての動作が、先人の研鑽の末に成り立って"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/haas03.s",
+     "line": 3658,
+     "scene": "haas03"
+    },
+    {
+     "file": "scenario/アフター/haas03.s",
+     "line": 3789,
+     "scene": "haas03"
+    },
+    {
+     "file": "scenario/アフター/haas03.s",
+     "line": 5835,
+     "scene": "haas03"
+    }
+   ]
+  },
+  "EV_AFTER/MIZ32B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/haas03.s",
+    "line": 6930,
+    "chapter": "アフター",
+    "scene": "haas03",
+    "near_speaker": null,
+    "near_text": "僕は瑞穂と一緒に矢を番えて、的を見る。疲れきったはずの身体に、一度だけ、完璧なコンディションが戻ってくる。"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/haas03.s",
+     "line": 6930,
+     "scene": "haas03"
+    }
+   ]
+  },
+  "EV_AFTER/MIZ33A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/haas05.s",
+    "line": 1942,
+    "chapter": "アフター",
+    "scene": "haas05",
+    "near_speaker": null,
+    "near_text": "あの大きな胸を平らにつぶして、髪を結んで……瑞穂は男性物のスーツを、違和感なく着こなしている。"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/haas05.s",
+     "line": 1942,
+     "scene": "haas05"
+    }
+   ]
+  },
+  "EV_AFTER/MIZ33B": {
+   "refs": 4,
+   "first": {
+    "file": "scenario/アフター/haas05.s",
+    "line": 2431,
+    "chapter": "アフター",
+    "scene": "haas05",
+    "near_speaker": "花之宮瑞穂",
+    "near_text": "「今は……男性の格好をするのはとても恥ずかしいですが、誇らしい気持ちでもいます。こうすることで、少しでも大切な人に近づく"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/haas05.s",
+     "line": 2431,
+     "scene": "haas05"
+    },
+    {
+     "file": "scenario/アフター/haas05.s",
+     "line": 2766,
+     "scene": "haas05"
+    },
+    {
+     "file": "scenario/アフター/haas05.s",
+     "line": 3061,
+     "scene": "haas05"
+    },
+    {
+     "file": "scenario/アフター/haas05.s",
+     "line": 3677,
+     "scene": "haas05"
+    }
+   ]
+  },
+  "EV_AFTER/MIZ34A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/haas06.s",
+    "line": 421,
+    "chapter": "アフター",
+    "scene": "haas06",
+    "near_speaker": null,
+    "near_text": "冬のクリスマス・コレクション、春のチャリティコレクション。その次に僕と瑞穂が作った三つ目の服は……日舞の衣装、振袖だった"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/haas06.s",
+     "line": 421,
+     "scene": "haas06"
+    }
+   ]
+  },
+  "EV_AFTER/MIZ34B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/haas06.s",
+    "line": 791,
+    "chapter": "アフター",
+    "scene": "haas06",
+    "near_speaker": null,
+    "near_text": "ずっと集中していた瑞穂が、僕にウィンクを送る。目を合わせるだけで、彼女の言いたいことがわかる。"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/haas06.s",
+     "line": 791,
+     "scene": "haas06"
+    }
+   ]
+  },
+  "EV_AFTER/MIZ35A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/haas03.s",
+    "line": 10509,
+    "chapter": "アフター",
+    "scene": "haas03",
+    "near_speaker": "花之宮瑞穂",
+    "near_text": "「ふぅ……今日は大変だったね。あらためてお疲れ様、朝日」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/haas03.s",
+     "line": 10509,
+     "scene": "haas03"
+    }
+   ]
+  },
+  "EV_AFTER/MIZ35B": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/アフター/haas03.s",
+    "line": 11026,
+    "chapter": "アフター",
+    "scene": "haas03",
+    "near_speaker": "花之宮瑞穂",
+    "near_text": "「遊星さん」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/haas03.s",
+     "line": 11026,
+     "scene": "haas03"
+    },
+    {
+     "file": "scenario/アフター/haas03.s",
+     "line": 11286,
+     "scene": "haas03"
+    }
+   ]
+  },
+  "EV_AFTER/MIZ35C": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/アフター/haas03.s",
+    "line": 11099,
+    "chapter": "アフター",
+    "scene": "haas03",
+    "near_speaker": "花之宮瑞穂",
+    "near_text": "「ううん。もういいの、全部無事に済んだから」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/haas03.s",
+     "line": 11099,
+     "scene": "haas03"
+    },
+    {
+     "file": "scenario/アフター/haas03.s",
+     "line": 11435,
+     "scene": "haas03"
+    }
+   ]
+  },
+  "EV_AFTER/MIZ36A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/haas03.s",
+    "line": 11753,
+    "chapter": "アフター",
+    "scene": "haas03",
+    "near_speaker": null,
+    "near_text": "露天風呂の中には腰掛けやすい高さの、大理石の岩が入っていた。"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/haas03.s",
+     "line": 11753,
+     "scene": "haas03"
+    }
+   ]
+  },
+  "EV_AFTER/MIZ36B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/haas03.s",
+    "line": 12365,
+    "chapter": "アフター",
+    "scene": "haas03",
+    "near_speaker": null,
+    "near_text": "乳首のところで少しひっかかってしまったけれど、タオルの布地が乳首をこすりながら滑り落ちて、ぷるるん、と両方の乳房がこぼれ"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/haas03.s",
+     "line": 12365,
+     "scene": "haas03"
+    }
+   ]
+  },
+  "EV_AFTER/MIZ36C": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/haas03.s",
+    "line": 12844,
+    "chapter": "アフター",
+    "scene": "haas03",
+    "near_speaker": null,
+    "near_text": "瑞穂が恥ずかしがりつつ指を伸ばしてきて、僕の乳首をつつく。冷たい外気に晒されて敏感になっていたそこを指でつつかれて、声が"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/haas03.s",
+     "line": 12844,
+     "scene": "haas03"
+    }
+   ]
+  },
+  "EV_AFTER/MIZ36D": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/haas03.s",
+    "line": 13228,
+    "chapter": "アフター",
+    "scene": "haas03",
+    "near_speaker": null,
+    "near_text": "意識が飛んでしまうかと思った。僕の男性の部分は快感に喘いでひくひくと震え、すでに射精を意識せずにはいられなかった。"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/haas03.s",
+     "line": 13228,
+     "scene": "haas03"
+    }
+   ]
+  },
+  "EV_AFTER/MIZ37A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/haas03.s",
+    "line": 14510,
+    "chapter": "アフター",
+    "scene": "haas03",
+    "near_speaker": "花之宮瑞穂",
+    "near_text": "「ふぁぁっ……ぁ……あぁ……入ってる……遊星さん……はぅぅっ……！」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/haas03.s",
+     "line": 14510,
+     "scene": "haas03"
+    }
+   ]
+  },
+  "EV_AFTER/MIZ37B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/haas03.s",
+    "line": 15134,
+    "chapter": "アフター",
+    "scene": "haas03",
+    "near_speaker": null,
+    "near_text": "僕は乳房を愛撫していた手を下腹部に滑らせ、瑞穂の秘核に指を伸ばして皮を剥き、愛撫を始める。その間も何とか快感を堪えて腰を"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/haas03.s",
+     "line": 15134,
+     "scene": "haas03"
+    }
+   ]
+  },
+  "EV_AFTER/MIZ37C": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/haas03.s",
+    "line": 15754,
+    "chapter": "アフター",
+    "scene": "haas03",
+    "near_speaker": null,
+    "near_text": "目の前で火花が散るような感覚と共に、射精が始まる。下半身から僕のものの芯を溶岩みたいに熱いものが突き抜け、白い液体が雨の"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/haas03.s",
+     "line": 15754,
+     "scene": "haas03"
+    }
+   ]
+  },
+  "EV_AFTER/MIZ38A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/haas04.s",
+    "line": 6658,
+    "chapter": "アフター",
+    "scene": "haas04",
+    "near_speaker": "杉村北斗",
+    "near_text": "「男性恐怖症を克服するためには、男装をするという荒療治が必要だったのですね……んんっ……そう……もっとだ……もっと締め付"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/haas04.s",
+     "line": 6658,
+     "scene": "haas04"
+    }
+   ]
+  },
+  "EV_AFTER/MIZ38B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/haas04.s",
+    "line": 5799,
+    "chapter": "アフター",
+    "scene": "haas04",
+    "near_speaker": null,
+    "near_text": "見ないとよく分からないけれど、さすがに乳首を見るのはまずい……一回は見てるけど。僕は後ろからサラシの布を交差させて、北斗"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/haas04.s",
+     "line": 5799,
+     "scene": "haas04"
+    }
+   ]
+  },
+  "EV_AFTER/MIZ38C": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/アフター/haas04.s",
+    "line": 6418,
+    "chapter": "アフター",
+    "scene": "haas04",
+    "near_speaker": "杉村北斗",
+    "near_text": "「朝日は以外とスパルタ教育なんだね……子供のころ、そんなふうに厳しく教育されてきたのかい？」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/haas04.s",
+     "line": 6418,
+     "scene": "haas04"
+    },
+    {
+     "file": "scenario/アフター/haas04.s",
+     "line": 6790,
+     "scene": "haas04"
+    }
+   ]
+  },
+  "EV_AFTER/MIZ39A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/haas05.s",
+    "line": 6897,
+    "chapter": "アフター",
+    "scene": "haas05",
+    "near_speaker": null,
+    "near_text": "三箇所で止めた安全ピンを外すと、僕は瑞穂のサラシを緩め始めた。上下の端を止めて、バストトップを隠し、順に膨らみを押さえて"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/haas05.s",
+     "line": 6897,
+     "scene": "haas05"
+    }
+   ]
+  },
+  "EV_AFTER/MIZ39B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/haas05.s",
+    "line": 7594,
+    "chapter": "アフター",
+    "scene": "haas05",
+    "near_speaker": null,
+    "near_text": "瑞穂は言葉ではそう言っていても、自分から腰を浮かせて脱がせやすくしてくれる。ここだけは女性物の下着を、するすると引き下ろ"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/haas05.s",
+     "line": 7594,
+     "scene": "haas05"
+    }
+   ]
+  },
+  "EV_AFTER/MIZ39C": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/haas05.s",
+    "line": 8062,
+    "chapter": "アフター",
+    "scene": "haas05",
+    "near_speaker": null,
+    "near_text": "瑞穂の脚をひろげて、花弁に唇を付けて吸いたてる。後から後から愛液がにじんできて、それを舐めとりながら、膣内に指を抜き差し"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/haas05.s",
+     "line": 8062,
+     "scene": "haas05"
+    }
+   ]
+  },
+  "EV_AFTER/MIZ40A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/haas05.s",
+    "line": 8796,
+    "chapter": "アフター",
+    "scene": "haas05",
+    "near_speaker": "小倉朝日",
+    "near_text": "「んぁ……ぁぁ……あったかい……瑞穂の中……すごく……」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/haas05.s",
+     "line": 8796,
+     "scene": "haas05"
+    }
+   ]
+  },
+  "EV_AFTER/MIZ40B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/haas05.s",
+    "line": 9180,
+    "chapter": "アフター",
+    "scene": "haas05",
+    "near_speaker": "花之宮瑞穂",
+    "near_text": "「そんなにされたら……またいっちゃう……私の方が先に……あぁっ、だめ……だめよ……」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/haas05.s",
+     "line": 9180,
+     "scene": "haas05"
+    }
+   ]
+  },
+  "EV_AFTER/MIZ40C": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/haas05.s",
+    "line": 9566,
+    "chapter": "アフター",
+    "scene": "haas05",
+    "near_speaker": null,
+    "near_text": "瑞穂が先に達して、気が遠くなるくらいの締め付けが始まる。快楽の頂きを見た瑞穂はひくん、と一度大きく身体を震わせて、乳房が"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/haas05.s",
+     "line": 9566,
+     "scene": "haas05"
+    }
+   ]
+  },
+  "EV_AFTER/MIZ40D": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/haas05.s",
+    "line": 9729,
+    "chapter": "アフター",
+    "scene": "haas05",
+    "near_speaker": "花之宮瑞穂",
+    "near_text": "「朝日でもしちゃった……これで遊星さんも朝日も、私の恋人ね……」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/haas05.s",
+     "line": 9729,
+     "scene": "haas05"
+    }
+   ]
+  },
+  "EV_AFTER/UFJ31A": {
+   "refs": 7,
+   "first": {
+    "file": "scenario/アフター/u31_01a.s",
+    "line": 186,
+    "chapter": "アフター",
+    "scene": "u31_01a",
+    "near_speaker": "ユルシュール",
+    "near_text": "「ですわー……」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/u31_01a.s",
+     "line": 186,
+     "scene": "u31_01a"
+    },
+    {
+     "file": "scenario/アフター/u31_01a.s",
+     "line": 709,
+     "scene": "u31_01a"
+    },
+    {
+     "file": "scenario/アフター/u31_01a.s",
+     "line": 3046,
+     "scene": "u31_01a"
+    },
+    {
+     "file": "scenario/アフター/u31_02a.s",
+     "line": 253,
+     "scene": "u31_02a"
+    },
+    {
+     "file": "scenario/アフター/u31_02a.s",
+     "line": 3798,
+     "scene": "u31_02a"
+    },
+    {
+     "file": "scenario/アフター/u31_02a.s",
+     "line": 4463,
+     "scene": "u31_02a"
+    },
+    {
+     "file": "scenario/アフター/u31_02a.s",
+     "line": 4669,
+     "scene": "u31_02a"
+    }
+   ]
+  },
+  "EV_AFTER/UFJ31B": {
+   "refs": 3,
+   "first": {
+    "file": "scenario/アフター/u31_01a.s",
+    "line": 541,
+    "chapter": "アフター",
+    "scene": "u31_01a",
+    "near_speaker": "ユルシュール",
+    "near_text": "「遊星さんが私を美人だと誉めてくれるんですか？」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/u31_01a.s",
+     "line": 541,
+     "scene": "u31_01a"
+    },
+    {
+     "file": "scenario/アフター/u31_02a.s",
+     "line": 3961,
+     "scene": "u31_02a"
+    },
+    {
+     "file": "scenario/アフター/u31_02a.s",
+     "line": 4725,
+     "scene": "u31_02a"
+    }
+   ]
+  },
+  "EV_AFTER/UFJ31C": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/アフター/u31_01a.s",
+    "line": 3193,
+    "chapter": "アフター",
+    "scene": "u31_01a",
+    "near_speaker": "ユルシュール",
+    "near_text": "「ええ好きです。特に遊星さんからのものに限りますけど。さ、早く」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/u31_01a.s",
+     "line": 3193,
+     "scene": "u31_01a"
+    },
+    {
+     "file": "scenario/アフター/u31_02a.s",
+     "line": 4613,
+     "scene": "u31_02a"
+    }
+   ]
+  },
+  "EV_AFTER/UFJ31D": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/アフター/u31_01a.s",
+    "line": 3250,
+    "chapter": "アフター",
+    "scene": "u31_01a",
+    "near_speaker": "ユルシュール",
+    "near_text": "「出ます！　絶対出ます！　恋人からのキスだけが、今の私の支えです！」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/u31_01a.s",
+     "line": 3250,
+     "scene": "u31_01a"
+    },
+    {
+     "file": "scenario/アフター/u31_02a.s",
+     "line": 4557,
+     "scene": "u31_02a"
+    }
+   ]
+  },
+  "EV_AFTER/UFJ32A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/u31_02b.s",
+    "line": 733,
+    "chapter": "アフター",
+    "scene": "u31_02b",
+    "near_speaker": "ユルシュール",
+    "near_text": "「――あむっ」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/u31_02b.s",
+     "line": 733,
+     "scene": "u31_02b"
+    }
+   ]
+  },
+  "EV_AFTER/UFJ32B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/u31_02b.s",
+    "line": 1343,
+    "chapter": "アフター",
+    "scene": "u31_02b",
+    "near_speaker": "ユルシュール",
+    "near_text": "「じゅぽっ……んじゅっ、じゅぱっ、じゅるるうっ！」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/u31_02b.s",
+     "line": 1343,
+     "scene": "u31_02b"
+    }
+   ]
+  },
+  "EV_AFTER/UFJ32C": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/u31_02b.s",
+    "line": 1967,
+    "chapter": "アフター",
+    "scene": "u31_02b",
+    "near_speaker": "小倉朝日",
+    "near_text": "「あ、ああああああ――っ……はあッ！」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/u31_02b.s",
+     "line": 1967,
+     "scene": "u31_02b"
+    }
+   ]
+  },
+  "EV_AFTER/UFJ32D": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/u31_02b.s",
+    "line": 2168,
+    "chapter": "アフター",
+    "scene": "u31_02b",
+    "near_speaker": "ユルシュール",
+    "near_text": "「んちゅう……」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/u31_02b.s",
+     "line": 2168,
+     "scene": "u31_02b"
+    }
+   ]
+  },
+  "EV_AFTER/UFJ33A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/u31_02b.s",
+    "line": 2552,
+    "chapter": "アフター",
+    "scene": "u31_02b",
+    "near_speaker": "ユルシュール",
+    "near_text": "「よく考えたら、これは私の方が恥ずかしい気がします……」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/u31_02b.s",
+     "line": 2552,
+     "scene": "u31_02b"
+    }
+   ]
+  },
+  "EV_AFTER/UFJ33B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/u31_02b.s",
+    "line": 2809,
+    "chapter": "アフター",
+    "scene": "u31_02b",
+    "near_speaker": "ユルシュール",
+    "near_text": "「んんッ……」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/u31_02b.s",
+     "line": 2809,
+     "scene": "u31_02b"
+    }
+   ]
+  },
+  "EV_AFTER/UFJ33C": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/u31_02b.s",
+    "line": 3543,
+    "chapter": "アフター",
+    "scene": "u31_02b",
+    "near_speaker": "ユルシュール",
+    "near_text": "「あっ、はあっ……！　あっ、んんっ、はッ……はっ、はあっ、はっ、はあッ……」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/u31_02b.s",
+     "line": 3543,
+     "scene": "u31_02b"
+    }
+   ]
+  },
+  "EV_AFTER/UFJ33D": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/u31_02b.s",
+    "line": 3635,
+    "chapter": "アフター",
+    "scene": "u31_02b",
+    "near_speaker": "ユルシュール",
+    "near_text": "「ふふっ……遊星さん、まだどこか遠慮してました……？」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/u31_02b.s",
+     "line": 3635,
+     "scene": "u31_02b"
+    }
+   ]
+  },
+  "EV_AFTER/UFJ34A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/u32_02d.s",
+    "line": 538,
+    "chapter": "アフター",
+    "scene": "u32_02d",
+    "near_speaker": "ユルシュール",
+    "near_text": "「遊星さんが私の身体を求めたくなるようにしたいです」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/u32_02d.s",
+     "line": 538,
+     "scene": "u32_02d"
+    }
+   ]
+  },
+  "EV_AFTER/UFJ34B": {
+   "refs": 3,
+   "first": {
+    "file": "scenario/アフター/u32_02d.s",
+    "line": 1133,
+    "chapter": "アフター",
+    "scene": "u32_02d",
+    "near_speaker": null,
+    "near_text": "温かい粘液の付いたユーシェの手が、僕の敏感な先端を包む。ねちょりと艶かしい感触がした。"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/u32_02d.s",
+     "line": 1133,
+     "scene": "u32_02d"
+    },
+    {
+     "file": "scenario/アフター/u32_02d.s",
+     "line": 1587,
+     "scene": "u32_02d"
+    },
+    {
+     "file": "scenario/アフター/u32_02d.s",
+     "line": 1805,
+     "scene": "u32_02d"
+    }
+   ]
+  },
+  "EV_AFTER/UFJ34C": {
+   "refs": 3,
+   "first": {
+    "file": "scenario/アフター/u32_02d.s",
+    "line": 1516,
+    "chapter": "アフター",
+    "scene": "u32_02d",
+    "near_speaker": "小倉朝日",
+    "near_text": "「ひゃんっ！」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/u32_02d.s",
+     "line": 1516,
+     "scene": "u32_02d"
+    },
+    {
+     "file": "scenario/アフター/u32_02d.s",
+     "line": 1681,
+     "scene": "u32_02d"
+    },
+    {
+     "file": "scenario/アフター/u32_02d.s",
+     "line": 1840,
+     "scene": "u32_02d"
+    }
+   ]
+  },
+  "EV_AFTER/UFJ34D": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/u32_02d.s",
+    "line": 2206,
+    "chapter": "アフター",
+    "scene": "u32_02d",
+    "near_speaker": null,
+    "near_text": "僕の方からユーシェの唇に吸いついた。艶っぽい光沢を浮かべた桃色の肌を力強く奪う。"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/u32_02d.s",
+     "line": 2206,
+     "scene": "u32_02d"
+    }
+   ]
+  },
+  "EV_AFTER/UFJ35A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/u32_02d.s",
+    "line": 2613,
+    "chapter": "アフター",
+    "scene": "u32_02d",
+    "near_speaker": null,
+    "near_text": "僕の膝の上にユーシェを載せつつ、彼女の身体の中へ自分の一部を埋めこんだ。"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/u32_02d.s",
+     "line": 2613,
+     "scene": "u32_02d"
+    }
+   ]
+  },
+  "EV_AFTER/UFJ35B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/u32_02d.s",
+    "line": 2998,
+    "chapter": "アフター",
+    "scene": "u32_02d",
+    "near_speaker": "ユルシュール",
+    "near_text": "「ああッ、あっ、はあっ、んっ、くうっ……んんッ！　んっ、やっ、はッ……あ、ああッ！　ああああっ！」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/u32_02d.s",
+     "line": 2998,
+     "scene": "u32_02d"
+    }
+   ]
+  },
+  "EV_AFTER/UFJ35C": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/u32_02d.s",
+    "line": 3411,
+    "chapter": "アフター",
+    "scene": "u32_02d",
+    "near_speaker": "ユルシュール",
+    "near_text": "「あッ！　ああああっ！　あああああああ――っ！　あああっ……」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/u32_02d.s",
+     "line": 3411,
+     "scene": "u32_02d"
+    }
+   ]
+  },
+  "EV_AFTER/UFJ35D": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/u32_02d.s",
+    "line": 3615,
+    "chapter": "アフター",
+    "scene": "u32_02d",
+    "near_speaker": "ユルシュール",
+    "near_text": "「それならどうして、あのまま身体の中へ出してくれなかったんですか」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/u32_02d.s",
+     "line": 3615,
+     "scene": "u32_02d"
+    }
+   ]
+  },
+  "EV_AFTER/UFJ35E": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/u32_02d.s",
+    "line": 3896,
+    "chapter": "アフター",
+    "scene": "u32_02d",
+    "near_speaker": "ユルシュール",
+    "near_text": "「え？　遊星さんからしてくれるんですか？」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/u32_02d.s",
+     "line": 3896,
+     "scene": "u32_02d"
+    }
+   ]
+  },
+  "EV_AFTER/UFJ36A": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/アフター/u32_02e.s",
+    "line": 294,
+    "chapter": "アフター",
+    "scene": "u32_02e",
+    "near_speaker": "ユルシュール",
+    "near_text": "「やる気ー……」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/u32_02e.s",
+     "line": 294,
+     "scene": "u32_02e"
+    },
+    {
+     "file": "scenario/アフター/u32_02e.s",
+     "line": 643,
+     "scene": "u32_02e"
+    }
+   ]
+  },
+  "EV_AFTER/UFJ36B": {
+   "refs": 3,
+   "first": {
+    "file": "scenario/アフター/u32_02e.s",
+    "line": 551,
+    "chapter": "アフター",
+    "scene": "u32_02e",
+    "near_speaker": "ユルシュール",
+    "near_text": "「本当ですか？」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/u32_02e.s",
+     "line": 551,
+     "scene": "u32_02e"
+    },
+    {
+     "file": "scenario/アフター/u32_02e.s",
+     "line": 735,
+     "scene": "u32_02e"
+    },
+    {
+     "file": "scenario/アフター/u32_02e.s",
+     "line": 1347,
+     "scene": "u32_02e"
+    }
+   ]
+  },
+  "EV_AFTER/UFJ36C": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/u32_02e.s",
+    "line": 1198,
+    "chapter": "アフター",
+    "scene": "u32_02e",
+    "near_speaker": "ユルシュール",
+    "near_text": "「遊星さん？」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/u32_02e.s",
+     "line": 1198,
+     "scene": "u32_02e"
+    }
+   ]
+  },
+  "EV_AFTER/UFJ37A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/u32_03a.s",
+    "line": 3092,
+    "chapter": "アフター",
+    "scene": "u32_03a",
+    "near_speaker": null,
+    "near_text": "舞台の上で、誰よりも輝ける素質を持った、僕の素敵な恋人に。"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/u32_03a.s",
+     "line": 3092,
+     "scene": "u32_03a"
+    }
+   ]
+  },
+  "EV_AFTER/UFJ38A": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/アフター/u32_04a.s",
+    "line": 877,
+    "chapter": "アフター",
+    "scene": "u32_04a",
+    "near_speaker": "ユルシュール",
+    "near_text": "「今年一番の自信作です」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/u32_04a.s",
+     "line": 877,
+     "scene": "u32_04a"
+    },
+    {
+     "file": "scenario/アフター/u32_04a.s",
+     "line": 1497,
+     "scene": "u32_04a"
+    }
+   ]
+  },
+  "EV_AFTER/UFJ38B": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/u32_04a.s",
+    "line": 1121,
+    "chapter": "アフター",
+    "scene": "u32_04a",
+    "near_speaker": "ユルシュール",
+    "near_text": "「この世で最も尊い感情を知らないルナの衣装に、美しく深い愛を表す私のデザインが負けるはずありません！　オーッホッホッホ！"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/u32_04a.s",
+     "line": 1121,
+     "scene": "u32_04a"
+    }
+   ]
+  },
+  "EV_AFTER/UFJ38C": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/アフター/u32_04a.s",
+    "line": 1363,
+    "chapter": "アフター",
+    "scene": "u32_04a",
+    "near_speaker": "ユルシュール",
+    "near_text": "「ですわ！？」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/u32_04a.s",
+     "line": 1363,
+     "scene": "u32_04a"
+    },
+    {
+     "file": "scenario/アフター/u32_04a.s",
+     "line": 1400,
+     "scene": "u32_04a"
+    }
+   ]
+  },
+  "EV_AFTER/UFJ38D": {
+   "refs": 2,
+   "first": {
+    "file": "scenario/アフター/u32_04a.s",
+    "line": 1665,
+    "chapter": "アフター",
+    "scene": "u32_04a",
+    "near_speaker": "ユルシュール",
+    "near_text": "「本来なら、あなたが一番私に尽くさなくてはいけないんですっ！」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/u32_04a.s",
+     "line": 1665,
+     "scene": "u32_04a"
+    },
+    {
+     "file": "scenario/アフター/u32_04a.s",
+     "line": 1666,
+     "scene": "u32_04a"
+    }
+   ]
+  },
+  "EV_AFTER/ZZZ31A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/l31_02e5.s",
+    "line": 858,
+    "chapter": "アフター",
+    "scene": "l31_02e5",
+    "near_speaker": null,
+    "near_text": "人が居た。"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/l31_02e5.s",
+     "line": 858,
+     "scene": "l31_02e5"
+    }
+   ]
+  },
+  "EV_AFTER/ZZZ39A": {
+   "refs": 1,
+   "first": {
+    "file": "scenario/アフター/l31_02d.s",
+    "line": 2198,
+    "chapter": "アフター",
+    "scene": "l31_02d",
+    "near_speaker": "樅山紅葉",
+    "near_text": "「ううっ、うっ、ううっ……うう、涙が……」"
+   },
+   "places": [
+    {
+     "file": "scenario/アフター/l31_02d.s",
+     "line": 2198,
+     "scene": "l31_02d"
+    }
+   ]
+  }
+ }
+}
