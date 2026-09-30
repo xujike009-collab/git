@@ -45,35 +45,35 @@
     {
       "pair": ["徐穗", "小倉朝日（大蔵遊星）"],
       "dimensions": {
-        "trust": { "value": "low(推测)", "note": "徐不追问其秘密、认可其手艺；但身份未破，仍存戒心", "basis": "共同记忆 #10/#18" },
-        "familiarity": { "value": "low", "note": "同教室两天、多次独处", "basis": "共同记忆 #1/#16" },
-        "intimacy": { "value": "none", "basis": "无事件" },
+        "trust": { "value": "medium(推测)", "note": "对徐说了「会当真的」，并接受其「可来找我倾诉」的承诺；但身份未破，戒心仍在", "basis": "共同记忆 #18/#29/#36" },
+        "familiarity": { "value": "medium", "note": "同教室多日、多次独处、定料试版", "basis": "共同记忆 #16/#24/#29" },
+        "intimacy": { "value": "low(推测)", "note": "互不追问的默契＋「专属倾诉」之约", "basis": "共同记忆 #23/#29" },
         "dependence": { "value": "none", "basis": "无事件" },
-        "respect": { "value": "medium", "note": "被徐当众认可手艺＋对徐的课真心叹服", "basis": "共同记忆 #10/#11" },
-        "guardedness": { "value": "high", "note": "身份秘密；徐追问制作分工并考其缝制题，警觉；被认可后喜悦与不安交织", "basis": "角色档案、共同记忆 #9/#10/#13" },
-        "understanding": { "value": "medium(推测)", "note": "理解徐「有些事我不会问」的体贴、且真心看重手艺", "basis": "共同记忆 #18" },
-        "comfort": { "value": "medium(推测)", "note": "独处交谈自然，被认可、被需要", "basis": "共同记忆 #16/#17/#18" },
-        "attachment": { "value": "low(推测)", "note": "徐「天赋不该被埋没」触动（萌芽）", "basis": "共同记忆 #18" },
+        "respect": { "value": "medium", "note": "被徐认可手艺＋对徐的课真心叹服＋「能看出大小姐方向的人」", "basis": "共同记忆 #10/#11/#33" },
+        "guardedness": { "value": "high", "note": "身份秘密；对徐的戒心在「互不追问」约定下稍缓，但仍在", "basis": "角色档案、共同记忆 #9/#13/#23" },
+        "understanding": { "value": "medium(推测)", "note": "理解徐「有些事我不会问」的体贴、且真心看重手艺", "basis": "共同记忆 #18/#29" },
+        "comfort": { "value": "medium(推测)", "note": "独处交谈自然，被认可、被需要", "basis": "共同记忆 #16/#17/#18/#24" },
+        "attachment": { "value": "medium(推测)", "note": "徐的「倾诉之约」与「希望你不消沉」令其心动（「胸口暖暖的，听多了会上瘾」）", "basis": "共同记忆 #29/#36" },
         "conflict": { "value": "none", "basis": "无事件" },
-        "rapport": { "value": "medium", "note": "被点名关注＋「请别告诉大小姐」的声援默契＋设计图之托", "basis": "共同记忆 #10/#12/#17" },
-        "shared_experience": { "value": "low", "note": "同班＋放学独处看设计图", "basis": "共同记忆 #1/#16/#17" }
+        "rapport": { "value": "medium", "note": "「请别告诉大小姐」的声援默契＋衬衫委托＋缝纫分工伙伴", "basis": "共同记忆 #10/#12/#27/#29" },
+        "shared_experience": { "value": "medium", "note": "同班＋设计图之托＋采寸＋定料＋フィリコレ三方分工", "basis": "共同记忆 #16/#23/#24/#27/#29" }
       }
     },
     {
       "pair": ["徐穗", "桜小路ルナ"],
       "dimensions": {
-        "trust": { "value": "none", "basis": "无事件" },
-        "familiarity": { "value": "low", "basis": "共同记忆 #5" },
+        "trust": { "value": "medium(推测)", "note": "赌约败后仍认他的判断；把设计方向（「每天」）与「这份心」给了他", "basis": "共同记忆 #22/#33/#36" },
+        "familiarity": { "value": "medium", "note": "赌约、借人、沙龙多次往来", "basis": "共同记忆 #21/#31" },
         "intimacy": { "value": "none", "basis": "无事件" },
         "dependence": { "value": "none", "basis": "无事件" },
-        "respect": { "value": "medium", "note": "有条件：徐答出「青涩」的具体处才作数；已建立课后对决约定", "basis": "共同记忆 #6/#7" },
-        "guardedness": { "value": "medium", "note": "试探新老师", "basis": "共同记忆 #5" },
-        "understanding": { "value": "medium(推测)", "note": "徐的推断（几年内设计与制作双绝不可能）得到她认可：「你的判断没有错」", "basis": "共同记忆 #10" },
-        "comfort": { "value": "none", "basis": "无事件" },
+        "respect": { "value": "medium", "note": "徐答出「青涩」并胜出赌约、猜中她的方向；但「报名日才是正戏」", "basis": "共同记忆 #6/#22/#33" },
+        "guardedness": { "value": "low(推测)", "note": "对徐已放下大半防备，能开他的玩笑", "basis": "共同记忆 #31/#34" },
+        "understanding": { "value": "medium(推测)", "note": "徐看穿她「一个人承担」，她认「谁不是」；两人在「成熟是教训换来的」上互相理解", "basis": "共同记忆 #35/#36" },
+        "comfort": { "value": "low(推测)", "note": "沙龙交谈自然、会互相拆台", "basis": "共同记忆 #31-#36" },
         "attachment": { "value": "none", "basis": "无事件" },
-        "conflict": { "value": "none", "note": "言语交锋但非冲突", "basis": "共同记忆 #5-#7" },
-        "rapport": { "value": "low", "note": "对决式约定", "basis": "共同记忆 #7" },
-        "shared_experience": { "value": "low", "basis": "共同记忆 #5-#9" }
+        "conflict": { "value": "none", "note": "言语交锋但非冲突；「喜欢凑就去当她老师」的小摩擦已化解", "basis": "共同记忆 #5-#7/#35" },
+        "rapport": { "value": "medium", "note": "对决式约定→フィリコレ助手之约（徐＋她设计、朝日缝纫）", "basis": "共同记忆 #7/#27" },
+        "shared_experience": { "value": "medium", "note": "赌约全流程＋看型纸＋沙龙论设计与人生", "basis": "共同记忆 #22/#26/#31-#36" }
       }
     },
     {
@@ -165,6 +165,13 @@
     { "time": "第二天・放学", "participants": ["徐穗", "朝日"], "event": "徐说很中意朝日的缝纫技术，请她对自己的一张设计图提意见；朝日先谦辞后答应「只看一看」，以职人口吻问用途/面料", "change": { "朝日.rapport": "维持 medium（被托付作品）" }, "reason": "徐把作品交给朝日看", "evidence": "共同记忆 #17", "confidence": "high" },
     { "time": "第二天・放学", "participants": ["徐穗", "朝日"], "event": "徐告知设计为日常穿、宽松透气；朝日给专业建议（缩水余量/包边收口/张力/衬）；徐说「有些事我不会问，但你的天赋不该被埋没」，朝日感动又戒备，自谦并说「能被您这样说我很高兴」", "change": { "朝日.understanding": "low→medium(推测)", "朝日.comfort": "low(推测)→medium(推测)", "朝日.attachment": "none→low(推测)" }, "reason": "徐的体贴与认可触动朝日", "evidence": "共同记忆 #18", "confidence": "high" },
     { "time": "第二天・放学", "participants": ["徐穗", "朝日"], "event": "徐请朝日帮忙缝制这件衣服（愿亲自拜托ルナ、并会指正她的不足）；朝日以「须先得大小姐允许、且要我亲耳听令」为条件，态度已愿意", "change": { "待定": "取决于ルナ是否同意" }, "reason": "徐正式发出共同制作的邀请", "evidence": "共同记忆 #19", "confidence": "high" },
-    { "time": "第二天・放学", "participants": ["徐穗", "朝日"], "event": "两人「一言为定」，徐调侃朝日别变卦；朝日承诺不反悔，道别", "change": { "朝日.comfort": "维持 medium(推测)" }, "reason": "轻松玩笑拉近关系", "evidence": "共同记忆 #20", "confidence": "high" }
+    { "time": "第二天・放学", "participants": ["徐穗", "朝日"], "event": "两人「一言为定」，徐调侃朝日别变卦；朝日承诺不反悔，道别", "change": { "朝日.comfort": "维持 medium(推测)" }, "reason": "轻松玩笑拉近关系", "evidence": "共同记忆 #20", "confidence": "high" },
+    { "time": "第三天・早晨", "participants": ["徐穗", "ルナ", "朝日"], "event": "徐请ルナ「把朝日让给我」被怒拒，道歉后ルナ同意「借」朝日（三点条件）", "change": { "ルナ.rapport": "low 维持；借人关系确立" }, "reason": "徐真诚道歉＋ルナ护朝日", "evidence": "共同记忆 #21", "confidence": "high" },
+    { "time": "第三天・早晨", "participants": ["徐穗", "ルナ"], "event": "徐答出「青涩」之题，赌约徐胜；ルナ收回「你是第几个」", "change": { "ルナ.respect": "medium 巩固（条件兑现）" }, "reason": "答案指向三人分工的「第一次」，她认了", "evidence": "共同记忆 #22", "confidence": "high" },
+    { "time": "第三天・放学", "participants": ["徐穗", "朝日"], "event": "男装澄清＋采寸；「互不追问」默契成立；朝日首次对徐笑出声", "change": { "朝日.comfort": "维持 medium", "朝日.intimacy": "none→low(推测)" }, "reason": "被捉弄却不觉反感，默契渐成", "evidence": "共同记忆 #23/#24", "confidence": "high" },
+    { "time": "第四天・放学", "participants": ["徐穗", "ルナ", "朝日"], "event": "ルナ看型纸并指两点问题；徐邀ルナ帮忙，ルナ开「フィリコレ助手」条件，徐接；分工定案（徐＋ルナ设计、朝日缝纫）", "change": { "ルナ.rapport": "low→medium" }, "reason": "三方协作关系成立", "evidence": "共同记忆 #26/#27", "confidence": "high" },
+    { "time": "第四天・放学", "participants": ["徐穗", "朝日"], "event": "徐问朝日为何选缝纫；定料（单穿、蓝色）；徐两次许下「可倾诉／保密」之约；约大后天仮縫い", "change": { "朝日.trust": "low(推测)→medium(推测)", "朝日.attachment": "low(推测)→medium(推测)" }, "reason": "徐的真诚承诺打动朝日（「会当真的」）", "evidence": "共同记忆 #28/#29", "confidence": "high（朝日本人之言）" },
+    { "time": "第四天・课间/沙龙", "participants": ["徐穗", "ルナ", "朝日"], "event": "沙龙对谈：ルナ保密方向→徐猜中（「每天」）；「太成熟」小摩擦→徐看穿她「一个人承担」→化解；徐望二人开朗不消沉", "change": { "ルナ.trust": "none→medium(推测)", "ルナ.guardedness": "medium→low(推测)", "ルナ.comfort": "none→low(推测)" }, "reason": "方向被猜中＋被看穿软肋＋「这份心我收到了」", "evidence": "共同记忆 #31-#36", "confidence": "high" },
+    { "time": "第四天・放学（存档点）", "participants": ["徐穗", "朝日"], "event": "徐在樱花道叫住想回樱公馆的朝日（来意待续）", "change": { "待定": "取决于对话" }, "reason": "徐未说明来意", "evidence": "共同记忆 #38", "confidence": "high" }
   ]
 }
