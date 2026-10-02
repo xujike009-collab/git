@@ -39,6 +39,9 @@ node_modules/
 npm-debug.log*
 yarn-error.log*
 
+# 【本机 DSH 工具缓存】npm 缓存等，仅本机使用，体积大
+.dsh-tooling/
+
 # 【密钥与本地配置】这类文件不适合进公开仓库
 .env
 .env.*
