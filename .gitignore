@@ -40,6 +40,8 @@ npm-debug.log*
 yarn-error.log*
 
 # 【本机 DSH 工具缓存】npm 缓存等，仅本机使用，体积大
+# 来历与回退见 Galgame_AI_Knowledge/PROJECT_STATE.md 第 3 节「本机环境事故记录」
+# （相关提交 5de8ac7，未 push；回退：git revert 5de8ac7）
 .dsh-tooling/
 
 # 【密钥与本地配置】这类文件不适合进公开仓库

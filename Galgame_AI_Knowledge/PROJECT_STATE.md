@@ -6,7 +6,7 @@
 | 状态 | **材料已核对・等待接手核验**（接手任务尚未创建） |
 | 源任务 | 当前 Codex 任务（工作目录 `C:\Users\salat\Desktop\git`） |
 | 接手任务编号 | （未创建，留空） |
-| 更新时间 | 2026-10-01（待办清理：汉化容器解析改记「已决定不做」） |
+| 更新时间 | 2026-10-02（新增第 3 节「本机环境事故记录」：DSH 插件市场/pnpm/杀软误报故障与 `5de8ac7` 回退） |
 
 > 路径说明：以下路径均为**本机绝对路径**（Windows，用户 `salat`），跨机器不可直接用。
 > 项目根目录 = `C:\Users\salat\Desktop\git\Galgame_AI_Knowledge`（下文简写为 `<KB>`）。
@@ -23,7 +23,7 @@
 | 2 | `<KB>\README.md` | 项目总览、目录结构、工具用法、已知限制 |
 | 3 | `<KB>\knowledge\characters\ookura_yuusei.md` | 小倉朝日／大蔵遊星的人物档案与**语体规则**（角色扮演的权威依据，含内部标签→第一人称对照表） |
 | 4 | `<KB>\knowledge\characters\sakuragi_luna.md` | 桜小路ルナ 的人物档案与语体规则 |
-| 5 | `C:\Users\salat\Desktop\git\.gitignore` | 游戏派生数据被排除的规则（改动前必看） |
+| 5 | `C:\Users\salat\Desktop\git\.gitignore` | 游戏派生数据被排除的规则（改动前必看）。文末另有 `.dsh-tooling/`，其来历与回退见第 3 节「本机环境事故记录」 |
 | 6 | `C:\Users\salat\.codex\AGENTS.md` | 用户长期工作偏好：Git 优先、只做本地提交、不擅自 push |
 | 7 | `C:\Users\salat\Downloads\Galgame_AI世界_完整知识库与动态角色扮演_Agent提示词.md` | 用户**当前**的方法论要求：完整原作资料 → AI 知识库 → 持续世界模拟（1243 行） |
 
@@ -109,6 +109,45 @@
 - 采用 **Git 优先**工作方式：改文件的收尾要本地提交并说明「动了哪些文件 / 关键差异 / 怎么回退」。
 - **只做本地提交，不擅自 push / pull**；涉及网络需用户确认（出现确认提示属正常）。
 - 原始游戏文件视为只读，不得修改、删除、覆盖。
+
+### 本机环境事故记录（2026-10-02，与知识库内容无关）
+
+> 这一节记录的是**本机 DSH 运行环境**的一次故障与修复，不涉及任何游戏派生数据。
+> 之所以写进交接文档：本次修复在工作区留下了一个提交（`5de8ac7`），且故障特征很容易被误判。
+> 这些事实**在本机之外不复现**（路径均为本机绝对路径），换机器时整节可忽略。
+
+**当时暴露的三个问题**
+
+1. **插件市场被跳过**：`dshmarket@1.54.0` 声明 peer `@deepseek-ai/dsh-settings` 只认 `0.1.x` 线，
+   而运行的 dsh 是 `0.2.0-rc.2`，启动时报 `skipping profile bundle "dshmarket"`。
+   → 修法：升级到 `dshmarket@1.66.8`（其 peer 已含 `^0.2.0-rc.1`）。
+2. **pnpm 找不到**：dsh CLI 把 `dsh` 所在目录前置进子进程 PATH 去找 pnpm，而
+   `...\node_modules\.bin\` 里没有 pnpm（日志表现为 `'pnpm' 不是内部或外部命令`）。
+   → 修法：`npm install -g pnpm@12.5.1` 装进 `C:\Users\salat\AppData\Roaming\npm`
+   （该目录已在 dsh 进程 PATH 上；版本必须与 profile 的 `.modules.yaml` 记录的
+   `packageManager: pnpm@12.5.1` 一致，否则 pnpm 的 store/layout 校验会拒绝所有操作）。
+3. **卡巴斯基误报删文件**：`PDM:Exploit.Win32.Generic.nblk`（行为检测）误判官方包
+   `@deepseek-ai/dsh-sandbox-windows-acl` 为威胁，删掉其 `lib\runner.js`（正确大小 **7807 字节**），
+   导致**所有 pwsh 命令失效**，报 `Cannot find package 'tsx' imported from
+   @deepseek-ai/dsh-sandbox-local/lib/index.js`（沙箱回退到需要 tsx 的开发路径）。
+   → 修法：在卡巴斯基「安全设置 → 威胁与排除项 → 管理排除项」排除该包目录，再恢复该文件
+   （隔离区还原会报「原始文件夹不可用」，需还原到别处再手动拷回；或用
+   `npm pack @deepseek-ai/dsh-sandbox-windows-acl@0.2.0-rc.2` 后
+   `tar -xzf <tgz> -C $tmp package/lib/runner.js`）。**切勿点「清除并重启计算机」。**
+
+**本工作区唯一相关提交**
+
+| 项目 | 内容 |
+| --- | --- |
+| 提交 | `5de8ac7` — `chore: 忽略本机 DSH 工具缓存目录 .dsh-tooling/` |
+| 改动 | 仅 `C:\Users\salat\Desktop\git\.gitignore`，+3 行（新增 `.dsh-tooling/` 排除规则） |
+| 原因 | 排查期间在工作区建立了 `.dsh-tooling/`（约 28 MB 的 npm 缓存），**不能进公开仓库** |
+| `.dsh-tooling/` 是否被跟踪 | **否**（`git ls-files .dsh-tooling` 计数为 0） |
+| 回退 | `git -C C:\Users\salat\Desktop\git revert 5de8ac7`（该提交**从未 push**，用 `reset --hard HEAD~1` 亦可） |
+| 是否推送 | 否，按用户规约只做本地提交 |
+
+> 说明：`.dsh-tooling/` 只是 npm 缓存，删掉也不影响仓库；上面那条排除规则的意义是
+> 防止这 28 MB 被误提交。**除非确实要提交缓存，否则不必回退。**
 
 ### Agent 已执行的选择（用户未逐条否决）
 
