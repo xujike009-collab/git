@@ -60,7 +60,7 @@ python quality_check.py       # 生成质量报告
 > **由谁执行**：导出由**用户**在一个普通 PowerShell 窗口里执行（不在任何 DSH 会话内），
 > 且在**关闭扮演者会话之后**。会话自己导出会把自身动作写进被导出的内容，
 > 归档者因此拿不到封闭快照。**一批一导**——上一批归档完成前不要导出其他会话
-> （`SESSION-EXPORT.sha256` 文件名固定，会被覆盖）。
+> 校验单文件名带会话 ID（`SESSION-EXPORT-<会话ID>.sha256`），多批互不覆盖。
 
 ```powershell
 $node = "C:\Users\salat\.workbuddy-ai\binaries\node\versions\22.22.2-2\node.exe"

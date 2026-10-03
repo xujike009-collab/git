@@ -58,7 +58,7 @@
  *   <名>.turn-NNN-MMM.md   分段文件（每段自带文件头，可独立阅读）
  *   <名>.index.md          分段索引 + 读取进度表
  *   <名>.locate.md         消息定位索引（ID → 文件与行号）
- *   SESSION-EXPORT.sha256  旁置校验单（用 Get-FileHash 比对）
+ *   SESSION-EXPORT-<会话ID>.sha256  旁置校验单（用 Get-FileHash 比对）
  */
 
 import fs from 'node:fs';
@@ -505,7 +505,7 @@ function convert(session, events) {
     `| 工具结果 | ${toolResults} |`,
     `| 总事件条数 | ${events.length} |`,
     `| 原始文件 SHA-256 | \`${session.sourceSha256}\` |`,
-    '| 本文件校验值 | 见同目录 `SESSION-EXPORT.sha256`（哈希无法写入被哈希的文件自身） |',
+    '| 本文件校验值 | 见同目录 `SESSION-EXPORT-<会话ID>.sha256`（哈希无法写入被哈希的文件自身） |',
   ];
   lines.push(...stat);
   if (warnings.length) {
@@ -697,7 +697,7 @@ function exportOne(s, outArg) {
         ...segInfo.map((g, i) =>
           `| ${i + 1} | \`${g.name}\` | ${g.firstTurn}–${g.lastTurn} | ${(g.bytes / 1024).toFixed(1)} KB | \`${g.sha256.slice(0, 16)}…\` | ☐ |`),
         '',
-        '> 完整校验值见同目录的 `SESSION-EXPORT.sha256`，用标准命令即可独立验证。',
+        '> 完整校验值见同目录的 `SESSION-EXPORT-<会话ID>.sha256`，用标准命令即可独立验证。',
         '> 全部段读完、且重要事件已核对后，才可标记归档完成。',
         '',
       ].join('\n');
@@ -748,8 +748,13 @@ function exportOne(s, outArg) {
     }
 
     // 旁置校验单：哈希不能写进被哈希的文件自身，因此单独成文件。
+    //
+    // 文件名带会话 ID：早期版本用固定的 SESSION-EXPORT.sha256，后一次导出会覆盖
+    // 前一次的校验单，导致旧批次再也无法校验（实际发生过）。按会话 ID 命名后
+    // 多批可并存、互不覆盖。
+    const manName = `SESSION-EXPORT-${s.id}.sha256`;
     const man = [
-      '# 导出校验单（SESSION-EXPORT.sha256）',
+      '# 导出校验单（' + manName + '）',
       '',
       `- 会话 ID：\`${s.id}\``,
       `- 导出时间：${new Date().toISOString()}`,
@@ -769,15 +774,15 @@ function exportOne(s, outArg) {
       '```powershell',
       `cd ${outDir}`,
       'Get-FileHash *.md -Algorithm SHA256 | Format-Table Hash,Path',
-      '# 或（装了 coreutils 的环境）：sha256sum -c SESSION-EXPORT.sha256',
+      `# 或（装了 coreutils 的环境）：sha256sum -c ${manName}`,
       '```',
       '',
       '> 校验值与上述文件逐一比对；不一致说明文件被改动过，应暂停归档并报告。',
-      '> 注意：原始会话文件在校话进行中仍会被追加写入，因此「原始文件 SHA-256」只在导出那一刻成立；',
+      '> 注意：原始会话文件在会话进行中仍会被追加写入，因此「原始文件 SHA-256」只在导出那一刻成立；',
       '> 若导出后原话继续产生新事件，重新导出会得到不同的原始哈希，属正常。',
       '',
     ].join('\n');
-    fs.writeFileSync(path.join(outDir, 'SESSION-EXPORT.sha256'), man, 'utf8');
+    fs.writeFileSync(path.join(outDir, manName), man, 'utf8');
 
     console.log(`会话      : ${s.id}`);
     console.log(`工作区    : ${s.workspace}`);
@@ -787,7 +792,7 @@ function exportOne(s, outArg) {
     console.log(`原始 SHA256: ${stats.sourceSha256}`);
     console.log(`导出 SHA256: ${mainSha}`);
     if (segInfo.length) console.log(`分段      : ${segInfo.length} 段（每 ${SPLIT_EVERY} Turn）+ index.md`);
-    console.log(`校验单    : ${path.join(outDir, 'SESSION-EXPORT.sha256')}`);
+    console.log(`校验单    : ${path.join(outDir, manName)}`);
     if (final.warnings.length) console.log(`⚠️ 待核对  : ${final.warnings.length} 条`);
     console.log(`已写出    : ${target}`);
     console.log(`原始文件  : ${s.file}（只读，未修改）`);

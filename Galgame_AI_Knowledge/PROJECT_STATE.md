@@ -319,7 +319,7 @@ $tool = "C:\Users\salat\Desktop\git\Galgame_AI_Knowledge\tools\export_session.mj
 | `<名>.turn-001-020.md` 等 | **分段文件**，每段自带文件头，可独立阅读 |
 | `<名>.index.md` | **分段索引 + 读取进度表**（归档者逐段勾选，不预勾未读段） |
 | `<名>.locate.md` | **消息定位索引**：每个消息 ID `[#seq]` 落在哪个 Turn、哪个分段、第几行 |
-| `SESSION-EXPORT.sha256` | **旁置校验单**：原始文件哈希、每个导出文件的 SHA-256、校验命令 |
+| `SESSION-EXPORT-<会话ID>.sha256` | **旁置校验单**：原始文件哈希、每个导出文件的 SHA-256、校验命令 |
 
 #### 消息定位 ID（追溯原文的锚点）
 
@@ -354,12 +354,12 @@ $tool = "C:\Users\salat\Desktop\git\Galgame_AI_Knowledge\tools\export_session.mj
 （实测 1774 条带锚点记录全部相符，0 失败）。
 
 **校验机制（重要）**：哈希**不能写进被哈希的文件自身**（改哈希就改内容，数学上无解），
-因此校验值一律放在**同目录的 `SESSION-EXPORT.sha256`**。验证方式：
+因此校验值一律放在**同目录的 `SESSION-EXPORT-<会话ID>.sha256`**（文件名带会话 ID，每批一份、互不覆盖）。验证方式：
 
 ```powershell
 cd C:\Users\salat\Desktop\git\Galgame_AI_Knowledge\reports\sessions
 Get-FileHash *.md -Algorithm SHA256 | Format-Table Hash,Path
-# 与 SESSION-EXPORT.sha256 中列出的值逐一比对；不一致即文件被改动，应暂停归档
+# 与 SESSION-EXPORT-<会话ID>.sha256 中列出的值逐一比对；不一致即文件被改动，应暂停归档
 ```
 
 **注意**：原始会话文件在会话进行中仍会被追加写入，所以「原始文件 SHA-256」**只在导出那一刻成立**；
@@ -485,7 +485,7 @@ UUID 形态 key、JWT、40+ 长随机串做脱敏，只保留极短前缀以便�
 4. 验收：用户直接回复即视为验收；若走偏，用户会像前几轮那样提出「停，退出」并修正设定。
 5. 写入边界与提交：**扮演者不写任何档案文件**（第 5 节交接摘要除外），`knowledge\world\runs\` 四件套由归档者维护；**Git 提交由用户决定，扮演者不自行 commit**。
 6. 交接：用户说存档时，扮演者**停止工作**并向用户报告接续信息。**导出由用户在普通 PowerShell 窗口执行**（不在任何 DSH 会话内），命令见速查卡，含 `--split-every 20`；导出后再由归档者复验归档。
-   **一批一导**：上一批归档完成前，不要导出其他会话（`SESSION-EXPORT.sha256` 文件名固定，会被后一次导出覆盖）。
+   **多批次时按会话 ID 区分**：校验单文件名已带会话 ID，各批互不覆盖；若同时存在多个批次，交接时务必写明本次是哪个会话 ID。
 
 **B. 继续知识库建设**
 
