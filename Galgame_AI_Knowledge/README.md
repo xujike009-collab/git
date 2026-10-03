@@ -56,6 +56,11 @@ python quality_check.py       # 生成质量报告
 > **职责边界**：本工具**只负责导出、校验、分段、定位**——不判断剧情内容、不提取事件、
 > 不更新任何长期档案。那些属于「归档者」会话的职责；工具相关的记录在 `reports\sessions\`，
 > 与 `knowledge\` 下的剧情档案严格分开。
+>
+> **由谁执行**：导出由**用户**在一个普通 PowerShell 窗口里执行（不在任何 DSH 会话内），
+> 且在**关闭扮演者会话之后**。会话自己导出会把自身动作写进被导出的内容，
+> 归档者因此拿不到封闭快照。**一批一导**——上一批归档完成前不要导出其他会话
+> （`SESSION-EXPORT.sha256` 文件名固定，会被覆盖）。
 
 ```powershell
 $node = "C:\Users\salat\.workbuddy-ai\binaries\node\versions\22.22.2-2\node.exe"
