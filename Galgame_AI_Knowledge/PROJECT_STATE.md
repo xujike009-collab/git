@@ -46,6 +46,8 @@
 | `<KB>\reports\character_stats.json` | 两位角色的语言特征（特征说法、句尾、第一人称） |
 | `<KB>\reports\sessions\` | **导出的完整会话记录（Markdown）**：归档者核对原文的依据；导出方法见第 4 节「会话记录导出工具」 |
 | `<KB>\tools\export_session.mjs` | **会话导出工具**（Node，零依赖，只读原始记录）；其他会话需要完整原文时用它，见第 4 节 |
+| `<KB>\双会话协作规范.md` | **扮演者 / 归档者两个会话的职责、权限、交接与 Git 规则**（v1.1）。建立这两个会话前必读 |
+| `<KB>\knowledge\reference\工具使用速查卡.md` | **导出、校验、定位、分段读取的确切命令与文件名**；两个会话的提示词都应引用它，**与规范冲突时以它为准** |
 
 **记录分离（勿混）**：`reports\sessions\` 是**工具开发与导出成果**的存放处；
 `knowledge\`（`world\`、`characters\`、`relationships.md`、`timeline.md` 等）是**剧情长期档案**，只由「归档者」会话维护。

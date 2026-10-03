@@ -68,7 +68,16 @@ $node = "C:\Users\salat\.workbuddy-ai\binaries\node\versions\22.22.2-2\node.exe"
 每条消息都带稳定 ID `[#seq]`，分段导出后仍可用 `--lookup` 查回原文所在文件与行号。
 用 Node 而非 Python：会话文件是**多帧 zstd 压缩 JSONL**，Python 标准库无 zstd，
 Node 的 `node:zlib` 自带；因此该脚本零外部依赖。
-完整说明（选项、产出文件、校验单、定位用法、脱敏与完整性检查）见 `PROJECT_STATE.md` 第 4 节。
+全部说明（选项、产出文件、校验单、定位用法、脱敏与完整性检查）见 `PROJECT_STATE.md` 第 4 节。
+
+### 双会话协作（扮演者 / 归档者）
+
+项目采用**两个独立会话**协作：扮演者负责剧情与导出，归档者负责读取原始记录与维护长期档案。
+职责、权限、交接流程与 Git 规则见 [`双会话协作规范.md`](双会话协作规范.md)（v1.1）；
+**导出、校验、定位的确切命令**见 [`knowledge\reference\工具使用速查卡.md`](knowledge/reference/工具使用速查卡.md)。
+
+> 工具使用速查卡与规范冲突时，**以速查卡的命令为准**。
+> 两个会话都不执行 Git 提交；提交由用户决定。
 
 依赖：仅 Python 3 标准库（无第三方包）。
 
