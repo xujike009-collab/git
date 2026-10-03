@@ -48,6 +48,28 @@ python show_scene.py 本編/l12_03b   # 单场景朗读（写作/校对用）
 python quality_check.py       # 生成质量报告
 ```
 
+### 会话记录导出（`tools\export_session.mjs`，Node 脚本，非 Python）
+
+把 DSH 任意会话的**完整原始对话**导出为可读 Markdown，供归档者按原文核对。
+**只读**：不修改、移动或删除任何原始记录。
+
+> **职责边界**：本工具**只负责导出、校验、分段、定位**——不判断剧情内容、不提取事件、
+> 不更新任何长期档案。那些属于「归档者」会话的职责；工具相关的记录在 `reports\sessions\`，
+> 与 `knowledge\` 下的剧情档案严格分开。
+
+```powershell
+$node = "C:\Users\salat\.workbuddy-ai\binaries\node\versions\22.22.2-2\node.exe"
+& $node Galgame_AI_Knowledge\tools\export_session.mjs --list            # 列出全部会话
+& $node Galgame_AI_Knowledge\tools\export_session.mjs --session <ID前缀>
+& $node Galgame_AI_Knowledge\tools\export_session.mjs --session <ID> --out <目录> --split-every 20
+& $node Galgame_AI_Knowledge\tools\export_session.mjs --lookup <seq> --index <名>.locate.md
+```
+
+每条消息都带稳定 ID `[#seq]`，分段导出后仍可用 `--lookup` 查回原文所在文件与行号。
+用 Node 而非 Python：会话文件是**多帧 zstd 压缩 JSONL**，Python 标准库无 zstd，
+Node 的 `node:zlib` 自带；因此该脚本零外部依赖。
+完整说明（选项、产出文件、校验单、定位用法、脱敏与完整性检查）见 `PROJECT_STATE.md` 第 4 节。
+
 依赖：仅 Python 3 标准库（无第三方包）。
 
 ## 五、数据分层（对应任务说明的结构）

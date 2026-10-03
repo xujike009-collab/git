@@ -44,6 +44,12 @@
 | `<KB>\reports\quality_report.md` | 数据质量统计（41919 条消息等） |
 | `<KB>\reports\insights.json` | 场景台词密度、句尾统计、称呼统计 |
 | `<KB>\reports\character_stats.json` | 两位角色的语言特征（特征说法、句尾、第一人称） |
+| `<KB>\reports\sessions\` | **导出的完整会话记录（Markdown）**：归档者核对原文的依据；导出方法见第 4 节「会话记录导出工具」 |
+| `<KB>\tools\export_session.mjs` | **会话导出工具**（Node，零依赖，只读原始记录）；其他会话需要完整原文时用它，见第 4 节 |
+
+**记录分离（勿混）**：`reports\sessions\` 是**工具开发与导出成果**的存放处；
+`knowledge\`（`world\`、`characters\`、`relationships.md`、`timeline.md` 等）是**剧情长期档案**，只由「归档者」会话维护。
+**工具开发、会话导出、DSH 环境排障这类技术内容，一律不得写入 `knowledge\`。**
 | `<KB>\knowledge\world\` 运行档案 | 角色扮演多线运行状态：`运行目录.md`（索引）＋ `runs\<线名>\` 四件套（当前世界状态／共同记忆／NPC认知／关系状态）＋ `_模板\`，每轮 RP 更新 |
 
 ### 第三层：数据层（体积大，用脚本或按关键字检索，不要整份读入）
@@ -208,6 +214,138 @@ python insights.py             # 语言特征与场景分布
 python show_scene.py 本編/l12_03b   # 单场景朗读
 python quality_check.py        # 质量报告
 ```
+
+### 会话记录导出工具（`<KB>\tools\export_session.mjs`，2026-10-03 新增）
+
+**用途**：把 DSH 任意会话的**完整原始对话**导出为可读 Markdown，供归档者按原文核对与归档。
+**只读保证**：该工具**只读取**DSH 原始会话文件，绝不修改、移动或删除任何原始记录。
+
+> ### ⚠️ 职责边界（重要，勿越界）
+>
+> 本工具**只负责：导出、校验、分段、定位**。
+>
+> **它不负责**：判断剧情内容、提取事件、维护人物档案、更新 run 四件套或任何长期档案。
+>
+> 那些属于**「归档者」会话**的职责。本工具的使用记录、开发讨论，
+> **不得写入 Galgame 剧情档案**（`knowledge\world\`、`knowledge\characters\` 等）。
+> 两边的记录必须分开：工具在 `reports\sessions\`，剧情档案在 `knowledge\`。
+
+**为什么是 `.mjs` 而不是 `.py`**：DSH 会话文件是「多帧拼接的 zstd 压缩 JSONL」
+（`session.vN.jsonl.zstd`）。Python 标准库没有 zstd，需额外安装 `zstandard`；
+Node 内置的 `node:zlib` 自带 zstd，因此本工具**零外部依赖**，用 WorkBuddy 自带 Node 即可运行。
+调用方式与 Python 工具不同，见下。
+
+```powershell
+# 会话文件位置：<DSH_HOME>\sessions\<工作区名>\<会话ID>\session.vN.jsonl.zstd
+$node = "C:\Users\salat\.workbuddy-ai\binaries\node\versions\22.22.2-2\node.exe"
+$tool = "C:\Users\salat\Desktop\git\Galgame_AI_Knowledge\tools\export_session.mjs"
+
+& $node $tool --list                      # 列出本机全部可导出会话（ID/时间/大小/工作区）
+& $node $tool --session e6fd23f1          # 按 ID 或前缀导出（默认写在会话目录旁）
+& $node $tool --session e6fd23f1 --out <路径或目录>
+& $node $tool --all --out <目录>          # 批量导出
+& $node $tool --assistants                # 列出本机代理预设，便于确认导出对象
+```
+
+**主命令**（详见上方用法示例）：
+
+| 命令 | 含义 |
+|---|---|
+| `--list` | 列出本机全部可导出会话（ID／时间／大小／工作区） |
+| `--session <ID或前缀>` | 导出指定会话（可用 ID 前缀） |
+| `--out <路径或目录>` | 指定输出位置；给目录则自动命名 |
+| `--all --out <目录>` | 批量导出全部会话 |
+| `--assistants` | 列出本机代理预设（便于确认导出对象） |
+| `--lookup <seq>` `--index <文件>` | **按消息 ID 反查位置**（Turn／段文件／行号） |
+| `-h`, `--help` | 显示帮助（不带参数时也打印） |
+
+**修饰选项**：
+
+| 选项 | 含义 |
+|---|---|
+| `--split-every N` | **分段导出**：每 N 个 Turn 一个文件，并生成 `<名>.index.md` 进度表 |
+| `--no-thinking` | 不包含模型思考过程（默认包含，便于核对推理依据） |
+| `--tool-detail N` | 工具摘要字符上限（默认 200） |
+| `--redact` / `--no-redact` | 脱敏开关（**默认开启**；`--no-redact` 关闭，不推荐） |
+| `--stdout` | 输出到标准输出而不写文件 |
+| `--home <路径>` | 覆盖 DSH_HOME |
+
+**产出文件**（以 `--split-every 20` 为例，`<名>` = `session-<会话ID>`）：
+
+| 文件 | 内容 |
+|---|---|
+| `<名>.md` | 完整合并记录（含末尾的导出完整性报告） |
+| `<名>.turn-001-020.md` 等 | **分段文件**，每段自带文件头，可独立阅读 |
+| `<名>.index.md` | **分段索引 + 读取进度表**（归档者逐段勾选，不预勾未读段） |
+| `<名>.locate.md` | **消息定位索引**：每个消息 ID `[#seq]` 落在哪个 Turn、哪个分段、第几行 |
+| `SESSION-EXPORT.sha256` | **旁置校验单**：原始文件哈希、每个导出文件的 SHA-256、校验命令 |
+
+#### 消息定位 ID（追溯原文的锚点）
+
+导出记录里**每条消息都带稳定 ID**，形如 `` [#1234] ``（数字=原始会话事件序号 `seq`）：
+
+```
+### 👤 用户 `[#8]`　<sub>2026/10/2 20:39:11</sub>
+#### 🔧 调用工具 `pwsh`
+<details><summary>📤 工具结果 `pwsh` `[#24]`（1247 字符）</summary>
+<details><summary>⚙️ [#9] 工作区指令注入（AGENTS.md 等）（1939 字符，非用户发言）</summary>
+```
+
+**这些标记在每个分段文件里都被原样保留**，所以任何一条消息都能从 ID 追回原文：
+
+```powershell
+$node = "C:\Users\salat\.workbuddy-ai\binaries\node\versions\22.22.2-2\node.exe"
+$tool = "C:\Users\salat\Desktop\git\Galgame_AI_Knowledge\tools\export_session.mjs"
+
+# 第一步：查这个 ID 在哪里
+& $node $tool --lookup 8 --index "...\reports\sessions\<名>.locate.md"
+#   消息 ID   : `#8`
+#   类型      : user/message
+#   所属 Turn : 1
+#   段文件    : `<名>.turn-001-020.md`
+#   段内行号  : 27
+
+# 第二步：直接读那段文件第 27 行，即是原文
+```
+
+**`<名>.locate.md`** 是一张完整对照表（ID｜类型｜Turn｜段文件｜段内行｜完整文件行），
+也可人工检索。**行号由导出完成后扫描落盘文件得出**，与文件内容严格一致
+（实测 1774 条带锚点记录全部相符，0 失败）。
+
+**校验机制（重要）**：哈希**不能写进被哈希的文件自身**（改哈希就改内容，数学上无解），
+因此校验值一律放在**同目录的 `SESSION-EXPORT.sha256`**。验证方式：
+
+```powershell
+cd C:\Users\salat\Desktop\git\Galgame_AI_Knowledge\reports\sessions
+Get-FileHash *.md -Algorithm SHA256 | Format-Table Hash,Path
+# 与 SESSION-EXPORT.sha256 中列出的值逐一比对；不一致即文件被改动，应暂停归档
+```
+
+**注意**：原始会话文件在会话进行中仍会被追加写入，所以「原始文件 SHA-256」**只在导出那一刻成立**；
+导出后原对话若继续产生事件，重新导出会得到不同的原始哈希，属正常。
+
+**导出内容**：会话头（ID／工作区／cwd／代理预设／起止时间／原始文件路径／脱敏状态）、
+逐 Turn 的**用户发言原文**、助手回复原文（思考过程折叠）、工具调用（名称＋一行摘要）、
+工具结果（折叠，可展开看全文）、审批请求，末尾附**完整性报告**（各计数 + 需人工核对项）。
+
+**关键设计：区分真人发言与系统注入**。DSH 会把多种系统上下文以 `user/message` 形式注入
+（每轮的记忆快照 `dsh-mnemon`、后台任务通知 `tool-jobs`、模型切换 `model-selection`、
+`agent-instructions`、`runtime-context`、`skill-catalog`）。实测一轮长对话里这些注入占
+**87.6% 字符量**，因此工具按 `data.source.kind` 分流：只有 `kind === "user"` 渲染为「👤 用户」，
+其余一律折叠标注为「⚙️ …（非用户发言）」，避免归档者把注入误当真人台词。
+
+**安全处理**：默认对 `sk-*`、`api_key/secret/token/password` 赋值、常见厂商前缀、
+UUID 形态 key、JWT、40+ 长随机串做脱敏，只保留极短前缀以便区分。
+**提交 Git 前仍须人工复查导出内容**（工具无法覆盖所有自定义格式的密钥）。
+
+**完整性检查**：导出末尾的报告列出 Turn／用户消息／注入消息／助手消息／工具调用／工具结果计数，
+并列出「无法解析的行」「配不上调用的工具结果」等需人工核对项；哈希与文件大小写进旁置校验单。
+
+**首次实测（2026-10-03）**：导出当前会话 `session-e6fd23f1`（`--split-every 20`），
+`zstd 帧 2963（失败 0、坏行 0）`，Turn 94／用户 90／注入 22／助手 470／工具调用 488／工具结果 487，
+**未发现无法解析或无法配对的内容**；产出 6 个 Markdown + 1 份校验单，
+**校验单中的 SHA-256 与实际文件逐一相符（6/6 通过）**；脱敏复检：真实凭据值 0 处泄漏
+（动态读取 `.credentials.yaml` 的 5 个真实值、比对 35 次，0 命中）。
 
 ---
 
