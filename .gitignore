@@ -87,3 +87,9 @@ Galgame_AI_Knowledge/extracted/
 Galgame_AI_Knowledge/raw/
 Galgame_AI_Knowledge/cleaned/
 Galgame_AI_Knowledge/characters/*.json
+
+# 【Galgame 知识库】会话原始导出记录
+# 内容为两个会话的完整原始对话（含本机路径、调试过程、工具输出），
+# 体积会随会话持续增长；《双会话协作规范》6.1 节规定其长期保留在本机、
+# 不纳入 Git 提交与远端推送。需要纳入本地版本控制时，注释掉下面一行再提交即可。
+Galgame_AI_Knowledge/reports/sessions/
