@@ -99,3 +99,8 @@ Galgame_AI_Knowledge/reports/sessions/
 # （不在本仓库内）；此处只是核验残留，含 jieba / matplotlib 等缓存约 10 MB。
 # 需要把脚本与样音一并纳入版本控制时，注释掉下面一行再提交即可。
 .gptsovits-check/
+
+# 【本机临时目录】Gemini 送审材料的拼接产物（由工具开发会话生成，用完即删）
+# 2026-10-12 曾在归档者执行 `git add -A` 时被误提交，随即 `git rm --cached` 撤回；
+# 加此排除以免再被别人的 add -A 卷进仓库。
+_gemini_batch/
