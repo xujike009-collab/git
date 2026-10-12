@@ -1,20 +1,30 @@
 # 《近月少女的礼仪》AI 知识库
 
 把 Navel《月に寄りそう乙女の作法》（近月少女的礼仪）的剧本，转换成可检索、可追溯、
-可供 AI 使用的结构化资料。当前版本包含**日文原文全剧本**与两位指定角色
-（桜小路ルナ、大蔵遊星／小倉朝日）的完整资料。
+可供 AI 使用的结构化资料。当前版本包含**日文原文全剧本**，以及**9 份人物档案**
+（小倉朝日／大蔵遊星、桜小路ルナ、山吹八千代、柳ヶ瀬湊、花之宮瑞穂、ユルシュール、
+大蔵衣遠、スタンレー、メイドＡ＝鍋島；另有 `appearance.md` 外貌总表）。
+
+> 角色语体与能力另有**两张横切表**（覆盖 12 人，含りそな／三従者）：
+> `knowledge\reference\角色语体挡位表.md`、`knowledge\reference\角色能力边界.md`。
 
 ## 一、快速导航
 
 | 想看什么 | 打开 |
 | --- | --- |
-| 两位角色的完整分析 | `knowledge/characters/sakuragi_luna.md`、`knowledge/characters/ookura_yuusei.md` |
-| 全部台词（按角色） | `characters/sakuragi_luna.json`（4995 句）、`characters/ookura_yuusei.json`（8668 句） |
-| 全剧本（结构化） | `cleaned/messages.jsonl`（41919 条） |
-| 全剧本（含指令的原始层） | `raw/script_lines.jsonl` |
-| 每个 pack 的原始导出 | `extracted/packs/<pack>/scenario/**` |
-| 关系 / 时间线 / 概要 / 术语 | `knowledge/relationships.md`、`timeline.md`、`story_summary.md`、`glossary.md` |
+| **人物档案（每份含语体规则）** | `knowledge/characters/` 下 9 份：`sakuragi_luna.md`、`ookura_yuusei.md`、`yamabuki_yachiyo.md`、`yanagase_minato.md`、`hananomiya_mizuho.md`、`yurushuuru_furuuru_janmeeru.md`、`ookura_ion.md`、`stanley.md`、`maid_a.md` |
+| **外貌（唯一依据）** | `knowledge/characters/appearance.md` |
+| **角色语体挡位（对谁用哪一挡）** | `knowledge/reference/角色语体挡位表.md`（12 人） |
+| **角色能力边界（能说什么／不能说什么）** | `knowledge/reference/角色能力边界.md`（12 人） |
+| 全部台词（按角色） | `characters/sakuragi_luna.json`（4995 句）、`characters/ookura_yuusei.json`（8668 句）〔**未入库**〕 |
+| 全剧本（结构化） | `cleaned/messages.jsonl`（41919 条）〔**未入库**〕 |
+| 全剧本（含指令的原始层） | `raw/script_lines.jsonl`〔**未入库**〕 |
+| 每个 pack 的原始导出 | `extracted/packs/<pack>/scenario/**`〔**未入库**〕 |
+| 关系 / 时间线 / 概要 / 术语 | `knowledge/relationships.md`、`knowledge/timeline.md`、`knowledge/story_summary.md`、`knowledge/glossary.md` |
 | 各类报告 | `reports/`（提取、人物、错误、质量） |
+
+> **〔未入库〕的含义**：该文件**在你本机存在**，但被 `.gitignore` 排除、**不在 Git 里**。
+> 详见第五节「数据分层」与 `PROJECT_STATE.md` §0。「未入库」**不等于「不存在」**。
 
 ## 二、数据规模
 
@@ -96,12 +106,15 @@ original/    游戏原文件位置说明（不复制大文件）
 extracted/   归档解包结果（逐 pack 原始副本 + 合并视图）
 raw/         逐行原始记录（含指令、标签、控制码）
 cleaned/     清洗后的可读文本（仅去控制码，不删信息）
-script/      预留：按路线拆分的剧本导出
-characters/  人物台词库（JSON）
+script/      预留：按路线拆分的剧本导出（**空目录，尚未产出**——不要以它为进度依据）
+characters/  人物台词库（JSON）（**未入库**，仅本机）
 knowledge/   AI 可读的知识层（人物档案、关系、时间线、概要、术语）
 reports/     提取/人物/错误/质量报告
 tools/       全部脚本
 ```
+
+> **未入库目录**：`extracted/`、`raw/`、`cleaned/`、`characters/*.json` 都被 `.gitignore` 排除，
+> **只在你本机存在、不在 Git 里**。克隆仓库后看不到它们是**正常现象**，不是解包失败。
 
 ## 六、可追溯性
 
