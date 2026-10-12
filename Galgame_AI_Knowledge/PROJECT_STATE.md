@@ -90,6 +90,7 @@
 | 文件 | 要查的内容 |
 | --- | --- |
 | `<KB>\knowledge\reference\归档划界规则.md` | **归档者的工作规则**：算剧情／不算剧情／重复投递／作废重拍／轮次锚点／每批流程／**核验与自查** |
+| `<KB>\knowledge\reference\变更自检清单.md` | **★ 工具开发会话的发布前强制关卡**：A 引用完整性／B 结构完整性／C **新规定是否传达到两个角色**／D 事实与陈旧／E 改动无误；含**三段式审阅流程**（自查 → wuddy → Gemini → 本人核验漏项）。**改文档前必读** |
 | `<KB>\tools\export_session.mjs` | 会话导出工具（Node，零依赖，只读）；用法见速查卡 |
 | `C:\Users\salat\Desktop\git\.gitignore` | 游戏派生数据被排除的规则（**改动前必看**）；`.dsh-tooling/` 的来历见 §3「本机环境事故记录」 |
 | `C:\Users\salat\WorkBuddy AI\Claw\.dsh-home\AGENTS.md` | 用户长期工作偏好（Git 优先、只做本地提交、不擅自 push）＋ **DSH 沙箱与环境事实** |
