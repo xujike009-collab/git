@@ -1,4 +1,4 @@
-# 《近月少女的礼仪》AI 知识库
+﻿# 《近月少女的礼仪》AI 知识库
 
 把 Navel《月に寄りそう乙女の作法》（近月少女的礼仪）的剧本，转换成可检索、可追溯、
 可供 AI 使用的结构化资料。当前版本包含**日文原文全剧本**，以及**9 份人物档案**
@@ -73,6 +73,7 @@ python quality_check.py       # 生成质量报告
 > 校验单文件名带会话 ID（`SESSION-EXPORT-<会话ID>.sha256`），多批互不覆盖。
 
 ```powershell
+# node 路径以《工具使用速查卡.md》第一节为唯一权威（版本号随客户端升级可能变化）
 $node = "C:\Users\salat\.workbuddy-ai\binaries\node\versions\22.22.2-2\node.exe"
 & $node Galgame_AI_Knowledge\tools\export_session.mjs --list            # 列出全部会话
 & $node Galgame_AI_Knowledge\tools\export_session.mjs --session <ID前缀>

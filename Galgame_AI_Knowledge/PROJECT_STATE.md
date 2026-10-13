@@ -1,4 +1,4 @@
-# PROJECT_STATE —— 交接记录
+﻿# PROJECT_STATE —— 交接记录
 
 | 项目 | 内容 |
 | --- | --- |
@@ -106,6 +106,12 @@
 | `<KB>\tools\export_session.mjs` | 会话导出工具（Node，零依赖，只读）；用法见速查卡 |
 | `C:\Users\salat\Desktop\git\.gitignore` | 游戏派生数据被排除的规则（**改动前必看**）；`.dsh-tooling/` 的来历见 §3「本机环境事故记录」 |
 | `C:\Users\salat\WorkBuddy AI\Claw\.dsh-home\AGENTS.md` | 用户长期工作偏好（Git 优先、只做本地提交、不擅自 push）＋ **DSH 沙箱与环境事实** |
+
+> **⚠️ 本机路径说明（外部环境不适用）**：上表与本节其余内容中的 `C:\Users\salat\…`、
+> `.dsh-home\attachments\…`、`…\binaries\node\versions\…` 都是**用户本机的绝对路径**。
+> **在别的机器或别的 harness 上读本文档时，这些路径不存在** —— 属**已知且不可避免**。
+> 遇到时请以**你自己环境的实际路径**为准，或向用户确认；**不要因为"路径不存在"就断言文件缺失**
+> （参见 §0 末尾「曾被误判为失效」的教训：`Test-Path` 为 False 只证明该路径下没有）。
 
 ### 0.4 第二层：按需查阅（数据与报告）
 
@@ -345,6 +351,7 @@ Node 内置的 `node:zlib` 自带 zstd，因此本工具**零外部依赖**，�
 
 ```powershell
 # 会话文件位置：<DSH_HOME>\sessions\<工作区名>\<会话ID>\session.vN.jsonl.zstd
+# node 路径以《工具使用速查卡.md》第一节为唯一权威（版本号随客户端升级可能变化）
 $node = "C:\Users\salat\.workbuddy-ai\binaries\node\versions\22.22.2-2\node.exe"
 $tool = "C:\Users\salat\Desktop\git\Galgame_AI_Knowledge\tools\export_session.mjs"
 
@@ -402,6 +409,7 @@ $tool = "C:\Users\salat\Desktop\git\Galgame_AI_Knowledge\tools\export_session.mj
 **这些标记在每个分段文件里都被原样保留**，所以任何一条消息都能从 ID 追回原文：
 
 ```powershell
+# node 路径以《工具使用速查卡.md》第一节为唯一权威（版本号随客户端升级可能变化）
 $node = "C:\Users\salat\.workbuddy-ai\binaries\node\versions\22.22.2-2\node.exe"
 $tool = "C:\Users\salat\Desktop\git\Galgame_AI_Knowledge\tools\export_session.mjs"
 
@@ -548,7 +556,8 @@ UUID 形态 key、JWT、40+ 长随机串做脱敏，只保留极短前缀以便�
 - 当前 run：**`runs\001_徐穗教师线\`**（进行中）。
 - **轮次与事件计数一律以 `runs\001_徐穗教师线\共同记忆.md` 为准**——该文件末尾的
   事件表行数＝已发生事件数，最后一行的「轮次」列＝最新轮次。
-  本文件不再维护独立的轮次编号（原「第 18 轮」等数字已过期，故意不写，避免与档案不一致）。
+  **本文件一律不写轮次数字**（早期版本曾用「第 N 轮」，那套编号已作废且无法复现；
+  现在正确做法就是**只引用 `共同记忆.md`，不在别处写死数字**）。
 - 本文件第 5 节只保留「当前 run」的**交接摘要**（设定、节点、格式规则）；详细状态读四件套。
 - **Git 提交由用户决定**（见《双会话协作规范》§5.1、§6）：**扮演者与归档者都不执行 Git 操作**，
   改完文件后向用户报告「改了哪些文件」，由用户决定是否提交。
@@ -718,9 +727,14 @@ $project-handoff
 
 ---
 
-## 9. 本次会话进度（已收尾提交，见第 1 节；重启接手时先读本节）
+## 9. 本次会话进度（**2026-09-26 的历史快照**；最新状态一律看 §1 与 `git log`）
 
 ### 已提交
+
+> **⚠️ 本节是 2026-09-26 的历史快照，不是最新进度。**
+> 表内提交号只反映当时状态，**未含 2026-10-03 的双会话改造与 2026-10-12 的文档维护**。
+> **要最新进度，用 `git log --oneline -20`，不要以本节为准。**
+> （保留本节是按"不覆盖旧记录"原则留作历史对照。）
 
 | 提交 | 内容 |
 | --- | --- |
